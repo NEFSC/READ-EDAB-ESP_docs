@@ -1,0 +1,8 @@
+* Preliminary correlation reports
+  * Zero lag correlations
+    `r paste("* ", beginning_of_link, "Regression_reports/zero_lag/", rpts, "/", species %>% stringr::str_to_lower() %>% stringr::str_replace_all(" ", "-"), "'>", names, "</a>", sep = "", collapse = "\n \t")`
+  * One year lag correlations
+    `r paste("* ", beginning_of_link, "Regression_reports/one_year_lag/", rpts, "/", species %>% stringr::str_to_lower() %>% stringr::str_replace_all(" ", "-"), "'>", names, "</a>", sep = "", collapse = "\n \t")`
+  * One year lag correlations, with most recent 10 years removed
+    `r paste("* ", beginning_of_link, "Regression_reports/one_year_lag_remove_recent/", rpts, "/", species %>% stringr::str_to_lower() %>% stringr::str_replace_all(" ", "-"), "'>", names, "</a>", sep = "", collapse = "\n \t")`
+

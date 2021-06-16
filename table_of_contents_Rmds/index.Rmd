@@ -1,0 +1,59 @@
+--- 
+title: "ESP Data Products"
+author: "Abigail Tyrell & Ricky Tabandera"
+date: "`r format(Sys.time(), '%d %b %Y')`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+github-repo: NOAA-EDAB/ESP_docs
+---
+
+# Introduction {-}
+
+```{r, setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE, 
+                      warning = FALSE,
+                      results = "asis")
+
+`%>%` <- dplyr::`%>%`
+
+# get NE stock names
+all_species <- NEesp::species_key[,2] %>%
+  sort()
+
+beginning_of_link <- "<a href='https://NOAA-EDAB.github.io/ESP_docs/"
+```
+
+These are the preliminary data products from the Northeast ESP project. Select your species of interest from the table of contents at the left.
+
+# General reports {-}
+
+This is a preliminary risk assessment visualization including all Northeast stocks.
+
+```{r}
+paste(beginning_of_link, "risk_ranking/plot_all_risk'>",
+                  "Preliminary risk analysis", 
+                  "</a>", sep = "") %>%
+  knitr::kable(col.names = "File name")
+```
+
+```{r, files}
+cor0_reports <- list.files(here::here("Regression_reports/zero_lag"), 
+                           recursive = FALSE) 
+
+com_reports <- list.files(here::here("Commercial landings"))
+
+other_reports <- list.files(here::here("Species"))
+```
+
+```{r, species_loop}
+for(i in 1:length(all_species)){
+  species <- all_species[i]
+  res <- knitr::knit_child(here::here("table_of_contents_Rmds", "toc-child-doc.Rmd"), 
+                           quiet = TRUE)
+  cat(res, sep = '\n')
+  cat('\n\n<!-- -->\n\n')
+}
+knitr::knit_exit()
+```

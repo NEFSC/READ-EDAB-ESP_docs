@@ -1,0 +1,35 @@
+# `r species` {-}
+
+* `r paste(beginning_of_link, "Reports/", species, "/index'>", "Preliminary indicator report", "</a>", sep = "")`
+```{r}
+rpts <- stringr::str_subset(cor0_reports, 
+                            species %>% 
+                              stringr::str_replace_all(" ", "_"))
+
+names <- rpts %>%
+  stringr::str_replace_all("_", " ") %>%
+  stringr::str_replace_all("-", "/") %>%
+  stringr::str_replace(species, "") %>%
+  stringr::str_replace("MAB", " stock vs Mid-Atlantic Bight EPU") %>%
+  stringr::str_replace("GB", " stock vs Georges Bank EPU") %>%
+  stringr::str_replace("GOM", " stock vs Gulf of Maine EPU")
+```
+
+```{r, eval = length(rpts) > 0}
+res <- knitr::knit_child(here::here("table_of_contents_Rmds", "correlation-child-doc.Rmd"), 
+                           quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+```{r}
+rpts <- stringr::str_subset(com_reports, 
+                            species %>% 
+                              stringr::str_to_lower())
+```
+* `r paste(beginning_of_link, "Commercial landings/", rpts, "'>", "Commercial fisheries report", "</a>",  sep = "")`
+```{r}
+rpts <- stringr::str_subset(other_reports, 
+                            species %>% 
+                              stringr::str_replace_all(" ", "-"))
+```
+`r if(length(rpts) > 0) {paste("* ", beginning_of_link, "Species/", rpts, "'>", "Additional supporting documents", "</a>", sep = "")}`
