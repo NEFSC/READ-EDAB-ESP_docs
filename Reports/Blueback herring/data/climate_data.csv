@@ -1,0 +1,25 @@
+"Functional.Group","Attribute","Attribute.Category","Low","Moderate","High","Very.High"
+"Diadromous Fish","Adult Mobility","Sensitivity Attribute",18,7,0,0
+"Diadromous Fish","Air Temperature (Proxy for Nearshore Ocean Temp)","Exposure Factor",0,0,0,20
+"Diadromous Fish","Complexity in Reproductive Strategy","Sensitivity Attribute",0,3,13,9
+"Diadromous Fish","Currents","Exposure Factor",7,8,3,2
+"Diadromous Fish","Dispersal of Early Life Stages","Sensitivity Attribute",0,3,14,8
+"Diadromous Fish","Early Life History Survival and Settlement Requirements","Sensitivity Attribute",0,2,14,9
+"Diadromous Fish","Habitat Specificity","Sensitivity Attribute",8,6,7,4
+"Diadromous Fish","Mean Precipitation","Exposure Factor",14,6,0,0
+"Diadromous Fish","Mean Sea Surface Salinity","Exposure Factor",9,7,3,1
+"Diadromous Fish","Mean Sea Surface Temperature","Exposure Factor",0,0,1,19
+"Diadromous Fish","Ocean Acidification","Exposure Factor",0,0,0,20
+"Diadromous Fish","Other Stressors","Sensitivity Attribute",1,11,7,6
+"Diadromous Fish","Population Growth Rate","Sensitivity Attribute",2,14,9,0
+"Diadromous Fish","Prey Specificity","Sensitivity Attribute",8,15,2,0
+"Diadromous Fish","Sea Level Rise","Exposure Factor",2,8,5,5
+"Diadromous Fish","Sensitivity to Ocean Acidification","Sensitivity Attribute",14,10,1,0
+"Diadromous Fish","Sensitivity to Temperature","Sensitivity Attribute",8,14,3,0
+"Diadromous Fish","Spawning Cycle","Sensitivity Attribute",0,1,10,14
+"Diadromous Fish","Stock Size/Status","Sensitivity Attribute",2,7,12,4
+"Diadromous Fish","Variability in Air Temperature","Exposure Factor",20,0,0,0
+"Diadromous Fish","Variability in Ocean Acidification","Exposure Factor",20,0,0,0
+"Diadromous Fish","Variability in Precipitation","Exposure Factor",13,7,0,0
+"Diadromous Fish","Variability in Sea Surface Salinity","Exposure Factor",16,4,0,0
+"Diadromous Fish","Variability in Sea Surface Temperature","Exposure Factor",19,1,0,0

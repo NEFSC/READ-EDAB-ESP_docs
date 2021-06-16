@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.1 Length | Red hake</title>
+  <meta name="description" content="3.1 Length | Red hake" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.1 Length | Red hake" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.1 Length | Red hake" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
+
+
+<meta name="date" content="2021-06-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="biological-information.html"/>
+<link rel="next" href="von-bertalanffy-growth-curve.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/dt-ext-scroller-1.10.20/css/scroller.dataTables.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-scroller-1.10.20/js/dataTables.scroller.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Red hake</a></li>
+<li class="chapter" data-level="1" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="stock-identification.html"><a href="stock-identification.html"><i class="fa fa-check"></i><b>1.1</b> Stock identification</a></li>
+<li class="chapter" data-level="1.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html"><i class="fa fa-check"></i><b>1.2</b> Data collection and presentation</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#assessmentdata-methods"><i class="fa fa-check"></i><b>1.2.1</b> <code>assessmentdata</code> methods</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#survdat-methods"><i class="fa fa-check"></i><b>1.2.2</b> <code>survdat</code> methods</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="risk-assessment.html"><a href="risk-assessment.html"><i class="fa fa-check"></i><b>1.3</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-across-stocks"><i class="fa fa-check"></i><b>1.3.1</b> Risk across stocks</a></li>
+<li class="chapter" data-level="1.3.2" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-within-stocks"><i class="fa fa-check"></i><b>1.3.2</b> Risk within stocks</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="habitat-information.html"><a href="habitat-information.html"><i class="fa fa-check"></i><b>2</b> Habitat information</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html"><i class="fa fa-check"></i><b>2.1</b> Geographic distribution</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html#map-of-distribution"><i class="fa fa-check"></i><b>2.1.1</b> Map of distribution</a></li>
+<li class="chapter" data-level="2.1.2" data-path="geographic-distribution.html"><a href="geographic-distribution.html#latitude-and-longitude-ranges"><i class="fa fa-check"></i><b>2.1.2</b> Latitude and longitude ranges</a></li>
+<li class="chapter" data-level="2.1.3" data-path="geographic-distribution.html"><a href="geographic-distribution.html#figures"><i class="fa fa-check"></i><b>2.1.3</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="temperature.html"><a href="temperature.html"><i class="fa fa-check"></i><b>2.2</b> Temperature</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="temperature.html"><a href="temperature.html#figures-1"><i class="fa fa-check"></i><b>2.2.1</b> Figures</a></li>
+<li class="chapter" data-level="2.2.2" data-path="temperature.html"><a href="temperature.html#summary"><i class="fa fa-check"></i><b>2.2.2</b> Summary</a></li>
+<li class="chapter" data-level="2.2.3" data-path="temperature.html"><a href="temperature.html#data"><i class="fa fa-check"></i><b>2.2.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="salinity.html"><a href="salinity.html"><i class="fa fa-check"></i><b>2.3</b> Salinity</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="salinity.html"><a href="salinity.html#figures-2"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+<li class="chapter" data-level="2.3.2" data-path="salinity.html"><a href="salinity.html#summary-1"><i class="fa fa-check"></i><b>2.3.2</b> Summary</a></li>
+<li class="chapter" data-level="2.3.3" data-path="salinity.html"><a href="salinity.html#data-1"><i class="fa fa-check"></i><b>2.3.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="depth.html"><a href="depth.html"><i class="fa fa-check"></i><b>2.4</b> Depth</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="depth.html"><a href="depth.html#figures-3"><i class="fa fa-check"></i><b>2.4.1</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="habitat-vulnerability.html"><a href="habitat-vulnerability.html"><i class="fa fa-check"></i><b>2.5</b> Habitat vulnerability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="biological-information.html"><a href="biological-information.html"><i class="fa fa-check"></i><b>3</b> Biological information</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="length.html"><a href="length.html"><i class="fa fa-check"></i><b>3.1</b> Length</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="length.html"><a href="length.html#overview"><i class="fa fa-check"></i><b>3.1.1</b> Overview</a></li>
+<li class="chapter" data-level="3.1.2" data-path="length.html"><a href="length.html#summary-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.1.3" data-path="length.html"><a href="length.html#risk"><i class="fa fa-check"></i><b>3.1.3</b> Risk</a></li>
+<li class="chapter" data-level="3.1.4" data-path="length.html"><a href="length.html#summary-2"><i class="fa fa-check"></i><b>3.1.4</b> Summary</a></li>
+<li class="chapter" data-level="3.1.5" data-path="length.html"><a href="length.html#data-2"><i class="fa fa-check"></i><b>3.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html"><i class="fa fa-check"></i><b>3.2</b> von Bertalanffy growth curve</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#length-at-age-growth-curve"><i class="fa fa-check"></i><b>3.2.1</b> Length at age growth curve</a></li>
+<li class="chapter" data-level="3.2.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#growth-differences-among-groups"><i class="fa fa-check"></i><b>3.2.2</b> Growth differences among groups</a></li>
+<li class="chapter" data-level="3.2.3" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#ancova-model-output"><i class="fa fa-check"></i><b>3.2.3</b> ANCOVA model output</a></li>
+<li class="chapter" data-level="3.2.4" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#residuals-by-sex-and-decade"><i class="fa fa-check"></i><b>3.2.4</b> Residuals by sex and decade</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html"><i class="fa fa-check"></i><b>3.3</b> Length at first maturity</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#size-at-first-maturity"><i class="fa fa-check"></i><b>3.3.1</b> Size at first maturity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#maturity-classification"><i class="fa fa-check"></i><b>3.3.2</b> Maturity classification</a></li>
+<li class="chapter" data-level="3.3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#model-results"><i class="fa fa-check"></i><b>3.3.3</b> Model results</a></li>
+<li class="chapter" data-level="3.3.4" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#l50-differences-between-sexes"><i class="fa fa-check"></i><b>3.3.4</b> L50 differences between sexes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="condition.html"><a href="condition.html"><i class="fa fa-check"></i><b>3.4</b> Condition</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="condition.html"><a href="condition.html#length-vs-weight"><i class="fa fa-check"></i><b>3.4.1</b> Length vs weight</a></li>
+<li class="chapter" data-level="3.4.2" data-path="condition.html"><a href="condition.html#condition-factor-weight-volume"><i class="fa fa-check"></i><b>3.4.2</b> Condition factor: Weight-volume</a></li>
+<li class="chapter" data-level="3.4.3" data-path="condition.html"><a href="condition.html#data-3"><i class="fa fa-check"></i><b>3.4.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trophic-information.html"><a href="trophic-information.html"><i class="fa fa-check"></i><b>4</b> Trophic information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="primary-production.html"><a href="primary-production.html"><i class="fa fa-check"></i><b>4.1</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="primary-production.html"><a href="primary-production.html#figures-4"><i class="fa fa-check"></i><b>4.1.1</b> Figures</a></li>
+<li class="chapter" data-level="4.1.2" data-path="primary-production.html"><a href="primary-production.html#data-4"><i class="fa fa-check"></i><b>4.1.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="icthyoplankton.html"><a href="icthyoplankton.html"><i class="fa fa-check"></i><b>4.2</b> Icthyoplankton</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="icthyoplankton.html"><a href="icthyoplankton.html#relative-proportion-and-mean-abundance-of-red-hake"><i class="fa fa-check"></i><b>4.2.1</b> Relative proportion and mean abundance of Red hake</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="diet.html"><a href="diet.html"><i class="fa fa-check"></i><b>4.3</b> Diet</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="diet.html"><a href="diet.html#figure"><i class="fa fa-check"></i><b>4.3.1</b> Figure</a></li>
+<li class="chapter" data-level="4.3.2" data-path="diet.html"><a href="diet.html#summary-3"><i class="fa fa-check"></i><b>4.3.2</b> Summary</a></li>
+<li class="chapter" data-level="4.3.3" data-path="diet.html"><a href="diet.html#data-5"><i class="fa fa-check"></i><b>4.3.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="population-information.html"><a href="population-information.html"><i class="fa fa-check"></i><b>5</b> Population information</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="abundance.html"><a href="abundance.html"><i class="fa fa-check"></i><b>5.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="abundance.html"><a href="abundance.html#survey-abundance-raw-measurements"><i class="fa fa-check"></i><b>5.1.1</b> Survey abundance (raw measurements)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="abundance.html"><a href="abundance.html#survey-abundance-swept-area-estimates"><i class="fa fa-check"></i><b>5.1.2</b> Survey abundance (swept area estimates)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="abundance.html"><a href="abundance.html#assessment-abundance"><i class="fa fa-check"></i><b>5.1.3</b> Assessment abundance</a></li>
+<li class="chapter" data-level="5.1.4" data-path="abundance.html"><a href="abundance.html#survey-summary"><i class="fa fa-check"></i><b>5.1.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.1.5" data-path="abundance.html"><a href="abundance.html#data-6"><i class="fa fa-check"></i><b>5.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="biomass.html"><a href="biomass.html"><i class="fa fa-check"></i><b>5.2</b> Biomass</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="biomass.html"><a href="biomass.html#survey-biomass-raw-measurements"><i class="fa fa-check"></i><b>5.2.1</b> Survey biomass (raw measurements)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="biomass.html"><a href="biomass.html#survey-biomass-swept-area-estimates"><i class="fa fa-check"></i><b>5.2.2</b> Survey biomass (swept area estimates)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="biomass.html"><a href="biomass.html#assessment-biomass"><i class="fa fa-check"></i><b>5.2.3</b> Assessment biomass</a></li>
+<li class="chapter" data-level="5.2.4" data-path="biomass.html"><a href="biomass.html#survey-summary-1"><i class="fa fa-check"></i><b>5.2.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.2.5" data-path="biomass.html"><a href="biomass.html#data-7"><i class="fa fa-check"></i><b>5.2.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="bbmsy.html"><a href="bbmsy.html"><i class="fa fa-check"></i><b>5.3</b> B/Bmsy</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="bbmsy.html"><a href="bbmsy.html#figure-1"><i class="fa fa-check"></i><b>5.3.1</b> Figure</a></li>
+<li class="chapter" data-level="5.3.2" data-path="bbmsy.html"><a href="bbmsy.html#data-8"><i class="fa fa-check"></i><b>5.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>5.4</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="recruitment.html"><a href="recruitment.html#figure-2"><i class="fa fa-check"></i><b>5.4.1</b> Figure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="recruitment.html"><a href="recruitment.html#data-9"><i class="fa fa-check"></i><b>5.4.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="age-diversity.html"><a href="age-diversity.html"><i class="fa fa-check"></i><b>5.5</b> Age diversity</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="age-diversity.html"><a href="age-diversity.html#age-diversity-1"><i class="fa fa-check"></i><b>5.5.1</b> Age diversity</a></li>
+<li class="chapter" data-level="5.5.2" data-path="age-diversity.html"><a href="age-diversity.html#density-plots-of-age"><i class="fa fa-check"></i><b>5.5.2</b> Density plots of age</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html"><i class="fa fa-check"></i><b>5.6</b> Climate vulnerability</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#figures-5"><i class="fa fa-check"></i><b>5.6.1</b> Figures</a></li>
+<li class="chapter" data-level="5.6.2" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#data-10"><i class="fa fa-check"></i><b>5.6.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="socio-economic-information.html"><a href="socio-economic-information.html"><i class="fa fa-check"></i><b>6</b> Socio-economic information</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html"><i class="fa fa-check"></i><b>6.1</b> Catch and landings</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html#stock-assessment-catch"><i class="fa fa-check"></i><b>6.1.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.1.2" data-path="catch-and-landings.html"><a href="catch-and-landings.html#recreational-landings"><i class="fa fa-check"></i><b>6.1.2</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.1.3" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings"><i class="fa fa-check"></i><b>6.1.3</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.1.4" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings-by-state-and-year"><i class="fa fa-check"></i><b>6.1.4</b> Commercial landings by state and year</a></li>
+<li class="chapter" data-level="6.1.5" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-vs-recreational-catch"><i class="fa fa-check"></i><b>6.1.5</b> Commercial vs recreational catch</a></li>
+<li class="chapter" data-level="6.1.6" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-fishing-gear"><i class="fa fa-check"></i><b>6.1.6</b> Commercial fishing gear</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="landings-data.html"><a href="landings-data.html"><i class="fa fa-check"></i><b>6.2</b> Landings data</a></li>
+<li class="chapter" data-level="6.3" data-path="ffmsy.html"><a href="ffmsy.html"><i class="fa fa-check"></i><b>6.3</b> F/Fmsy</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="ffmsy.html"><a href="ffmsy.html#figure-3"><i class="fa fa-check"></i><b>6.3.1</b> Figure</a></li>
+<li class="chapter" data-level="6.3.2" data-path="ffmsy.html"><a href="ffmsy.html#data-11"><i class="fa fa-check"></i><b>6.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="revenue.html"><a href="revenue.html"><i class="fa fa-check"></i><b>6.4</b> Revenue</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="revenue.html"><a href="revenue.html#figures-6"><i class="fa fa-check"></i><b>6.4.1</b> Figures</a></li>
+<li class="chapter" data-level="6.4.2" data-path="revenue.html"><a href="revenue.html#data-12"><i class="fa fa-check"></i><b>6.4.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="management-information.html"><a href="management-information.html"><i class="fa fa-check"></i><b>7</b> Management information</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="stock-assessment-and-data-quality-information.html"><a href="stock-assessment-and-data-quality-information.html"><i class="fa fa-check"></i><b>7.1</b> Stock assessment and data quality information</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="risk-assessment-1.html"><a href="risk-assessment-1.html"><i class="fa fa-check"></i><b>8</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="figures-7.html"><a href="figures-7.html"><i class="fa fa-check"></i><b>8.1</b> Figures</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="figures-7.html"><a href="figures-7.html#relative-to-all-other-stocks"><i class="fa fa-check"></i><b>8.1.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.1.2" data-path="figures-7.html"><a href="figures-7.html#within-a-single-stock"><i class="fa fa-check"></i><b>8.1.2</b> Within a single stock</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-13.html"><a href="data-13.html"><i class="fa fa-check"></i><b>8.2</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-13.html"><a href="data-13.html#relative-to-all-other-stocks-1"><i class="fa fa-check"></i><b>8.2.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-13.html"><a href="data-13.html#value-within-each-stock-ranked-by-year"><i class="fa fa-check"></i><b>8.2.2</b> Value within each stock, ranked by year</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>9</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>9.1</b> R session information</a></li>
+<li class="chapter" data-level="9.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>9.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Red hake</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="length" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Length</h2>
+<p>Length data were pulled from <code>survdat</code>. Only years with more than 10 fish lengths were considered for analysis.</p>
+<div id="overview" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Overview</h3>
+length-freq
+<div class="figure" style="text-align: center"><span id="fig:length-freq-1"></span>
+<img src="figures/length-freq-1.png" alt="Red hake length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.1: Red hake length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-2"></span>
+<img src="figures/length-freq-2.png" alt="Red hake length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.2: Red hake length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-3"></span>
+<img src="figures/length-freq-3.png" alt="Red hake length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.3: Red hake length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-4"></span>
+<img src="figures/length-freq-4.png" alt="Red hake length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.4: Red hake length frequency distribution
+</p>
+</div>
+</div>
+<div id="summary-statistics" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Summary statistics</h3>
+<p>Separate <code>geom_gls()</code> functions were fit for the minimum, mean, and maximum lengths; trend lines are only shown when the trend was statistically significant, so some plots may have fewer than three trend lines. Please note, sometimes the survey observed a small number of fish outside of the defined stock area.</p>
+length
+<div class="figure" style="text-align: center"><span id="fig:length-1"></span>
+<img src="figures/length-1.png" alt="Red hake length" width="100%" />
+<p class="caption">
+Figure 3.5: Red hake length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-2"></span>
+<img src="figures/length-2.png" alt="Red hake length" width="100%" />
+<p class="caption">
+Figure 3.6: Red hake length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-3"></span>
+<img src="figures/length-3.png" alt="Red hake length" width="100%" />
+<p class="caption">
+Figure 3.7: Red hake length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-4"></span>
+<img src="figures/length-4.png" alt="Red hake length" width="100%" />
+<p class="caption">
+Figure 3.8: Red hake length
+</p>
+</div>
+</div>
+<div id="risk" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Risk</h3>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-41-1"></span>
+<img src="figures/unnamed-chunk-41-1.png" alt="Red hake rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 3.9: Red hake rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-41-2"></span>
+<img src="figures/unnamed-chunk-41-2.png" alt="Red hake rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 3.10: Red hake rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-42-1"></span>
+<img src="figures/unnamed-chunk-42-1.png" alt="Red hake rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 3.11: Red hake rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-42-2"></span>
+<img src="figures/unnamed-chunk-42-2.png" alt="Red hake rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 3.12: Red hake rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-43-1"></span>
+<img src="figures/unnamed-chunk-43-1.png" alt="Red hake rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 3.13: Red hake rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-43-2"></span>
+<img src="figures/unnamed-chunk-43-2.png" alt="Red hake rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 3.14: Red hake rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+</div>
+</div>
+<div id="summary-2" class="section level3" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Summary</h3>
+<p>length_summary</p>
+<table>
+<colgroup>
+<col width="4%" />
+<col width="24%" />
+<col width="22%" />
+<col width="25%" />
+<col width="9%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Season</th>
+<th align="left">Region</th>
+<th align="left">Mean value +- SD (n fish, n years)</th>
+<th align="left">Mean value +- SD (n fish, past 5 years)</th>
+<th align="left">Range (total)</th>
+<th align="left">Range (past 5 years)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FALL</td>
+<td align="left">Gulf of Maine / Northern Georges Bank</td>
+<td align="left">28.2 +- 9.52 (132,974, 57)</td>
+<td align="left">28.95 +- 7.06 (39,694, 5)</td>
+<td align="left">1 - 70</td>
+<td align="left">4 - 56</td>
+</tr>
+<tr class="even">
+<td align="left">FALL</td>
+<td align="left">Outside stock area</td>
+<td align="left">23.86 +- 9.48 (30,144, 53)</td>
+<td align="left">23.12 +- 6.99 (7,089, 5)</td>
+<td align="left">1 - 65</td>
+<td align="left">5 - 48</td>
+</tr>
+<tr class="odd">
+<td align="left">FALL</td>
+<td align="left">Southern Georges Bank / Mid</td>
+<td align="left">24.45 +- 9.97 (124,223, 57)</td>
+<td align="left">25.85 +- 5.25 (18,441, 5)</td>
+<td align="left">1 - 63</td>
+<td align="left">3 - 49</td>
+</tr>
+<tr class="even">
+<td align="left">SPRING</td>
+<td align="left">Gulf of Maine / Northern Georges Bank</td>
+<td align="left">29.3 +- 7.86 (91,591, 52)</td>
+<td align="left">29.35 +- 7.07 (32,098, 5)</td>
+<td align="left">3 - 69</td>
+<td align="left">5 - 54</td>
+</tr>
+<tr class="odd">
+<td align="left">SPRING</td>
+<td align="left">Outside stock area</td>
+<td align="left">18.92 +- 9.89 (32,129, 50)</td>
+<td align="left">23.06 +- 9.65 (4,082, 5)</td>
+<td align="left">2 - 59</td>
+<td align="left">6 - 56</td>
+</tr>
+<tr class="even">
+<td align="left">SPRING</td>
+<td align="left">Southern Georges Bank / Mid</td>
+<td align="left">28.24 +- 6.49 (118,414, 53)</td>
+<td align="left">23.77 +- 7.56 (9,698, 5)</td>
+<td align="left">1 - 71</td>
+<td align="left">5 - 50</td>
+</tr>
+<tr class="odd">
+<td align="left">SUMMER</td>
+<td align="left">Gulf of Maine / Northern Georges Bank</td>
+<td align="left">34.1 +- 8.33 (4,903, 13)</td>
+<td align="left">32.98 +- 7.48 (1,025, 4)</td>
+<td align="left">7 - 76</td>
+<td align="left">11 - 53</td>
+</tr>
+<tr class="even">
+<td align="left">SUMMER</td>
+<td align="left">Outside stock area</td>
+<td align="left">32.52 +- 10.35 (2,607, 9)</td>
+<td align="left">32.22 +- 6.48 (474, 3)</td>
+<td align="left">3 - 66</td>
+<td align="left">10 - 59</td>
+</tr>
+<tr class="odd">
+<td align="left">SUMMER</td>
+<td align="left">Southern Georges Bank / Mid</td>
+<td align="left">31.32 +- 6.76 (11,895, 9)</td>
+<td align="left">31.31 +- 7.15 (5,554, 5)</td>
+<td align="left">4 - 57</td>
+<td align="left">4 - 57</td>
+</tr>
+<tr class="even">
+<td align="left">WINTER</td>
+<td align="left">Gulf of Maine / Northern Georges Bank</td>
+<td align="left">29.97 +- 11.68 (1,879, 4)</td>
+<td align="left">19.78 +- 6.95 (135, 1)</td>
+<td align="left">4 - 68</td>
+<td align="left">9 - 38</td>
+</tr>
+<tr class="odd">
+<td align="left">WINTER</td>
+<td align="left">Outside stock area</td>
+<td align="left">17.5 +- 8.2 (853, 5)</td>
+<td align="left">13.34 +- 4.27 (133, 2)</td>
+<td align="left">5 - 53</td>
+<td align="left">5 - 21</td>
+</tr>
+<tr class="even">
+<td align="left">WINTER</td>
+<td align="left">Southern Georges Bank / Mid</td>
+<td align="left">27.26 +- 7.62 (43,048, 21)</td>
+<td align="left">23.28 +- 6.96 (7,588, 5)</td>
+<td align="left">2 - 58</td>
+<td align="left">4 - 49</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="data-2" class="section level3" number="3.1.5">
+<h3><span class="header-section-number">3.1.5</span> Data</h3>
+<p>length_data</p>
+<div id="htmlwidget-3b5ab9eabdf6cd404f56" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3b5ab9eabdf6cd404f56">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;FALL&quot;,&quot;SPRING&quot;,&quot;SUMMER&quot;,&quot;WINTER&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Gulf of Maine / Northern Georges Bank&quot;,&quot;Outside stock area&quot;,&quot;Southern Georges Bank / Mid&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;1,000&quot;,&quot;1,005&quot;,&quot;1,023&quot;,&quot;1,038&quot;,&quot;1,062&quot;,&quot;1,079&quot;,&quot;1,087&quot;,&quot;1,090&quot;,&quot;1,091&quot;,&quot;1,114&quot;,&quot;1,126&quot;,&quot;1,137&quot;,&quot;1,162&quot;,&quot;1,163&quot;,&quot;1,164&quot;,&quot;1,165&quot;,&quot;1,168&quot;,&quot;1,171&quot;,&quot;1,178&quot;,&quot;1,182&quot;,&quot;1,197&quot;,&quot;1,216&quot;,&quot;1,219&quot;,&quot;1,223&quot;,&quot;1,233&quot;,&quot;1,242&quot;,&quot;1,244&quot;,&quot;1,279&quot;,&quot;1,286&quot;,&quot;1,288&quot;,&quot;1,296&quot;,&quot;1,307&quot;,&quot;1,316&quot;,&quot;1,333&quot;,&quot;1,334&quot;,&quot;1,352&quot;,&quot;1,359&quot;,&quot;1,366&quot;,&quot;1,371&quot;,&quot;1,372&quot;,&quot;1,378&quot;,&quot;1,380&quot;,&quot;1,411&quot;,&quot;1,419&quot;,&quot;1,420&quot;,&quot;1,438&quot;,&quot;1,452&quot;,&quot;1,456&quot;,&quot;1,459&quot;,&quot;1,462&quot;,&quot;1,473&quot;,&quot;1,494&quot;,&quot;1,556&quot;,&quot;1,576&quot;,&quot;1,585&quot;,&quot;1,589&quot;,&quot;1,592&quot;,&quot;1,654&quot;,&quot;1,681&quot;,&quot;1,686&quot;,&quot;1,688&quot;,&quot;1,693&quot;,&quot;1,707&quot;,&quot;1,710&quot;,&quot;1,713&quot;,&quot;1,730&quot;,&quot;1,754&quot;,&quot;1,822&quot;,&quot;1,828&quot;,&quot;1,833&quot;,&quot;1,849&quot;,&quot;1,857&quot;,&quot;1,863&quot;,&quot;1,893&quot;,&quot;1,978&quot;,&quot;1,985&quot;,&quot;1,991&quot;,&quot;10,777&quot;,&quot;111&quot;,&quot;114&quot;,&quot;115&quot;,&quot;119&quot;,&quot;120&quot;,&quot;129&quot;,&quot;13&quot;,&quot;135&quot;,&quot;137&quot;,&quot;144&quot;,&quot;146&quot;,&quot;148&quot;,&quot;15&quot;,&quot;15,730&quot;,&quot;150&quot;,&quot;151&quot;,&quot;152&quot;,&quot;154&quot;,&quot;16&quot;,&quot;166&quot;,&quot;176&quot;,&quot;180&quot;,&quot;189&quot;,&quot;19&quot;,&quot;193&quot;,&quot;194&quot;,&quot;2,002&quot;,&quot;2,009&quot;,&quot;2,011&quot;,&quot;2,014&quot;,&quot;2,056&quot;,&quot;2,062&quot;,&quot;2,066&quot;,&quot;2,075&quot;,&quot;2,163&quot;,&quot;2,168&quot;,&quot;2,209&quot;,&quot;2,210&quot;,&quot;2,223&quot;,&quot;2,233&quot;,&quot;2,240&quot;,&quot;2,317&quot;,&quot;2,350&quot;,&quot;2,355&quot;,&quot;2,359&quot;,&quot;2,400&quot;,&quot;2,420&quot;,&quot;2,513&quot;,&quot;2,518&quot;,&quot;2,620&quot;,&quot;2,622&quot;,&quot;2,637&quot;,&quot;2,716&quot;,&quot;2,723&quot;,&quot;2,751&quot;,&quot;2,757&quot;,&quot;2,800&quot;,&quot;2,803&quot;,&quot;2,861&quot;,&quot;2,862&quot;,&quot;2,895&quot;,&quot;2,994&quot;,&quot;200&quot;,&quot;206&quot;,&quot;208&quot;,&quot;21&quot;,&quot;213&quot;,&quot;215&quot;,&quot;217&quot;,&quot;22&quot;,&quot;232&quot;,&quot;235&quot;,&quot;240&quot;,&quot;249&quot;,&quot;254&quot;,&quot;260&quot;,&quot;266&quot;,&quot;277&quot;,&quot;279&quot;,&quot;281&quot;,&quot;283&quot;,&quot;292&quot;,&quot;295&quot;,&quot;299&quot;,&quot;3,027&quot;,&quot;3,031&quot;,&quot;3,076&quot;,&quot;3,077&quot;,&quot;3,088&quot;,&quot;3,105&quot;,&quot;3,110&quot;,&quot;3,115&quot;,&quot;3,181&quot;,&quot;3,209&quot;,&quot;3,236&quot;,&quot;3,539&quot;,&quot;3,559&quot;,&quot;3,755&quot;,&quot;3,784&quot;,&quot;3,888&quot;,&quot;3,890&quot;,&quot;3,935&quot;,&quot;3,958&quot;,&quot;3,976&quot;,&quot;30&quot;,&quot;311&quot;,&quot;322&quot;,&quot;324&quot;,&quot;327&quot;,&quot;328&quot;,&quot;333&quot;,&quot;335&quot;,&quot;337&quot;,&quot;34&quot;,&quot;347&quot;,&quot;348&quot;,&quot;35&quot;,&quot;353&quot;,&quot;355&quot;,&quot;365&quot;,&quot;372&quot;,&quot;380&quot;,&quot;382&quot;,&quot;384&quot;,&quot;392&quot;,&quot;393&quot;,&quot;394&quot;,&quot;4,008&quot;,&quot;4,009&quot;,&quot;4,063&quot;,&quot;4,112&quot;,&quot;4,156&quot;,&quot;4,250&quot;,&quot;4,267&quot;,&quot;4,388&quot;,&quot;4,524&quot;,&quot;4,760&quot;,&quot;4,763&quot;,&quot;4,807&quot;,&quot;403&quot;,&quot;407&quot;,&quot;410&quot;,&quot;411&quot;,&quot;419&quot;,&quot;425&quot;,&quot;427&quot;,&quot;431&quot;,&quot;434&quot;,&quot;436&quot;,&quot;45&quot;,&quot;454&quot;,&quot;46&quot;,&quot;461&quot;,&quot;463&quot;,&quot;466&quot;,&quot;468&quot;,&quot;469&quot;,&quot;477&quot;,&quot;478&quot;,&quot;480&quot;,&quot;483&quot;,&quot;488&quot;,&quot;489&quot;,&quot;492&quot;,&quot;496&quot;,&quot;5,222&quot;,&quot;5,507&quot;,&quot;5,654&quot;,&quot;5,730&quot;,&quot;5,732&quot;,&quot;50&quot;,&quot;506&quot;,&quot;508&quot;,&quot;512&quot;,&quot;513&quot;,&quot;515&quot;,&quot;521&quot;,&quot;522&quot;,&quot;526&quot;,&quot;53&quot;,&quot;531&quot;,&quot;536&quot;,&quot;537&quot;,&quot;539&quot;,&quot;540&quot;,&quot;543&quot;,&quot;544&quot;,&quot;548&quot;,&quot;550&quot;,&quot;560&quot;,&quot;563&quot;,&quot;568&quot;,&quot;574&quot;,&quot;575&quot;,&quot;583&quot;,&quot;595&quot;,&quot;6,034&quot;,&quot;6,365&quot;,&quot;6,493&quot;,&quot;6,635&quot;,&quot;6,661&quot;,&quot;6,793&quot;,&quot;6,815&quot;,&quot;603&quot;,&quot;625&quot;,&quot;629&quot;,&quot;632&quot;,&quot;633&quot;,&quot;634&quot;,&quot;639&quot;,&quot;642&quot;,&quot;655&quot;,&quot;656&quot;,&quot;670&quot;,&quot;673&quot;,&quot;675&quot;,&quot;679&quot;,&quot;686&quot;,&quot;687&quot;,&quot;689&quot;,&quot;698&quot;,&quot;7,152&quot;,&quot;7,265&quot;,&quot;7,383&quot;,&quot;70&quot;,&quot;711&quot;,&quot;717&quot;,&quot;719&quot;,&quot;723&quot;,&quot;731&quot;,&quot;742&quot;,&quot;744&quot;,&quot;747&quot;,&quot;75&quot;,&quot;750&quot;,&quot;762&quot;,&quot;768&quot;,&quot;770&quot;,&quot;774&quot;,&quot;779&quot;,&quot;784&quot;,&quot;787&quot;,&quot;789&quot;,&quot;797&quot;,&quot;8,248&quot;,&quot;803&quot;,&quot;805&quot;,&quot;810&quot;,&quot;811&quot;,&quot;817&quot;,&quot;82&quot;,&quot;820&quot;,&quot;840&quot;,&quot;845&quot;,&quot;849&quot;,&quot;853&quot;,&quot;856&quot;,&quot;867&quot;,&quot;87&quot;,&quot;876&quot;,&quot;88&quot;,&quot;880&quot;,&quot;883&quot;,&quot;884&quot;,&quot;889&quot;,&quot;89&quot;,&quot;9,257&quot;,&quot;9,481&quot;,&quot;9,487&quot;,&quot;9,760&quot;,&quot;9,796&quot;,&quot;908&quot;,&quot;91&quot;,&quot;918&quot;,&quot;919&quot;,&quot;924&quot;,&quot;930&quot;,&quot;941&quot;,&quot;959&quot;,&quot;96&quot;,&quot;968&quot;,&quot;97&quot;,&quot;98&quot;,&quot;984&quot;,&quot;988&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"5.39\" data-max=\"39.35\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1\" data-max=\"25\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"14\" data-max=\"76\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1963,1963,1963,1963,1963,1964,1964,1964,1964,1964,1964,1964,1964,1965,1965,1965,1965,1965,1965,1965,1966,1966,1966,1966,1966,1967,1967,1968,1968,1968,1968,1969,1969,1969,1969,1969,1969,1969,1970,1970,1970,1970,1970,1971,1971,1971,1971,1971,1971,1972,1972,1972,1972,1972,1972,1973,1973,1973,1973,1973,1973,1974,1974,1974,1974,1974,1974,1975,1975,1975,1975,1975,1975,1976,1976,1976,1976,1976,1976,1977,1977,1977,1977,1977,1977,1977,1977,1977,1978,1978,1978,1978,1978,1978,1978,1978,1978,1978,1978,1979,1979,1979,1979,1979,1979,1979,1979,1979,1980,1980,1980,1980,1980,1980,1980,1980,1980,1981,1981,1981,1981,1981,1981,1981,1981,1981,1981,1982,1982,1982,1982,1982,1982,1983,1983,1983,1983,1983,1983,1984,1984,1984,1984,1984,1984,1985,1985,1985,1985,1985,1985,1986,1986,1986,1986,1986,1986,1987,1987,1987,1987,1987,1987,1988,1988,1988,1988,1988,1988,1989,1989,1989,1989,1989,1989,1990,1990,1990,1990,1990,1990,1991,1991,1991,1991,1991,1991,1991,1992,1992,1992,1992,1992,1992,1992,1992,1993,1993,1993,1993,1993,1993,1993,1993,1993,1993,1994,1994,1994,1994,1994,1994,1994,1994,1994,1995,1995,1995,1995,1995,1995,1995,1995,1995,1995,1996,1996,1996,1996,1996,1996,1996,1997,1997,1997,1997,1997,1997,1997,1998,1998,1998,1998,1998,1998,1998,1999,1999,1999,1999,1999,1999,1999,2000,2000,2000,2000,2000,2000,2000,2001,2001,2001,2001,2001,2001,2001,2002,2002,2002,2002,2002,2002,2002,2003,2003,2003,2003,2003,2003,2003,2004,2004,2004,2004,2004,2004,2004,2005,2005,2005,2005,2005,2005,2005,2006,2006,2006,2006,2006,2006,2006,2007,2007,2007,2007,2007,2007,2007,2008,2008,2008,2008,2008,2008,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2014,2015,2015,2015,2015,2015,2015,2016,2016,2016,2016,2016,2016,2017,2017,2017,2017,2017,2017,2018,2018,2018,2018,2018,2018,2019,2019,2019,2019,2019,2019,2020,2020],["FALL","FALL","FALL","SUMMER","SUMMER","FALL","FALL","FALL","SUMMER","SUMMER","WINTER","WINTER","WINTER","FALL","FALL","FALL","SUMMER","SUMMER","WINTER","WINTER","FALL","FALL","WINTER","WINTER","WINTER","FALL","FALL","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","SUMMER","FALL","FALL","FALL","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","SUMMER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","SUMMER","WINTER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","SUMMER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","SUMMER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","SUMMER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","WINTER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","SUMMER","SUMMER","WINTER","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","WINTER","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","FALL","FALL","FALL","SPRING","SPRING","SPRING","SPRING","SPRING"],["Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Gulf of Maine / Northern Georges Bank","Outside stock area","Southern Georges Bank / Mid","Outside stock area","Southern Georges Bank / Mid"],["845","50","3,088","393","1,419","407","35","1,233","215","2,062","1,164","15","3,559","213","22","1,223","463","1,822","281","1,707","151","1,114","299","16","2,233","87","803","89","1,366","129","918","403","1,688","148","1,062","427","30","1,038","489","22","1,473","98","1,242","540","19","2,002","166","21","3,755","774","719","2,723","466","45","2,210","770","1,091","1,863","984","3,209","4,763","311","88","2,359","515","2,637","2,066","744","144","4,009","988","867","1,556","477","687","2,163","959","1,316","2,803","1,991","70","1,576","603","550","1,288","531","583","889","3,115","75","2,400","711","2,240","4,524","327","328","1,334","689","91","1,693","670","3,110","883","810","1,352","513","632","1,182","2,009","468","3,077","856","820","2,800","521","478","1,438","1,686","322","1,833","3,181","2,355","2,862","488","82","711","506","747","206","1,452","698","235","1,713","797","526","2,751","1,137","411","1,244","787","380","789","595","353","908","2,014","427","5,654","723","180","1,087","840","217","1,216","941","347","1,730","880","97","639","853","189","656","675","193","919","537","115","768","3,236","119","1,163","731","154","548","1,589","232","1,279","392","91","634","1,126","673","1,411","568","266","633","34","1,420","480","563","686","137","434","135","4,760","1,197","431","1,279","1,165","348","425","419","114","13","6,034","2,420","560","1,380","629","53","784","200","111","2,757","2,350","372","1,279","575","152","461","372","249","120","1,000","1,219","4,008","436","717","87","522","2,622","1,162","539","512","884","129","1,171","1,372","2,716","150","512","1,378","335","254","679","1,828","779","2,518","930","469","466","2,075","2,317","625","333","1,296","483","543","1,893","2,011","292","1,459","1,585","176","496","2,994","2,223","208","1,090","1,710","260","550","1,178","1,654","394","803","384","96","295","277","1,005","279","849","655","337","240","4,250","1,371","492","1,307","536","46","508","750","2,620","427","1,681","655","355","574","1,494","1,978","365","2,168","1,359","146","1,592","817","1,023","454","876","1,849","382","544","4,112","789","4,267","3,888","324","9,257","2,895","194","9,760","5,222","1,168","6,635","5,507","762","4,388","3,027","283","15,730","4,156","805","4,063","3,105","543","9,487","6,815","642","3,076","3,031","968","7,152","9,796","1,456","4,807","6,365","2,861","3,539","10,777","1,079","2,513","9,481","698","3,935","8,248","811","3,976","7,265","1,985","2,209","6,493","1,286","1,333","5,732","924","1,754","6,793","1,857","3,958","3,890","410","1,462","7,383","2,056","6,661","5,730","742","3,784","21","489"],[37.32,31.48,33.17,34.72,32.25,32.27,37,30.8,34.15,31.9,28.17,33.73,33.4,39.35,30.64,29.43,33.03,30.29,35.51,34.1,33.66,22.37,36.39,29.5,32.65,37.59,30.39,26.73,29.95,38.75,30.72,22.13,27.03,29.31,31.76,25.12,18.4,30.83,20.13,28.73,27.05,33.66,29.15,21.77,25.11,25.93,31.31,32.24,28.96,27.23,14.13,27.23,29.35,27.91,30.88,27.06,17.51,23.49,29.66,21.72,29.33,22.08,25.61,10.36,30.01,19.12,28.3,29.25,24.5,27.33,29.86,13.34,31.35,29.11,5.39,27.32,30.61,20.92,31.87,34.7,30.51,31.27,32.85,10.94,31.33,35.84,29.06,32.47,30.03,25.04,30.1,33.01,12.15,31.47,36.53,31.92,30.53,17.67,16.78,31.01,31.46,27.43,35.47,24.8,30.42,37.5,36.66,30.3,30.5,27.27,22.39,33.19,16.83,29.37,37.61,33.62,30.29,22.91,28.06,23.73,32.02,14.39,31.27,33.97,28.22,35.03,22.41,28.98,32.38,30.23,32.24,12.76,30.99,36.28,26.47,31.23,31.68,19.94,29.73,32.78,32.66,27.68,34.99,15.49,29.28,26.13,28.06,16.46,36.2,16.58,29.53,34.43,33.82,27.76,33.2,22.17,28.57,32.51,31.89,26.51,34.15,24.49,31.39,35.99,32.46,22.04,33.11,24.23,27.47,29.56,29.71,28.18,30.67,12.73,28.81,32.95,32.24,28.59,33.21,21.87,30.12,30.94,27.89,28.49,32.06,15.78,27.6,34.03,29.66,30.77,26.82,32.27,14.24,27.34,19.78,28.52,29.04,27.93,22.79,31.35,14.91,25.78,34.9,33.65,8.08,28.44,23.22,24.23,19.66,32.68,22.11,28.52,32.5,32.28,26.29,17.8,11.91,12.48,31.27,22.44,28.1,30.98,31.55,13.91,24.78,29.19,25.08,24.15,29.12,12.62,27.16,28.16,28.84,29.66,24.71,28.67,22.16,29,25.54,28.03,28.01,21.87,30.63,13.48,25.58,22.19,28.71,23.86,7.88,30.47,20.84,27.02,28.35,29.66,28.77,25.86,29.86,11.12,25.27,20.98,28.87,26.5,11.34,29.58,19.11,27.71,27.61,28.44,22.79,14.53,31.02,20.25,28.43,20.72,30.03,22.5,19.12,31.11,17.22,27.89,15.4,23.01,24.85,17.15,30.11,16.29,23.25,24.63,17.88,13,16.62,28.14,25.85,27.98,22.56,16.62,24.14,16.44,25.9,15.99,26.4,21.09,22.79,20.78,11.4,26.14,16.18,27,23.63,24.75,26.84,23.39,28.85,15.42,25.65,28.2,23.29,27.45,27.08,17.14,28.97,29.13,25.03,25.09,28.21,20.41,26.7,29.35,24.64,27.06,29.37,24.51,28.95,28.95,21.98,27.6,27.88,19.23,26.06,27.54,23.31,27.04,24.59,15.86,27.63,27.47,22.04,24.41,24.55,23.08,26.43,29.76,26.79,26.64,29.37,20.5,27.04,29.62,26.21,27.42,30.16,25.91,25.15,28.7,21.7,27.28,30.11,20.4,25.32,29,22.28,25.17,29.98,21.7,24.5,27.21,21.62,24.74,27.12,19.54,22.28,21.48,21.24],[7,13,2,14,15,16,22,6,14,13,4,20,6,14,23,3,7,8,13,10,4,3,14,23,11,21,6,5,3,18,4,3,3,9,7,15,14,8,4,16,3,10,5,3,4,2,11,12,3,3,3,3,10,10,4,3,3,3,9,5,2,3,3,2,4,4,3,5,1,3,3,5,4,4,2,1,7,4,4,5,12,3,10,4,5,13,8,6,4,6,3,9,4,4,12,3,5,5,4,3,2,2,8,4,3,15,12,4,3,4,3,8,2,1,12,4,7,3,4,2,7,4,5,9,7,15,4,4,3,2,8,4,5,5,3,4,12,6,4,4,7,4,11,5,3,3,4,3,13,3,3,3,2,3,3,4,3,5,19,4,10,5,9,5,4,2,13,7,4,2,6,3,7,5,8,4,11,5,11,4,4,5,14,4,9,5,6,11,8,17,4,10,3,4,9,3,1,3,3,9,6,4,14,18,5,4,3,4,3,8,5,3,13,25,2,4,2,3,10,3,5,13,10,6,4,4,7,4,9,3,6,4,4,4,4,10,3,3,6,3,4,3,7,6,5,4,3,2,2,10,3,7,4,4,4,3,8,4,4,4,3,4,3,9,6,5,4,3,3,3,6,4,6,5,3,3,2,8,5,6,5,3,3,2,10,5,5,4,4,2,2,7,5,6,4,3,4,2,6,6,5,4,3,3,2,8,3,7,4,4,4,3,8,5,5,5,6,5,8,6,7,5,5,4,6,8,6,4,5,4,9,8,7,3,5,5,9,4,6,5,6,3,7,7,6,4,4,2,6,6,7,5,6,3,5,7,6,5,6,3,9,8,7,4,7,3,8,6,5,5,6,5,9,8,7,5,5,3,8,7,6,10,7],[60,54,50,63,52,56,57,53,61,52,68,46,48,59,46,50,58,55,57,53,61,49,57,39,58,55,53,52,51,63,49,59,50,62,54,70,29,52,58,42,56,57,58,56,51,54,53,46,52,64,48,55,56,44,52,69,54,53,63,59,59,55,60,51,59,57,59,58,46,60,63,50,53,59,47,50,64,58,71,66,49,56,58,53,52,62,62,54,66,53,54,69,57,60,58,62,51,53,49,60,57,60,61,55,50,76,66,57,58,63,54,59,52,60,62,59,56,58,56,53,58,59,57,56,58,53,46,53,62,55,56,54,60,57,63,63,63,57,50,67,65,51,60,45,56,70,48,56,60,51,53,57,60,47,56,57,58,58,51,52,59,56,53,54,54,42,55,56,50,67,52,46,54,43,45,57,56,48,60,50,50,58,58,45,57,50,49,50,53,56,46,58,50,49,38,49,54,50,50,52,48,52,51,55,14,46,56,48,49,52,49,47,45,59,54,55,54,49,54,50,48,53,56,21,46,55,49,48,51,40,43,44,54,49,48,55,49,41,45,62,55,46,53,44,49,48,68,50,49,53,45,46,50,57,48,48,55,44,44,47,60,50,48,58,56,51,50,60,51,55,60,49,44,45,61,45,45,63,48,49,47,55,48,43,53,53,58,47,50,46,47,46,50,48,49,57,47,49,49,46,44,48,58,45,41,48,37,46,47,48,47,52,50,48,48,52,42,43,50,51,46,46,42,53,51,51,51,56,49,48,52,45,46,49,39,52,52,46,45,57,47,40,46,46,42,61,43,49,50,49,45,56,42,47,52,48,50,48,45,46,54,56,50,51,42,46,51,47,48,50,48,49,49,45,45,49,45,41,49,43,48,27,43]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Number of fish<\/th>\n      <th>Mean length<\/th>\n      <th>Minimum length<\/th>\n      <th>Maximum length<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[0,4,5,6]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="biological-information.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="von-bertalanffy-growth-curve.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

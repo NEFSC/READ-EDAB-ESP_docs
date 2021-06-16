@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5.1 Abundance | Barndoor skate</title>
+  <meta name="description" content="5.1 Abundance | Barndoor skate" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5.1 Abundance | Barndoor skate" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5.1 Abundance | Barndoor skate" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
+
+
+<meta name="date" content="2021-06-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="population-information.html"/>
+<link rel="next" href="biomass.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/dt-ext-scroller-1.10.20/css/scroller.dataTables.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-scroller-1.10.20/js/dataTables.scroller.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Barndoor skate</a></li>
+<li class="chapter" data-level="1" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="stock-identification.html"><a href="stock-identification.html"><i class="fa fa-check"></i><b>1.1</b> Stock identification</a></li>
+<li class="chapter" data-level="1.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html"><i class="fa fa-check"></i><b>1.2</b> Data collection and presentation</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#assessmentdata-methods"><i class="fa fa-check"></i><b>1.2.1</b> <code>assessmentdata</code> methods</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#survdat-methods"><i class="fa fa-check"></i><b>1.2.2</b> <code>survdat</code> methods</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="risk-assessment.html"><a href="risk-assessment.html"><i class="fa fa-check"></i><b>1.3</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-across-stocks"><i class="fa fa-check"></i><b>1.3.1</b> Risk across stocks</a></li>
+<li class="chapter" data-level="1.3.2" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-within-stocks"><i class="fa fa-check"></i><b>1.3.2</b> Risk within stocks</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="habitat-information.html"><a href="habitat-information.html"><i class="fa fa-check"></i><b>2</b> Habitat information</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html"><i class="fa fa-check"></i><b>2.1</b> Geographic distribution</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html#map-of-distribution"><i class="fa fa-check"></i><b>2.1.1</b> Map of distribution</a></li>
+<li class="chapter" data-level="2.1.2" data-path="geographic-distribution.html"><a href="geographic-distribution.html#latitude-and-longitude-ranges"><i class="fa fa-check"></i><b>2.1.2</b> Latitude and longitude ranges</a></li>
+<li class="chapter" data-level="2.1.3" data-path="geographic-distribution.html"><a href="geographic-distribution.html#figures"><i class="fa fa-check"></i><b>2.1.3</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="temperature.html"><a href="temperature.html"><i class="fa fa-check"></i><b>2.2</b> Temperature</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="temperature.html"><a href="temperature.html#figures-1"><i class="fa fa-check"></i><b>2.2.1</b> Figures</a></li>
+<li class="chapter" data-level="2.2.2" data-path="temperature.html"><a href="temperature.html#summary"><i class="fa fa-check"></i><b>2.2.2</b> Summary</a></li>
+<li class="chapter" data-level="2.2.3" data-path="temperature.html"><a href="temperature.html#data"><i class="fa fa-check"></i><b>2.2.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="salinity.html"><a href="salinity.html"><i class="fa fa-check"></i><b>2.3</b> Salinity</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="salinity.html"><a href="salinity.html#figures-2"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+<li class="chapter" data-level="2.3.2" data-path="salinity.html"><a href="salinity.html#summary-1"><i class="fa fa-check"></i><b>2.3.2</b> Summary</a></li>
+<li class="chapter" data-level="2.3.3" data-path="salinity.html"><a href="salinity.html#data-1"><i class="fa fa-check"></i><b>2.3.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="depth.html"><a href="depth.html"><i class="fa fa-check"></i><b>2.4</b> Depth</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="depth.html"><a href="depth.html#figures-3"><i class="fa fa-check"></i><b>2.4.1</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="habitat-vulnerability.html"><a href="habitat-vulnerability.html"><i class="fa fa-check"></i><b>2.5</b> Habitat vulnerability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="biological-information.html"><a href="biological-information.html"><i class="fa fa-check"></i><b>3</b> Biological information</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="length.html"><a href="length.html"><i class="fa fa-check"></i><b>3.1</b> Length</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="length.html"><a href="length.html#overview"><i class="fa fa-check"></i><b>3.1.1</b> Overview</a></li>
+<li class="chapter" data-level="3.1.2" data-path="length.html"><a href="length.html#summary-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.1.3" data-path="length.html"><a href="length.html#risk"><i class="fa fa-check"></i><b>3.1.3</b> Risk</a></li>
+<li class="chapter" data-level="3.1.4" data-path="length.html"><a href="length.html#summary-2"><i class="fa fa-check"></i><b>3.1.4</b> Summary</a></li>
+<li class="chapter" data-level="3.1.5" data-path="length.html"><a href="length.html#data-2"><i class="fa fa-check"></i><b>3.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html"><i class="fa fa-check"></i><b>3.2</b> von Bertalanffy growth curve</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#length-at-age-growth-curve"><i class="fa fa-check"></i><b>3.2.1</b> Length at age growth curve</a></li>
+<li class="chapter" data-level="3.2.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#growth-differences-among-groups"><i class="fa fa-check"></i><b>3.2.2</b> Growth differences among groups</a></li>
+<li class="chapter" data-level="3.2.3" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#ancova-model-output"><i class="fa fa-check"></i><b>3.2.3</b> ANCOVA model output</a></li>
+<li class="chapter" data-level="3.2.4" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#residuals-by-sex-and-decade"><i class="fa fa-check"></i><b>3.2.4</b> Residuals by sex and decade</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html"><i class="fa fa-check"></i><b>3.3</b> Length at first maturity</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#size-at-first-maturity"><i class="fa fa-check"></i><b>3.3.1</b> Size at first maturity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#maturity-classification"><i class="fa fa-check"></i><b>3.3.2</b> Maturity classification</a></li>
+<li class="chapter" data-level="3.3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#model-results"><i class="fa fa-check"></i><b>3.3.3</b> Model results</a></li>
+<li class="chapter" data-level="3.3.4" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#l50-differences-between-sexes"><i class="fa fa-check"></i><b>3.3.4</b> L50 differences between sexes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="condition.html"><a href="condition.html"><i class="fa fa-check"></i><b>3.4</b> Condition</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="condition.html"><a href="condition.html#length-vs-weight"><i class="fa fa-check"></i><b>3.4.1</b> Length vs weight</a></li>
+<li class="chapter" data-level="3.4.2" data-path="condition.html"><a href="condition.html#condition-factor-weight-volume"><i class="fa fa-check"></i><b>3.4.2</b> Condition factor: Weight-volume</a></li>
+<li class="chapter" data-level="3.4.3" data-path="condition.html"><a href="condition.html#data-3"><i class="fa fa-check"></i><b>3.4.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trophic-information.html"><a href="trophic-information.html"><i class="fa fa-check"></i><b>4</b> Trophic information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="primary-production.html"><a href="primary-production.html"><i class="fa fa-check"></i><b>4.1</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="primary-production.html"><a href="primary-production.html#figures-4"><i class="fa fa-check"></i><b>4.1.1</b> Figures</a></li>
+<li class="chapter" data-level="4.1.2" data-path="primary-production.html"><a href="primary-production.html#data-4"><i class="fa fa-check"></i><b>4.1.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="icthyoplankton.html"><a href="icthyoplankton.html"><i class="fa fa-check"></i><b>4.2</b> Icthyoplankton</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="icthyoplankton.html"><a href="icthyoplankton.html#relative-proportion-and-mean-abundance-of-barndoor-skate"><i class="fa fa-check"></i><b>4.2.1</b> Relative proportion and mean abundance of Barndoor skate</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="diet.html"><a href="diet.html"><i class="fa fa-check"></i><b>4.3</b> Diet</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="diet.html"><a href="diet.html#figure"><i class="fa fa-check"></i><b>4.3.1</b> Figure</a></li>
+<li class="chapter" data-level="4.3.2" data-path="diet.html"><a href="diet.html#summary-3"><i class="fa fa-check"></i><b>4.3.2</b> Summary</a></li>
+<li class="chapter" data-level="4.3.3" data-path="diet.html"><a href="diet.html#data-5"><i class="fa fa-check"></i><b>4.3.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="population-information.html"><a href="population-information.html"><i class="fa fa-check"></i><b>5</b> Population information</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="abundance.html"><a href="abundance.html"><i class="fa fa-check"></i><b>5.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="abundance.html"><a href="abundance.html#survey-abundance-raw-measurements"><i class="fa fa-check"></i><b>5.1.1</b> Survey abundance (raw measurements)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="abundance.html"><a href="abundance.html#survey-abundance-swept-area-estimates"><i class="fa fa-check"></i><b>5.1.2</b> Survey abundance (swept area estimates)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="abundance.html"><a href="abundance.html#assessment-abundance"><i class="fa fa-check"></i><b>5.1.3</b> Assessment abundance</a></li>
+<li class="chapter" data-level="5.1.4" data-path="abundance.html"><a href="abundance.html#survey-summary"><i class="fa fa-check"></i><b>5.1.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.1.5" data-path="abundance.html"><a href="abundance.html#data-6"><i class="fa fa-check"></i><b>5.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="biomass.html"><a href="biomass.html"><i class="fa fa-check"></i><b>5.2</b> Biomass</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="biomass.html"><a href="biomass.html#survey-biomass-raw-measurements"><i class="fa fa-check"></i><b>5.2.1</b> Survey biomass (raw measurements)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="biomass.html"><a href="biomass.html#survey-biomass-swept-area-estimates"><i class="fa fa-check"></i><b>5.2.2</b> Survey biomass (swept area estimates)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="biomass.html"><a href="biomass.html#assessment-biomass"><i class="fa fa-check"></i><b>5.2.3</b> Assessment biomass</a></li>
+<li class="chapter" data-level="5.2.4" data-path="biomass.html"><a href="biomass.html#survey-summary-1"><i class="fa fa-check"></i><b>5.2.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.2.5" data-path="biomass.html"><a href="biomass.html#data-7"><i class="fa fa-check"></i><b>5.2.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="bbmsy.html"><a href="bbmsy.html"><i class="fa fa-check"></i><b>5.3</b> B/Bmsy</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="bbmsy.html"><a href="bbmsy.html#figure-1"><i class="fa fa-check"></i><b>5.3.1</b> Figure</a></li>
+<li class="chapter" data-level="5.3.2" data-path="bbmsy.html"><a href="bbmsy.html#data-8"><i class="fa fa-check"></i><b>5.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>5.4</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="recruitment.html"><a href="recruitment.html#figure-2"><i class="fa fa-check"></i><b>5.4.1</b> Figure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="recruitment.html"><a href="recruitment.html#data-9"><i class="fa fa-check"></i><b>5.4.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="age-diversity.html"><a href="age-diversity.html"><i class="fa fa-check"></i><b>5.5</b> Age diversity</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="age-diversity.html"><a href="age-diversity.html#age-diversity-1"><i class="fa fa-check"></i><b>5.5.1</b> Age diversity</a></li>
+<li class="chapter" data-level="5.5.2" data-path="age-diversity.html"><a href="age-diversity.html#density-plots-of-age"><i class="fa fa-check"></i><b>5.5.2</b> Density plots of age</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html"><i class="fa fa-check"></i><b>5.6</b> Climate vulnerability</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#figures-5"><i class="fa fa-check"></i><b>5.6.1</b> Figures</a></li>
+<li class="chapter" data-level="5.6.2" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#data-10"><i class="fa fa-check"></i><b>5.6.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="socio-economic-information.html"><a href="socio-economic-information.html"><i class="fa fa-check"></i><b>6</b> Socio-economic information</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html"><i class="fa fa-check"></i><b>6.1</b> Catch and landings</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html#stock-assessment-catch"><i class="fa fa-check"></i><b>6.1.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.1.2" data-path="catch-and-landings.html"><a href="catch-and-landings.html#recreational-landings"><i class="fa fa-check"></i><b>6.1.2</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.1.3" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings"><i class="fa fa-check"></i><b>6.1.3</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.1.4" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings-by-state-and-year"><i class="fa fa-check"></i><b>6.1.4</b> Commercial landings by state and year</a></li>
+<li class="chapter" data-level="6.1.5" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-vs-recreational-catch"><i class="fa fa-check"></i><b>6.1.5</b> Commercial vs recreational catch</a></li>
+<li class="chapter" data-level="6.1.6" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-fishing-gear"><i class="fa fa-check"></i><b>6.1.6</b> Commercial fishing gear</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="landings-data.html"><a href="landings-data.html"><i class="fa fa-check"></i><b>6.2</b> Landings data</a></li>
+<li class="chapter" data-level="6.3" data-path="ffmsy.html"><a href="ffmsy.html"><i class="fa fa-check"></i><b>6.3</b> F/Fmsy</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="ffmsy.html"><a href="ffmsy.html#figure-3"><i class="fa fa-check"></i><b>6.3.1</b> Figure</a></li>
+<li class="chapter" data-level="6.3.2" data-path="ffmsy.html"><a href="ffmsy.html#data-11"><i class="fa fa-check"></i><b>6.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="revenue.html"><a href="revenue.html"><i class="fa fa-check"></i><b>6.4</b> Revenue</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="revenue.html"><a href="revenue.html#figures-6"><i class="fa fa-check"></i><b>6.4.1</b> Figures</a></li>
+<li class="chapter" data-level="6.4.2" data-path="revenue.html"><a href="revenue.html#data-12"><i class="fa fa-check"></i><b>6.4.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="management-information.html"><a href="management-information.html"><i class="fa fa-check"></i><b>7</b> Management information</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="stock-assessment-and-data-quality-information.html"><a href="stock-assessment-and-data-quality-information.html"><i class="fa fa-check"></i><b>7.1</b> Stock assessment and data quality information</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="risk-assessment-1.html"><a href="risk-assessment-1.html"><i class="fa fa-check"></i><b>8</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="figures-7.html"><a href="figures-7.html"><i class="fa fa-check"></i><b>8.1</b> Figures</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="figures-7.html"><a href="figures-7.html#relative-to-all-other-stocks"><i class="fa fa-check"></i><b>8.1.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.1.2" data-path="figures-7.html"><a href="figures-7.html#within-a-single-stock"><i class="fa fa-check"></i><b>8.1.2</b> Within a single stock</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-13.html"><a href="data-13.html"><i class="fa fa-check"></i><b>8.2</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-13.html"><a href="data-13.html#relative-to-all-other-stocks-1"><i class="fa fa-check"></i><b>8.2.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-13.html"><a href="data-13.html#value-within-each-stock-ranked-by-year"><i class="fa fa-check"></i><b>8.2.2</b> Value within each stock, ranked by year</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>9</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>9.1</b> R session information</a></li>
+<li class="chapter" data-level="9.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>9.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Barndoor skate</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="abundance" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Abundance</h2>
+<p>Abundance data were pulled from <code>survdat</code> and <code>assessmentdata::stockAssessmentData</code>.</p>
+<div id="survey-abundance-raw-measurements" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Survey abundance (raw measurements)</h3>
+<p>Separate geom_gls() functions were fit for fall and spring measurements; trend lines are only shown when the trend was statistically significant, so some plots may have fewer than two trend lines. Fall has solid trend lines, and spring has dashed trend lines. Please note, sometimes the survey observed a small number of fish outside of the defined stock area.</p>
+a-survey
+<div class="figure" style="text-align: center"><span id="fig:a-survey"></span>
+<img src="figures/a-survey-1.png" alt="Barndoor skate survey abundance" width="100%" />
+<p class="caption">
+Figure 5.1: Barndoor skate survey abundance
+</p>
+</div>
+<div id="risk-1" class="section level4 unnumbered">
+<h4>Risk</h4>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks-1" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-45"></span>
+<img src="figures/unnamed-chunk-45-1.png" alt="Barndoor skate rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 5.2: Barndoor skate rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks-1" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-46"></span>
+<img src="figures/unnamed-chunk-46-1.png" alt="Barndoor skate rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 5.3: Barndoor skate rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years-1" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-47"></span>
+<img src="figures/unnamed-chunk-47-1.png" alt="Barndoor skate rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 5.4: Barndoor skate rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="survey-abundance-swept-area-estimates" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Survey abundance (swept area estimates)</h3>
+<p>Please note, these estimates are not parsed by region Swept area estimates are based on spring and fall surveys only. The shaded gray region indicates +/- two standard errors.</p>
+abunance-survey-swept
+<div class="figure" style="text-align: center"><span id="fig:abunance-survey-swept"></span>
+<img src="figures/abunance-survey-swept-1.png" alt="Barndoor skate swept area estimate from survey abundance" width="100%" />
+<p class="caption">
+Figure 5.5: Barndoor skate swept area estimate from survey abundance
+</p>
+</div>
+</div>
+<div id="assessment-abundance" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Assessment abundance</h3>
+<p>abun-asmt</p>
+<pre><code>## [1] &quot;NO DATA&quot;</code></pre>
+<div id="risk-2" class="section level4 unnumbered">
+<h4>Risk</h4>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks-2" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<pre><code>## [1] &quot;No Georges Bank / Southern New England data&quot;</code></pre>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks-2" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<pre><code>## [1] &quot;No Georges Bank / Southern New England data&quot;</code></pre>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years-2" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<pre><code>## [1] &quot;No Georges Bank / Southern New England data&quot;</code></pre>
+</div>
+</div>
+</div>
+<div id="survey-summary" class="section level3" number="5.1.4">
+<h3><span class="header-section-number">5.1.4</span> Survey summary</h3>
+<p>abun_summary</p>
+<div id="htmlwidget-4a93172fc029599db454" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4a93172fc029599db454">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"3\" data-max=\"50\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"2.27\" data-max=\"96.65\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0.57\" data-max=\"98.04\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1\" data-max=\"13\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"5\" data-max=\"369\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1.5\" data-max=\"208.2\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0.57\" data-max=\"131.16\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1\" data-max=\"79\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"2\" data-max=\"369\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"caption":"<caption>Measured abundance<\/caption>","data":[["FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","WINTER","WINTER"],["all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area"],[50,20,44,22,4,3,20,5],[41.42,4,50.39,2.27,33,4.67,96.65,3.8],[41.78,4.39,67.6,1.55,18.99,0.58,98.04,3.03],[1,1,1,1,13,4,1,1],[122,19,325,6,57,5,369,8],[95.6,1.5,110,2.4,35,4.67,208.2,1.67],[12.88,0.71,29.15,1.67,31.11,0.58,131.16,0.58],[75,1,79,1,13,4,48,1],[110,2,151,5,57,5,369,2]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Total years<\/th>\n      <th>Mean<\/th>\n      <th>Standard deviation<\/th>\n      <th>Minimum<\/th>\n      <th>Maximum<\/th>\n      <th>Mean (past 5 years)<\/th>\n      <th>Standard deviation (past 5 years)<\/th>\n      <th>Minimum (past 5 years)<\/th>\n      <th>Maximum (past 5 years)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,6,7,8,9,10]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="data-6" class="section level3" number="5.1.5">
+<h3><span class="header-section-number">5.1.5</span> Data</h3>
+<div id="survey-data-raw-measurements" class="section level4 unnumbered">
+<h4>Survey data (raw measurements)</h4>
+<p>surv_abun_data</p>
+<div id="htmlwidget-5ff4a7eba2268f43af66" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5ff4a7eba2268f43af66">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;FALL&quot;,&quot;SPRING&quot;,&quot;SUMMER&quot;,&quot;WINTER&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"disabled\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;all&quot;,&quot;Outside stock area&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;  1&quot;,&quot;  2&quot;,&quot;  3&quot;,&quot;  4&quot;,&quot;  6&quot;,&quot;  8&quot;,&quot; 1&quot;,&quot; 10&quot;,&quot; 19&quot;,&quot; 2&quot;,&quot; 4&quot;,&quot; 5&quot;,&quot; 6&quot;,&quot; 9&quot;,&quot;1&quot;,&quot;10&quot;,&quot;101&quot;,&quot;102&quot;,&quot;106&quot;,&quot;108&quot;,&quot;11&quot;,&quot;110&quot;,&quot;112&quot;,&quot;113&quot;,&quot;116&quot;,&quot;117&quot;,&quot;120&quot;,&quot;122&quot;,&quot;123&quot;,&quot;126&quot;,&quot;13&quot;,&quot;14&quot;,&quot;140&quot;,&quot;15&quot;,&quot;150&quot;,&quot;151&quot;,&quot;18&quot;,&quot;196&quot;,&quot;2&quot;,&quot;20&quot;,&quot;21&quot;,&quot;22&quot;,&quot;24&quot;,&quot;25&quot;,&quot;254&quot;,&quot;26&quot;,&quot;269&quot;,&quot;28&quot;,&quot;29&quot;,&quot;3&quot;,&quot;30&quot;,&quot;325&quot;,&quot;33&quot;,&quot;34&quot;,&quot;369&quot;,&quot;38&quot;,&quot;4&quot;,&quot;48&quot;,&quot;5&quot;,&quot;55&quot;,&quot;56&quot;,&quot;57&quot;,&quot;58&quot;,&quot;59&quot;,&quot;6&quot;,&quot;62&quot;,&quot;64&quot;,&quot;67&quot;,&quot;69&quot;,&quot;7&quot;,&quot;71&quot;,&quot;72&quot;,&quot;73&quot;,&quot;75&quot;,&quot;79&quot;,&quot;8&quot;,&quot;83&quot;,&quot;88&quot;,&quot;9&quot;,&quot;91&quot;,&quot;95&quot;,&quot;97&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1963,1963,1963,1963,1964,1964,1964,1964,1964,1964,1965,1965,1965,1965,1965,1966,1966,1966,1966,1967,1967,1968,1968,1968,1968,1969,1969,1969,1969,1969,1970,1970,1970,1970,1971,1971,1971,1971,1972,1972,1972,1972,1973,1973,1973,1974,1975,1975,1976,1976,1978,1979,1979,1980,1982,1984,1985,1985,1986,1986,1987,1987,1988,1989,1989,1990,1991,1991,1992,1992,1992,1993,1993,1993,1993,1994,1994,1994,1995,1995,1995,1996,1996,1996,1997,1997,1997,1998,1998,1998,1999,1999,1999,2000,2000,2000,2000,2001,2001,2001,2002,2002,2002,2002,2003,2003,2003,2004,2004,2004,2004,2004,2005,2005,2005,2005,2005,2005,2006,2006,2006,2006,2006,2006,2007,2007,2007,2007,2007,2008,2008,2008,2008,2009,2009,2009,2010,2010,2010,2011,2011,2011,2011,2012,2012,2013,2013,2013,2014,2014,2014,2015,2015,2015,2015,2016,2016,2016,2017,2017,2017,2018,2018,2018,2019,2019,2019,2020],["FALL","FALL","SUMMER","SUMMER","FALL","FALL","SUMMER","SUMMER","WINTER","WINTER","FALL","FALL","SUMMER","SUMMER","WINTER","FALL","FALL","WINTER","WINTER","FALL","FALL","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","SUMMER","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","FALL","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","SPRING","FALL","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","FALL","SPRING","WINTER","FALL","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","FALL","SPRING","WINTER","FALL","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","WINTER","FALL","FALL","SPRING","SPRING","WINTER","WINTER","FALL","FALL","SPRING","WINTER","WINTER","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","SPRING"],["Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate","Barndoor skate"],["all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","all","all","all","all","all","all","Outside stock area","Outside stock area","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","Outside stock area","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","Outside stock area","all","all","all","all","all","all","Outside stock area","all","all","all","all","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","Outside stock area"],["120"," 19","24"," 5","64"," 6","38"," 4","108","  8","102","  2","57"," 5","102","62"," 9","116","  6","13"," 4","28"," 2","21"," 2","8","5","22"," 1","13","1","3","10"," 4","18"," 2","20"," 4","3","6","1","3","3","1","3","3","2","1","10","1","3","1","2","1","1","2","1","2","3","2","2","1","1","1","1","3","5","1","2","4","1","5","1","5","6","9","6","7","10","2","24","5","6","25","5","7","33","5","15","71","15","11","91","14"," 1","29","69","34","30","113","58"," 2","26","123","55","64","48","58"," 1","24"," 1","269","73"," 1","59"," 6","101","  2","101","  4","196","  1","369","  1","67"," 4","325","254","  2","122"," 10","140","  2","56","102","  2","72","112","  2","95"," 2","150","  2","117","106","79","83"," 1","83","67"," 1","101","  1","88"," 5","97","79"," 1","75","151","  2","110","106","  1","95","126","  3","5"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Year<\/th>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Abundance<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":0},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="survey-data-swept-area-estimates" class="section level4 unnumbered">
+<h4>Survey data (swept area estimates)</h4>
+<p>swept_abun_data</p>
+<div id="htmlwidget-e9fbee6bec584efe3d7f" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e9fbee6bec584efe3d7f">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1968,1969,1970,1971,1972,1973,1974,1975,1976,1978,1979,1980,1982,1985,1986,1987,1989,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1975,1976,1979,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],["  690,494","  689,677","  288,080","  506,127","  114,964","   79,696","   82,691","    6,046","   26,582","   75,759","   54,428","   23,326","    7,771","   34,539","   48,331","   30,911","   31,027","   30,911","   85,892","  129,935","  135,940","   54,642","  117,652","  163,418","  276,688","  238,442","  661,351","  652,239","  563,728","1,432,301","  507,773","1,479,051","2,698,848","7,280,481","2,461,790","1,687,041","2,155,206","2,450,354","2,088,188","1,129,181","1,132,195","1,256,866","1,580,194","1,996,844","2,155,672","1,885,243","  106,335","3,900,588","1,908,552","3,318,007","2,627,669","  397,528","  670,980","  312,531","   51,561","  573,017","   57,442","   38,561","   48,331","  254,749","   13,291","   31,936","    7,771","   68,494","   48,331","   30,911","   10,361","   40,998","  105,126","   27,757","  105,178","  204,162","  181,989","  106,055","  120,302","  121,294","  391,655","  242,683","  689,397","1,247,398","1,166,804","1,047,408","1,677,018","2,046,888","1,400,264","2,052,750","1,185,504","1,485,050","2,196,315","2,270,094","1,617,220","1,679,266","1,780,803","1,757,567","1,589,880","2,621,861","1,791,646"],["  266,849.0","  381,800.0","   89,178.9","  198,690.7","   45,297.9","   41,718.2","   47,953.2","    6,046.4","   26,582.1","   53,569.4","   34,423.5","   23,326.4","    7,770.5","   26,304.9","   32,421.5","   30,910.9","   31,027.0","   30,910.9","   61,210.6","   53,910.8","   74,406.1","   38,642.9","   68,101.8","   66,463.5","  106,828.4","   96,626.6","  148,643.5","  219,287.6","  197,769.9","  313,148.6","  188,272.7","  565,205.5","1,530,893.3","  284,878.7","1,377,188.7","  324,120.2","  351,871.5","  372,280.0","  466,742.4","  196,222.8","  177,310.9","  159,243.5","  250,739.0","  408,053.5","  498,279.1","  227,375.0","   41,692.1","  714,567.8","  403,429.8","  605,865.2","  610,714.8","  124,055.7","  160,334.9","  137,411.7","   37,950.0","  457,442.3","   32,631.1","   27,354.5","   48,331.1","  137,931.1","   13,291.0","   25,384.1","    7,770.5","   40,070.8","   32,421.5","   30,910.9","   10,360.7","   34,124.1","   54,993.4","   27,757.2","   46,506.7","   90,857.1","  104,792.5","   54,922.8","   51,302.7","   58,146.5","  104,452.0","   72,768.8","  226,496.8","  307,426.3","  223,147.3","  248,322.9","  361,568.6","  635,678.5","  426,035.2","  539,486.1","  200,768.6","  212,933.8","  295,734.8","  359,548.3","  320,046.5","  368,632.5","  452,550.0","  306,595.7","  363,201.6","  894,899.7","  394,989.3"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Abundance<\/th>\n      <th>Standard error<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="assessment-data" class="section level4 unnumbered">
+<h4>Assessment data</h4>
+<p>asmt_abun_data</p>
+<pre><code>## [1] &quot;NO DATA&quot;</code></pre>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="population-information.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="biomass.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

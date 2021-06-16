@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5.2 Biomass | Summer flounder</title>
+  <meta name="description" content="5.2 Biomass | Summer flounder" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5.2 Biomass | Summer flounder" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5.2 Biomass | Summer flounder" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
+
+
+<meta name="date" content="2021-06-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="abundance.html"/>
+<link rel="next" href="bbmsy.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/dt-ext-scroller-1.10.20/css/scroller.dataTables.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-scroller-1.10.20/js/dataTables.scroller.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Summer flounder</a></li>
+<li class="chapter" data-level="1" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="stock-identification.html"><a href="stock-identification.html"><i class="fa fa-check"></i><b>1.1</b> Stock identification</a></li>
+<li class="chapter" data-level="1.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html"><i class="fa fa-check"></i><b>1.2</b> Data collection and presentation</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#assessmentdata-methods"><i class="fa fa-check"></i><b>1.2.1</b> <code>assessmentdata</code> methods</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#survdat-methods"><i class="fa fa-check"></i><b>1.2.2</b> <code>survdat</code> methods</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="risk-assessment.html"><a href="risk-assessment.html"><i class="fa fa-check"></i><b>1.3</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-across-stocks"><i class="fa fa-check"></i><b>1.3.1</b> Risk across stocks</a></li>
+<li class="chapter" data-level="1.3.2" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-within-stocks"><i class="fa fa-check"></i><b>1.3.2</b> Risk within stocks</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="habitat-information.html"><a href="habitat-information.html"><i class="fa fa-check"></i><b>2</b> Habitat information</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html"><i class="fa fa-check"></i><b>2.1</b> Geographic distribution</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html#map-of-distribution"><i class="fa fa-check"></i><b>2.1.1</b> Map of distribution</a></li>
+<li class="chapter" data-level="2.1.2" data-path="geographic-distribution.html"><a href="geographic-distribution.html#latitude-and-longitude-ranges"><i class="fa fa-check"></i><b>2.1.2</b> Latitude and longitude ranges</a></li>
+<li class="chapter" data-level="2.1.3" data-path="geographic-distribution.html"><a href="geographic-distribution.html#figures"><i class="fa fa-check"></i><b>2.1.3</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="temperature.html"><a href="temperature.html"><i class="fa fa-check"></i><b>2.2</b> Temperature</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="temperature.html"><a href="temperature.html#figures-1"><i class="fa fa-check"></i><b>2.2.1</b> Figures</a></li>
+<li class="chapter" data-level="2.2.2" data-path="temperature.html"><a href="temperature.html#summary"><i class="fa fa-check"></i><b>2.2.2</b> Summary</a></li>
+<li class="chapter" data-level="2.2.3" data-path="temperature.html"><a href="temperature.html#data"><i class="fa fa-check"></i><b>2.2.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="salinity.html"><a href="salinity.html"><i class="fa fa-check"></i><b>2.3</b> Salinity</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="salinity.html"><a href="salinity.html#figures-2"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+<li class="chapter" data-level="2.3.2" data-path="salinity.html"><a href="salinity.html#summary-1"><i class="fa fa-check"></i><b>2.3.2</b> Summary</a></li>
+<li class="chapter" data-level="2.3.3" data-path="salinity.html"><a href="salinity.html#data-1"><i class="fa fa-check"></i><b>2.3.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="depth.html"><a href="depth.html"><i class="fa fa-check"></i><b>2.4</b> Depth</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="depth.html"><a href="depth.html#figures-3"><i class="fa fa-check"></i><b>2.4.1</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="habitat-vulnerability.html"><a href="habitat-vulnerability.html"><i class="fa fa-check"></i><b>2.5</b> Habitat vulnerability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="biological-information.html"><a href="biological-information.html"><i class="fa fa-check"></i><b>3</b> Biological information</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="length.html"><a href="length.html"><i class="fa fa-check"></i><b>3.1</b> Length</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="length.html"><a href="length.html#overview"><i class="fa fa-check"></i><b>3.1.1</b> Overview</a></li>
+<li class="chapter" data-level="3.1.2" data-path="length.html"><a href="length.html#summary-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.1.3" data-path="length.html"><a href="length.html#risk"><i class="fa fa-check"></i><b>3.1.3</b> Risk</a></li>
+<li class="chapter" data-level="3.1.4" data-path="length.html"><a href="length.html#summary-2"><i class="fa fa-check"></i><b>3.1.4</b> Summary</a></li>
+<li class="chapter" data-level="3.1.5" data-path="length.html"><a href="length.html#data-2"><i class="fa fa-check"></i><b>3.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html"><i class="fa fa-check"></i><b>3.2</b> von Bertalanffy growth curve</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#length-at-age-growth-curve"><i class="fa fa-check"></i><b>3.2.1</b> Length at age growth curve</a></li>
+<li class="chapter" data-level="3.2.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#growth-differences-among-groups"><i class="fa fa-check"></i><b>3.2.2</b> Growth differences among groups</a></li>
+<li class="chapter" data-level="3.2.3" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#ancova-model-output"><i class="fa fa-check"></i><b>3.2.3</b> ANCOVA model output</a></li>
+<li class="chapter" data-level="3.2.4" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#residuals-by-sex-and-decade"><i class="fa fa-check"></i><b>3.2.4</b> Residuals by sex and decade</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html"><i class="fa fa-check"></i><b>3.3</b> Length at first maturity</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#size-at-first-maturity"><i class="fa fa-check"></i><b>3.3.1</b> Size at first maturity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#maturity-classification"><i class="fa fa-check"></i><b>3.3.2</b> Maturity classification</a></li>
+<li class="chapter" data-level="3.3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#model-results"><i class="fa fa-check"></i><b>3.3.3</b> Model results</a></li>
+<li class="chapter" data-level="3.3.4" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#l50-differences-between-sexes"><i class="fa fa-check"></i><b>3.3.4</b> L50 differences between sexes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="condition.html"><a href="condition.html"><i class="fa fa-check"></i><b>3.4</b> Condition</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="condition.html"><a href="condition.html#length-vs-weight"><i class="fa fa-check"></i><b>3.4.1</b> Length vs weight</a></li>
+<li class="chapter" data-level="3.4.2" data-path="condition.html"><a href="condition.html#condition-factor-weight-volume"><i class="fa fa-check"></i><b>3.4.2</b> Condition factor: Weight-volume</a></li>
+<li class="chapter" data-level="3.4.3" data-path="condition.html"><a href="condition.html#data-3"><i class="fa fa-check"></i><b>3.4.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trophic-information.html"><a href="trophic-information.html"><i class="fa fa-check"></i><b>4</b> Trophic information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="primary-production.html"><a href="primary-production.html"><i class="fa fa-check"></i><b>4.1</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="primary-production.html"><a href="primary-production.html#figures-4"><i class="fa fa-check"></i><b>4.1.1</b> Figures</a></li>
+<li class="chapter" data-level="4.1.2" data-path="primary-production.html"><a href="primary-production.html#data-4"><i class="fa fa-check"></i><b>4.1.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="icthyoplankton.html"><a href="icthyoplankton.html"><i class="fa fa-check"></i><b>4.2</b> Icthyoplankton</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="icthyoplankton.html"><a href="icthyoplankton.html#relative-proportion-and-mean-abundance-of-summer-flounder"><i class="fa fa-check"></i><b>4.2.1</b> Relative proportion and mean abundance of Summer flounder</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="diet.html"><a href="diet.html"><i class="fa fa-check"></i><b>4.3</b> Diet</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="diet.html"><a href="diet.html#figure"><i class="fa fa-check"></i><b>4.3.1</b> Figure</a></li>
+<li class="chapter" data-level="4.3.2" data-path="diet.html"><a href="diet.html#summary-3"><i class="fa fa-check"></i><b>4.3.2</b> Summary</a></li>
+<li class="chapter" data-level="4.3.3" data-path="diet.html"><a href="diet.html#data-5"><i class="fa fa-check"></i><b>4.3.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="population-information.html"><a href="population-information.html"><i class="fa fa-check"></i><b>5</b> Population information</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="abundance.html"><a href="abundance.html"><i class="fa fa-check"></i><b>5.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="abundance.html"><a href="abundance.html#survey-abundance-raw-measurements"><i class="fa fa-check"></i><b>5.1.1</b> Survey abundance (raw measurements)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="abundance.html"><a href="abundance.html#survey-abundance-swept-area-estimates"><i class="fa fa-check"></i><b>5.1.2</b> Survey abundance (swept area estimates)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="abundance.html"><a href="abundance.html#assessment-abundance"><i class="fa fa-check"></i><b>5.1.3</b> Assessment abundance</a></li>
+<li class="chapter" data-level="5.1.4" data-path="abundance.html"><a href="abundance.html#survey-summary"><i class="fa fa-check"></i><b>5.1.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.1.5" data-path="abundance.html"><a href="abundance.html#data-6"><i class="fa fa-check"></i><b>5.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="biomass.html"><a href="biomass.html"><i class="fa fa-check"></i><b>5.2</b> Biomass</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="biomass.html"><a href="biomass.html#survey-biomass-raw-measurements"><i class="fa fa-check"></i><b>5.2.1</b> Survey biomass (raw measurements)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="biomass.html"><a href="biomass.html#survey-biomass-swept-area-estimates"><i class="fa fa-check"></i><b>5.2.2</b> Survey biomass (swept area estimates)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="biomass.html"><a href="biomass.html#assessment-biomass"><i class="fa fa-check"></i><b>5.2.3</b> Assessment biomass</a></li>
+<li class="chapter" data-level="5.2.4" data-path="biomass.html"><a href="biomass.html#survey-summary-1"><i class="fa fa-check"></i><b>5.2.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.2.5" data-path="biomass.html"><a href="biomass.html#data-7"><i class="fa fa-check"></i><b>5.2.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="bbmsy.html"><a href="bbmsy.html"><i class="fa fa-check"></i><b>5.3</b> B/Bmsy</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="bbmsy.html"><a href="bbmsy.html#figure-1"><i class="fa fa-check"></i><b>5.3.1</b> Figure</a></li>
+<li class="chapter" data-level="5.3.2" data-path="bbmsy.html"><a href="bbmsy.html#data-8"><i class="fa fa-check"></i><b>5.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>5.4</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="recruitment.html"><a href="recruitment.html#figure-2"><i class="fa fa-check"></i><b>5.4.1</b> Figure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="recruitment.html"><a href="recruitment.html#data-9"><i class="fa fa-check"></i><b>5.4.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="age-diversity.html"><a href="age-diversity.html"><i class="fa fa-check"></i><b>5.5</b> Age diversity</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="age-diversity.html"><a href="age-diversity.html#age-diversity-1"><i class="fa fa-check"></i><b>5.5.1</b> Age diversity</a></li>
+<li class="chapter" data-level="5.5.2" data-path="age-diversity.html"><a href="age-diversity.html#density-plots-of-age"><i class="fa fa-check"></i><b>5.5.2</b> Density plots of age</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html"><i class="fa fa-check"></i><b>5.6</b> Climate vulnerability</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#figures-5"><i class="fa fa-check"></i><b>5.6.1</b> Figures</a></li>
+<li class="chapter" data-level="5.6.2" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#data-10"><i class="fa fa-check"></i><b>5.6.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="socio-economic-information.html"><a href="socio-economic-information.html"><i class="fa fa-check"></i><b>6</b> Socio-economic information</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html"><i class="fa fa-check"></i><b>6.1</b> Catch and landings</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html#stock-assessment-catch"><i class="fa fa-check"></i><b>6.1.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.1.2" data-path="catch-and-landings.html"><a href="catch-and-landings.html#recreational-landings"><i class="fa fa-check"></i><b>6.1.2</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.1.3" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings"><i class="fa fa-check"></i><b>6.1.3</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.1.4" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings-by-state-and-year"><i class="fa fa-check"></i><b>6.1.4</b> Commercial landings by state and year</a></li>
+<li class="chapter" data-level="6.1.5" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-vs-recreational-catch"><i class="fa fa-check"></i><b>6.1.5</b> Commercial vs recreational catch</a></li>
+<li class="chapter" data-level="6.1.6" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-fishing-gear"><i class="fa fa-check"></i><b>6.1.6</b> Commercial fishing gear</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="landings-data.html"><a href="landings-data.html"><i class="fa fa-check"></i><b>6.2</b> Landings data</a></li>
+<li class="chapter" data-level="6.3" data-path="ffmsy.html"><a href="ffmsy.html"><i class="fa fa-check"></i><b>6.3</b> F/Fmsy</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="ffmsy.html"><a href="ffmsy.html#figure-3"><i class="fa fa-check"></i><b>6.3.1</b> Figure</a></li>
+<li class="chapter" data-level="6.3.2" data-path="ffmsy.html"><a href="ffmsy.html#data-11"><i class="fa fa-check"></i><b>6.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="revenue.html"><a href="revenue.html"><i class="fa fa-check"></i><b>6.4</b> Revenue</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="revenue.html"><a href="revenue.html#figures-6"><i class="fa fa-check"></i><b>6.4.1</b> Figures</a></li>
+<li class="chapter" data-level="6.4.2" data-path="revenue.html"><a href="revenue.html#data-12"><i class="fa fa-check"></i><b>6.4.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="management-information.html"><a href="management-information.html"><i class="fa fa-check"></i><b>7</b> Management information</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="stock-assessment-and-data-quality-information.html"><a href="stock-assessment-and-data-quality-information.html"><i class="fa fa-check"></i><b>7.1</b> Stock assessment and data quality information</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="risk-assessment-1.html"><a href="risk-assessment-1.html"><i class="fa fa-check"></i><b>8</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="figures-7.html"><a href="figures-7.html"><i class="fa fa-check"></i><b>8.1</b> Figures</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="figures-7.html"><a href="figures-7.html#relative-to-all-other-stocks"><i class="fa fa-check"></i><b>8.1.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.1.2" data-path="figures-7.html"><a href="figures-7.html#within-a-single-stock"><i class="fa fa-check"></i><b>8.1.2</b> Within a single stock</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-13.html"><a href="data-13.html"><i class="fa fa-check"></i><b>8.2</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-13.html"><a href="data-13.html#relative-to-all-other-stocks-1"><i class="fa fa-check"></i><b>8.2.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-13.html"><a href="data-13.html#value-within-each-stock-ranked-by-year"><i class="fa fa-check"></i><b>8.2.2</b> Value within each stock, ranked by year</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>9</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>9.1</b> R session information</a></li>
+<li class="chapter" data-level="9.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>9.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Summer flounder</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="biomass" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Biomass</h2>
+<p>Biomass data were pulled from <code>survdat</code>.</p>
+<div id="survey-biomass-raw-measurements" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Survey biomass (raw measurements)</h3>
+<p>Separate geom_gls() functions were fit for fall and spring measurements; trend lines are only shown when the trend was statistically significant, so some plots may have fewer than two trend lines. Fall has solid trend lines, and spring has dashed trend lines. Please note, sometimes the survey observed a small number of fish outside of the defined stock area.</p>
+biomass
+<div class="figure" style="text-align: center"><span id="fig:biomass"></span>
+<img src="figures/biomass-1.png" alt="Summer flounder survey biomass" width="100%" />
+<p class="caption">
+Figure 5.6: Summer flounder survey biomass
+</p>
+</div>
+<div id="risk-3" class="section level4 unnumbered">
+<h4>Risk</h4>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks-3" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-52"></span>
+<img src="figures/unnamed-chunk-52-1.png" alt="Summer flounder rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 5.7: Summer flounder rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks-3" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-53"></span>
+<img src="figures/unnamed-chunk-53-1.png" alt="Summer flounder rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 5.8: Summer flounder rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years-3" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-54"></span>
+<img src="figures/unnamed-chunk-54-1.png" alt="Summer flounder rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 5.9: Summer flounder rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="survey-biomass-swept-area-estimates" class="section level3" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Survey biomass (swept area estimates)</h3>
+<p>Please note, these estimates are not parsed by region or season. Swept area estimates are based on spring and fall surveys only. The shaded gray region indicates +/- two standard errors.</p>
+bio-survey-swept
+<div class="figure" style="text-align: center"><span id="fig:bio-survey-swept"></span>
+<img src="figures/bio-survey-swept-1.png" alt="Summer flounder swept area estimate from survey biomass" width="100%" />
+<p class="caption">
+Figure 5.10: Summer flounder swept area estimate from survey biomass
+</p>
+</div>
+</div>
+<div id="assessment-biomass" class="section level3" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Assessment biomass</h3>
+biomass-asmt
+<div class="figure" style="text-align: center"><span id="fig:biomass-asmt"></span>
+<img src="figures/biomass-asmt-1.png" alt="Summer flounder assessment biomass" width="100%" />
+<p class="caption">
+Figure 5.11: Summer flounder assessment biomass
+</p>
+</div>
+<div id="risk-4" class="section level4 unnumbered">
+<h4>Risk</h4>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks-4" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-55"></span>
+<img src="figures/unnamed-chunk-55-1.png" alt="Summer flounder rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 5.12: Summer flounder rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks-4" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-56"></span>
+<img src="figures/unnamed-chunk-56-1.png" alt="Summer flounder rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 5.13: Summer flounder rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years-4" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-57"></span>
+<img src="figures/unnamed-chunk-57-1.png" alt="Summer flounder rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 5.14: Summer flounder rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="survey-summary-1" class="section level3" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Survey summary</h3>
+<p>biomass_summary</p>
+<div id="htmlwidget-75d405e7fc82a4158409" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-75d405e7fc82a4158409">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"3\" data-max=\"57\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"5.45\" data-max=\"1223.97\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"4.57\" data-max=\"974.81\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0.08\" data-max=\"21.8\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"16\" data-max=\"3110.1\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"2.1\" data-max=\"1965.25\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1.95\" data-max=\"499.51\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0.08\" data-max=\"1431.11\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"3.96\" data-max=\"2606.44\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"caption":"<caption>Measured biomass<\/caption>","data":[["FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","WINTER","WINTER"],["all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area"],[57,44,53,36,8,6,20,3],[254.56,10.87,140.72,5.45,35.51,10.37,1223.97,11.15],[172.19,9.53,95.47,8.65,44.88,4.57,974.81,15.72],[0.5,0.1,7.8,0.08,0.5,5,21.8,0.9],[671.8,35.76,484.12,46.1,132.6,16,3110.1,29.25],[166.6,7.07,145.65,2.1,56.44,11.36,1965.25,29.25],[98.57,4.8,37.55,1.95,45.44,4.33,499.51,null],[12.99,0.84,111.32,0.08,20.4,5,1431.11,29.25],[284.01,11.83,206.09,3.96,132.6,16,2606.44,29.25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Total years<\/th>\n      <th>Mean<\/th>\n      <th>Standard deviation<\/th>\n      <th>Minimum<\/th>\n      <th>Maximum<\/th>\n      <th>Mean (past 5 years)<\/th>\n      <th>Standard deviation (past 5 years)<\/th>\n      <th>Minimum (past 5 years)<\/th>\n      <th>Maximum (past 5 years)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,6,7,8,9,10]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="data-7" class="section level3" number="5.2.5">
+<h3><span class="header-section-number">5.2.5</span> Data</h3>
+<div id="survey-data-raw-measurements-1" class="section level4 unnumbered">
+<h4>Survey data (raw measurements)</h4>
+<p>biomass_data</p>
+<div id="htmlwidget-cbda71fcea4cc8bddf4c" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-cbda71fcea4cc8bddf4c">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;FALL&quot;,&quot;SPRING&quot;,&quot;SUMMER&quot;,&quot;WINTER&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"disabled\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;all&quot;,&quot;Outside stock area&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;    3.3&quot;,&quot;   29.250&quot;,&quot;  0.07534247&quot;,&quot;  0.1&quot;,&quot;  0.2&quot;,&quot;  0.3816794&quot;,&quot;  0.4&quot;,&quot;  0.6&quot;,&quot;  0.7110241&quot;,&quot;  0.720&quot;,&quot;  0.8351238&quot;,&quot;  0.9923664&quot;,&quot;  1.068702&quot;,&quot;  1.18&quot;,&quot;  1.259&quot;,&quot;  1.3&quot;,&quot;  1.450382&quot;,&quot;  2.2&quot;,&quot;  2.24&quot;,&quot;  2.258317&quot;,&quot;  2.741242&quot;,&quot;  3.5&quot;,&quot;  3.6&quot;,&quot;  3.957273&quot;,&quot;  3.980383&quot;,&quot;  4.022831&quot;,&quot;  4.049043&quot;,&quot;  4.418496&quot;,&quot;  4.741&quot;,&quot;  4.8&quot;,&quot;  5.088063&quot;,&quot;  5.9&quot;,&quot;  6.084073&quot;,&quot;  6.7&quot;,&quot;  6.914&quot;,&quot;  7.0&quot;,&quot;  7.220&quot;,&quot;  7.5&quot;,&quot;  7.962&quot;,&quot;  8.1&quot;,&quot;  8.3&quot;,&quot;  9.1&quot;,&quot; 0.1&quot;,&quot; 0.5&quot;,&quot; 0.9&quot;,&quot; 1.0&quot;,&quot; 1.1&quot;,&quot; 1.2&quot;,&quot; 1.3&quot;,&quot; 1.5&quot;,&quot; 10.83969&quot;,&quot; 11.60&quot;,&quot; 11.65203&quot;,&quot; 11.82905&quot;,&quot; 11.9&quot;,&quot; 13.430&quot;,&quot; 14.50382&quot;,&quot; 14.8&quot;,&quot; 15.1&quot;,&quot; 17.31948&quot;,&quot; 18.02149&quot;,&quot; 18.1&quot;,&quot; 18.600&quot;,&quot; 19.5&quot;,&quot; 19.500&quot;,&quot; 2.9&quot;,&quot; 20.2&quot;,&quot; 21.7&quot;,&quot; 24.6&quot;,&quot; 28.8&quot;,&quot; 29.7&quot;,&quot; 3.5&quot;,&quot; 35.660&quot;,&quot; 35.760&quot;,&quot; 4.0&quot;,&quot; 4.045802&quot;,&quot; 4.351145&quot;,&quot; 5.0&quot;,&quot; 7.037833&quot;,&quot;0.5&quot;,&quot;0.9&quot;,&quot;1,086.5&quot;,&quot;1,431.114&quot;,&quot;1,593.551&quot;,&quot;1,752.5&quot;,&quot;1,844.156&quot;,&quot;1,857.1&quot;,&quot;10.0&quot;,&quot;111.3229&quot;,&quot;113.74046&quot;,&quot;12.992994&quot;,&quot;121.9847&quot;,&quot;123.4&quot;,&quot;126.53228963&quot;,&quot;127.695369&quot;,&quot;129.3&quot;,&quot;13.3&quot;,&quot;13.4&quot;,&quot;132.6&quot;,&quot;134.8&quot;,&quot;135.8&quot;,&quot;139.7&quot;,&quot;145.2&quot;,&quot;15.5&quot;,&quot;151.5&quot;,&quot;153.6275&quot;,&quot;156.6288&quot;,&quot;157.9&quot;,&quot;159.235&quot;,&quot;159.84914&quot;,&quot;16.0&quot;,&quot;162.3&quot;,&quot;162.9&quot;,&quot;169.000326&quot;,&quot;170.5&quot;,&quot;171.9920598&quot;,&quot;18.4&quot;,&quot;181.6793893&quot;,&quot;182.74809&quot;,&quot;184.2&quot;,&quot;189.9&quot;,&quot;193.606&quot;,&quot;195.068192&quot;,&quot;195.4005&quot;,&quot;196.7&quot;,&quot;199.24&quot;,&quot;2,350.992&quot;,&quot;2,606.442&quot;,&quot;2,764.075&quot;,&quot;2.3&quot;,&quot;20.4&quot;,&quot;200.305344&quot;,&quot;201.7&quot;,&quot;203.0534351&quot;,&quot;204.13125&quot;,&quot;206.0939&quot;,&quot;21.8&quot;,&quot;211.0&quot;,&quot;217.183&quot;,&quot;219.6&quot;,&quot;224.618721&quot;,&quot;23.1&quot;,&quot;23.9&quot;,&quot;236.023&quot;,&quot;25.0&quot;,&quot;253.24148&quot;,&quot;256.721&quot;,&quot;261.6&quot;,&quot;261.991194&quot;,&quot;264.38&quot;,&quot;268.4&quot;,&quot;270.9&quot;,&quot;275.46&quot;,&quot;278.284914&quot;,&quot;28.6&quot;,&quot;283.69640&quot;,&quot;284.014479&quot;,&quot;287.4024788&quot;,&quot;289.088277&quot;,&quot;3,110.1&quot;,&quot;301.7&quot;,&quot;310.6&quot;,&quot;314.939&quot;,&quot;329.394675&quot;,&quot;34.1&quot;,&quot;34.3&quot;,&quot;349.8&quot;,&quot;351.357&quot;,&quot;36.9&quot;,&quot;369.695&quot;,&quot;37.7&quot;,&quot;386.5&quot;,&quot;388.6&quot;,&quot;39&quot;,&quot;39.1&quot;,&quot;39.9&quot;,&quot;397.194&quot;,&quot;40.6&quot;,&quot;429.051&quot;,&quot;437.3&quot;,&quot;45.954198&quot;,&quot;46.1&quot;,&quot;46.7&quot;,&quot;460.559&quot;,&quot;47.3&quot;,&quot;47.9&quot;,&quot;481.7&quot;,&quot;484.122137&quot;,&quot;5.4&quot;,&quot;501.5&quot;,&quot;510.94&quot;,&quot;515.272&quot;,&quot;525.5&quot;,&quot;527.4&quot;,&quot;535.0&quot;,&quot;54.5&quot;,&quot;555.894&quot;,&quot;58.6&quot;,&quot;58.7&quot;,&quot;60.5&quot;,&quot;62.8&quot;,&quot;620.3&quot;,&quot;63.5&quot;,&quot;64.8&quot;,&quot;646.3&quot;,&quot;670.5&quot;,&quot;671.8&quot;,&quot;685.1&quot;,&quot;69.1&quot;,&quot;7.8&quot;,&quot;77.3&quot;,&quot;82.0&quot;,&quot;82.6&quot;,&quot;82.7&quot;,&quot;83.4&quot;,&quot;84.4&quot;,&quot;86.717557&quot;,&quot;89.9&quot;,&quot;9.5&quot;,&quot;90.4&quot;,&quot;925.5&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1963,1963,1964,1964,1964,1965,1965,1965,1965,1966,1966,1967,1968,1968,1969,1969,1969,1970,1970,1971,1971,1972,1972,1972,1973,1973,1973,1973,1974,1974,1974,1975,1975,1975,1976,1976,1976,1976,1977,1977,1977,1977,1977,1977,1978,1978,1978,1978,1978,1978,1979,1979,1979,1979,1979,1979,1980,1980,1980,1980,1980,1980,1981,1981,1981,1981,1981,1981,1981,1982,1982,1982,1982,1983,1983,1983,1983,1984,1984,1984,1984,1985,1985,1985,1985,1986,1986,1986,1986,1987,1987,1987,1988,1988,1988,1988,1989,1989,1989,1990,1990,1990,1990,1991,1991,1991,1991,1992,1992,1992,1993,1993,1993,1993,1993,1994,1994,1994,1994,1994,1995,1995,1995,1995,1995,1996,1996,1996,1997,1997,1997,1997,1997,1998,1998,1998,1998,1998,1999,1999,1999,1999,1999,1999,2000,2000,2000,2000,2000,2001,2001,2001,2001,2002,2002,2002,2002,2003,2003,2003,2003,2003,2004,2004,2004,2004,2004,2004,2005,2005,2005,2005,2005,2006,2006,2006,2006,2006,2007,2007,2007,2007,2007,2008,2008,2008,2008,2009,2009,2009,2009,2010,2010,2010,2010,2011,2011,2011,2011,2012,2012,2012,2013,2013,2013,2013,2014,2014,2014,2015,2015,2015,2016,2016,2016,2016,2017,2017,2017,2017,2018,2018,2018,2019,2019,2019,2020],["FALL","SUMMER","FALL","SUMMER","WINTER","FALL","SUMMER","WINTER","WINTER","FALL","WINTER","FALL","FALL","SPRING","FALL","SPRING","SUMMER","FALL","SPRING","FALL","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","SUMMER","WINTER","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","WINTER","FALL","FALL","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING"],["Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder","Summer flounder"],["all","all","all","Outside stock area","all","all","all","all","Outside stock area","all","all","all","all","all","all","all","all","all","all","all","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","all","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all"],["21.8","0.9","36.9","5.4","39.9","2.3","0.5","21.8"," 0.9","0.5","34.1","84.4","77.3","34.3","39","37.7","0.5","9.5","7.8","15.5","40.6","162.3"," 19.5","23.1","535.0"," 29.7","484.122137","  1.068702","437.3","182.74809"," 10.83969","671.8"," 11.9","121.9847","349.8","  6.7","203.0534351","  0.9923664","388.6"," 18.1","181.6793893","  0.3816794","132.6","  9.1","211.0"," 28.8","200.305344","  1.450382","58.6","13.4","268.4"," 15.1","45.954198"," 4.351145","46.7"," 5.0","310.6"," 24.6","86.717557"," 4.045802","20.4","13.3","261.6"," 14.8","113.74046"," 14.50382","23.9","16.0","58.7","201.7","  8.1","139.7"," 21.7","301.7"," 20.2","90.4","46.1","219.6","  4.8","54.5","18.4","157.9","  1.3","135.8","  6.7","145.2","  5.9","82.6"," 0.5","123.4","62.8"," 0.1","129.3","  2.2","69.1"," 1.0","63.5"," 3.5","28.6","89.9"," 4.0","25.0"," 1.5","162.9","  0.2","39.1"," 1.3","184.2","47.9","501.5","170.5","  0.4","60.5"," 0.9","670.5","151.5","  2.2","64.8"," 1.1","525.5","196.7","  0.6","47.3"," 1.2","620.3","270.9","83.4","1,857.1","481.7","  0.1","82.0"," 2.9","685.1","646.3","  3.5","82.7","10.0","925.5","386.5","  7.0","134.8","  3.6","1,086.5","    3.3","527.4","  8.3","189.9","  7.5","1,752.5","429.051"," 19.500","236.023","3,110.1","510.94"," 11.60","264.38","2,764.075","314.939"," 13.430","275.46","  2.24","2,606.442","555.894","  6.914","256.721","  7.962","2,350.992","   29.250","460.559"," 18.600","199.24","  1.18","1,431.114","369.695"," 35.760","217.183","  4.741","1,844.156","515.272"," 35.660","351.357","  0.720","1,593.551","397.194","  7.220","159.235","  1.259","278.284914","  6.084073","169.000326","  5.088063","195.068192","  4.049043","287.4024788","  0.7110241","329.394675","  4.418496","261.991194","  4.022831","283.69640"," 18.02149","193.606","289.088277","  2.741242","224.618721","  3.957273","253.24148"," 17.31948","153.6275","284.014479","  3.980383","195.4005","204.13125"," 11.65203","127.695369","  2.258317","12.992994"," 7.037833","126.53228963","  0.07534247","159.84914"," 11.82905","156.6288","171.9920598","  0.8351238","206.0939","111.3229"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Year<\/th>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Biomass<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":0},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="survey-data-swept-area-estimates-1" class="section level4 unnumbered">
+<h4>Survey data (swept area estimates)</h4>
+<p>swept_biomass_data</p>
+<div id="htmlwidget-700451336de9c820ec0a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-700451336de9c820ec0a">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],["  279,290.10","  410,298.02","  228,930.89","  719,676.28","  507,997.67","1,980,524.67","3,074,036.82","2,981,981.04","4,273,797.72","3,557,797.05","2,856,601.16","  737,793.76","1,659,327.80","1,956,290.53","3,307,833.77","2,139,361.60","1,210,542.41","3,319,612.31","2,056,558.93","1,162,555.93","1,693,985.22","  660,452.99","  645,484.53","  986,548.68","1,136,636.92","1,385,255.42","1,296,601.97","1,243,548.73","1,679,549.11","1,766,155.07","2,143,976.80","2,822,976.32","4,698,978.00","5,724,497.35","6,617,577.96","6,513,906.21","6,407,998.89","4,338,165.02","4,615,028.47","8,308,575.05","3,926,126.94","3,056,497.87","4,108,827.52","4,271,956.13","4,442,447.30","3,853,632.22","2,581,884.27","3,998,736.39","2,930,187.74","2,212,156.78","4,128,822.88","3,790,372.33","1,718,649.20","  898,496.68","1,474,734.20","   78,456.41","   13,234.91","2,347,852.37","1,913,995.94","1,261,511.01","  223,191.13","  509,338.71","1,425,765.47","3,402,795.22","5,251,180.67","7,133,308.29","3,450,839.34","5,491,969.96","2,055,802.02","2,850,552.22","3,325,152.37","2,382,715.98","2,488,104.04","3,301,835.81","2,457,265.67","2,211,205.40","1,885,396.55","1,052,767.76","1,127,253.61","  701,531.95","  900,911.40","1,255,923.61","2,090,860.46","  864,865.76","1,565,441.40","2,449,140.15","1,921,863.19","3,967,902.61","5,451,983.58","4,834,735.17","5,723,691.01","5,159,312.25","5,121,756.30","5,287,003.98","7,946,507.82","5,462,838.86","5,610,324.85","7,249,068.61","5,233,090.84","5,918,236.49","3,198,499.71","6,564,859.57","4,848,548.90","4,073,464.10","5,207,240.16","3,936,315.08","4,655,549.74","  607,441.59","3,116,694.89","2,654,856.24"],["   81,965.8","  173,607.1","   90,242.6","  275,443.2","  125,410.9","  233,525.4","  593,779.6","  725,891.7","1,458,313.2","  524,200.6","  497,110.1","  175,558.5","  214,181.7","  289,541.3","  465,700.4","  322,226.8","  229,155.4","  559,049.3","  286,926.1","  214,765.1","  352,005.0","  143,978.1","  118,564.9","  149,082.3","  206,965.8","  191,124.4","  191,735.0","  248,954.1","  360,141.3","  256,989.7","  347,207.1","  521,920.5","  795,001.7","  725,601.9","  994,280.6","  618,319.8","1,423,997.5","  945,850.5","  984,830.8","2,318,657.5","  626,865.6","  398,937.9","  476,053.6","  517,306.6","  671,379.2","  375,569.2","  403,366.3","  672,402.3","  355,453.6","  256,602.1","1,407,042.7","  500,208.0","  264,474.2","  333,175.0","  708,243.7","   57,517.6","   13,234.9","  661,534.2","  521,042.1","  385,202.9","  123,187.4","  170,246.0","  196,668.2","  530,824.6","  697,038.0","  800,054.5","  355,620.2","  978,883.5","  252,643.0","  481,783.1","  465,525.4","  426,405.1","  398,644.3","  586,589.6","  531,734.7","  363,240.3","  451,075.4","  167,987.6","  155,481.1","  170,085.3","  177,239.4","  183,593.0","  404,004.7","  112,452.0","  195,104.0","  447,846.0","  331,138.8","  558,270.2","1,036,583.9","  641,987.6","  636,158.1","  888,371.9","  941,815.7","  932,629.1","1,542,946.9","  975,245.7","  758,786.2","2,445,926.1","  940,682.7","1,082,351.4","  505,031.8","2,108,031.1","1,192,881.4","  648,297.4","  708,185.2","  876,851.6","  926,057.8","  244,268.8","  459,695.9","  440,340.7"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Biomass (kg)<\/th>\n      <th>Standard error<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="assessment-data-1" class="section level4 unnumbered">
+<h4>Assessment data</h4>
+<p>asmt_biomass_data</p>
+<div id="htmlwidget-add9fc230dc4b33ec35f" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-add9fc230dc4b33ec35f">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"disabled\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1982\" data-max=\"2017\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot; 5,331&quot;,&quot; 5,394&quot;,&quot; 5,521&quot;,&quot; 7,018&quot;,&quot; 7,040&quot;,&quot; 7,069&quot;,&quot; 7,100&quot;,&quot; 7,408&quot;,&quot; 8,839&quot;,&quot; 9,074&quot;,&quot; 9,135&quot;,&quot; 9,156&quot;,&quot; 9,157&quot;,&quot; 9,169&quot;,&quot; 9,312&quot;,&quot; 9,585&quot;,&quot; 9,589&quot;,&quot; 9,622&quot;,&quot; 9,658&quot;,&quot; 9,911&quot;,&quot; 9,923&quot;,&quot;10,110&quot;,&quot;10,540&quot;,&quot;10,653&quot;,&quot;10,666&quot;,&quot;10,687&quot;,&quot;10,873&quot;,&quot;10,897&quot;,&quot;10,927&quot;,&quot;10,941&quot;,&quot;10,965&quot;,&quot;11,023&quot;,&quot;11,127&quot;,&quot;11,288&quot;,&quot;11,297&quot;,&quot;11,483&quot;,&quot;12,121&quot;,&quot;12,142&quot;,&quot;12,314&quot;,&quot;12,323&quot;,&quot;12,465&quot;,&quot;12,471&quot;,&quot;12,568&quot;,&quot;12,572&quot;,&quot;12,802&quot;,&quot;13,077&quot;,&quot;13,412&quot;,&quot;13,603&quot;,&quot;13,846&quot;,&quot;14,072&quot;,&quot;14,543&quot;,&quot;15,139&quot;,&quot;15,327&quot;,&quot;15,415&quot;,&quot;15,431&quot;,&quot;15,916&quot;,&quot;17,051&quot;,&quot;17,374&quot;,&quot;17,675&quot;,&quot;17,713&quot;,&quot;17,884&quot;,&quot;17,899&quot;,&quot;17,919&quot;,&quot;17,921&quot;,&quot;18,038&quot;,&quot;18,048&quot;,&quot;18,163&quot;,&quot;18,210&quot;,&quot;18,333&quot;,&quot;18,344&quot;,&quot;18,347&quot;,&quot;18,402&quot;,&quot;18,435&quot;,&quot;18,444&quot;,&quot;18,458&quot;,&quot;18,491&quot;,&quot;18,600&quot;,&quot;18,627&quot;,&quot;18,670&quot;,&quot;18,742&quot;,&quot;18,797&quot;,&quot;18,862&quot;,&quot;18,917&quot;,&quot;20,835&quot;,&quot;20,843&quot;,&quot;20,889&quot;,&quot;21,002&quot;,&quot;21,029&quot;,&quot;21,054&quot;,&quot;21,103&quot;,&quot;21,105&quot;,&quot;21,120&quot;,&quot;21,593&quot;,&quot;21,797&quot;,&quot;22,185&quot;,&quot;22,205&quot;,&quot;22,638&quot;,&quot;22,726&quot;,&quot;22,903&quot;,&quot;22,913&quot;,&quot;23,221&quot;,&quot;23,515&quot;,&quot;23,673&quot;,&quot;23,800&quot;,&quot;23,966&quot;,&quot;23,998&quot;,&quot;24,134&quot;,&quot;24,266&quot;,&quot;24,300&quot;,&quot;24,484&quot;,&quot;24,645&quot;,&quot;24,651&quot;,&quot;24,660&quot;,&quot;24,813&quot;,&quot;24,817&quot;,&quot;24,838&quot;,&quot;24,841&quot;,&quot;24,854&quot;,&quot;24,976&quot;,&quot;25,006&quot;,&quot;25,020&quot;,&quot;25,234&quot;,&quot;25,348&quot;,&quot;25,482&quot;,&quot;25,671&quot;,&quot;26,370&quot;,&quot;27,130&quot;,&quot;27,352&quot;,&quot;27,369&quot;,&quot;27,592&quot;,&quot;27,938&quot;,&quot;28,216&quot;,&quot;28,493&quot;,&quot;28,504&quot;,&quot;28,560&quot;,&quot;28,838&quot;,&quot;28,851&quot;,&quot;28,896&quot;,&quot;28,923&quot;,&quot;30,451&quot;,&quot;30,562&quot;,&quot;31,316&quot;,&quot;33,752&quot;,&quot;34,070&quot;,&quot;34,235&quot;,&quot;34,578&quot;,&quot;35,347&quot;,&quot;35,365&quot;,&quot;35,649&quot;,&quot;36,164&quot;,&quot;36,240&quot;,&quot;36,344&quot;,&quot;36,661&quot;,&quot;37,007&quot;,&quot;37,097&quot;,&quot;37,786&quot;,&quot;38,768&quot;,&quot;39,127&quot;,&quot;40,148&quot;,&quot;40,323&quot;,&quot;40,672&quot;,&quot;41,152&quot;,&quot;41,262&quot;,&quot;41,524&quot;,&quot;41,548&quot;,&quot;41,895&quot;,&quot;42,092&quot;,&quot;43,000&quot;,&quot;43,152&quot;,&quot;43,991&quot;,&quot;44,034&quot;,&quot;44,095&quot;,&quot;44,188&quot;,&quot;44,241&quot;,&quot;44,552&quot;,&quot;44,610&quot;,&quot;44,767&quot;,&quot;44,768&quot;,&quot;44,845&quot;,&quot;44,855&quot;,&quot;44,878&quot;,&quot;44,950&quot;,&quot;44,984&quot;,&quot;45,342&quot;,&quot;45,365&quot;,&quot;45,369&quot;,&quot;45,491&quot;,&quot;45,553&quot;,&quot;45,581&quot;,&quot;45,608&quot;,&quot;45,674&quot;,&quot;45,749&quot;,&quot;45,869&quot;,&quot;45,930&quot;,&quot;46,027&quot;,&quot;46,029&quot;,&quot;46,116&quot;,&quot;46,178&quot;,&quot;46,272&quot;,&quot;46,283&quot;,&quot;46,523&quot;,&quot;46,538&quot;,&quot;46,644&quot;,&quot;46,841&quot;,&quot;46,855&quot;,&quot;47,280&quot;,&quot;47,499&quot;,&quot;47,583&quot;,&quot;47,943&quot;,&quot;48,046&quot;,&quot;48,288&quot;,&quot;48,540&quot;,&quot;48,549&quot;,&quot;48,942&quot;,&quot;49,016&quot;,&quot;49,233&quot;,&quot;49,828&quot;,&quot;49,830&quot;,&quot;49,869&quot;,&quot;50,357&quot;,&quot;50,659&quot;,&quot;51,129&quot;,&quot;51,238&quot;,&quot;51,578&quot;,&quot;51,785&quot;,&quot;52,235&quot;,&quot;52,588&quot;,&quot;52,635&quot;,&quot;53,156&quot;,&quot;53,211&quot;,&quot;53,458&quot;,&quot;55,954&quot;,&quot;56,052&quot;,&quot;57,020&quot;,&quot;57,427&quot;,&quot;59,019&quot;,&quot;60,238&quot;,&quot;60,941&quot;,&quot;61,339&quot;,&quot;63,401&quot;,&quot;63,850&quot;,&quot;64,312&quot;,&quot;64,394&quot;,&quot;64,519&quot;,&quot;64,754&quot;,&quot;65,969&quot;,&quot;69,153&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Mature Biomass (Mean)&quot;,&quot;Spawning Stock Biomass Age 0+&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"disabled\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"2009\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"disabled\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Mature&quot;,&quot;Spawning Stock&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[["Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic","Mid-Atlantic"],[1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008],["30,451","28,896","24,266","21,797","22,185","22,913","12,572"," 7,408","12,121","14,072","13,077","14,543","15,916","21,103","28,923","35,649","35,365","36,344","41,262","52,588","61,339","69,153","64,394","60,941","64,754","63,850","64,312","65,969","64,519","59,019","63,401","56,052","51,785","45,930","43,000","44,552","23,998","22,726","18,210","18,038","17,921","18,491"," 9,911"," 5,331"," 8,839","10,927","11,023","12,314","13,412","17,051","21,593","24,484","25,482","27,352","33,752","38,768","44,188","49,869","48,046","44,845","45,581","44,241","44,034","45,553","46,272","44,095","43,991","40,148","37,786","36,240","24,134","22,903","18,347","18,163","18,048","18,600"," 9,923"," 5,394"," 9,156","11,127","11,288","12,568","13,603","17,374","22,205","24,660","25,671","27,592","34,070","39,127","44,610","50,357","48,549","45,369","46,178","44,878","44,768","46,538","47,499","45,365","45,342","41,524","40,323","24,300","23,221","18,627","18,435","18,344","18,917","10,110"," 5,521"," 9,312","11,297","11,483","12,802","13,846","17,675","22,638","25,234","26,370","28,493","35,347","40,672","46,523","52,635","50,659","47,583","49,233","48,540","48,942","51,578","53,156","51,129","51,238","25,006","24,813","21,029","18,670","17,884","18,402","10,897"," 7,040"," 9,589"," 9,135","10,653","12,471","15,431","20,835","23,673","24,660","27,130","28,560","34,235","36,661","41,548","45,749","46,855","45,674","47,943","49,828","52,235","55,954","57,427","57,020","25,020","24,841","21,054","18,797","17,899","18,444","10,941"," 7,069"," 9,622"," 9,157","10,687","12,465","15,415","20,889","23,800","24,838","27,369","28,838","34,578","37,007","41,895","46,027","47,280","46,283","48,288","49,016","49,830","53,211","60,238","24,976","24,854","21,120","18,862","17,919","18,458","10,965"," 7,100"," 9,658"," 9,169","10,666","12,323","15,327","21,105","23,966","25,348","28,504","28,851","31,316","37,097","42,092","45,869","46,841","45,608","46,644","45,491","44,950","53,458","24,645","24,651","21,002","18,742","17,713","18,333","10,873"," 7,018"," 9,585"," 9,074","10,540","12,142","15,139","20,843","23,515","24,817","27,938","28,216","30,562","36,164","41,152","44,855","46,116","44,984","44,767","43,152","46,029"],["Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Mature Biomass (Mean)","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+","Spawning Stock Biomass Age 0+"],["Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons","Metric Tons"],[2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2013,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2012,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2010,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009],["No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age","No age"],["Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Mature","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock","Spawning Stock"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Region<\/th>\n      <th>Year<\/th>\n      <th>Value<\/th>\n      <th>Description<\/th>\n      <th>Units<\/th>\n      <th>AssessmentYear<\/th>\n      <th>Age<\/th>\n      <th>Category<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[1,5]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="abundance.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bbmsy.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

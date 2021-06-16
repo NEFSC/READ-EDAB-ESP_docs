@@ -1,0 +1,25 @@
+"Functional.Group","Attribute","Attribute.Category","Low","Moderate","High","Very.High"
+"Pelagic Fish and Cephalapods","Adult Mobility","Sensitivity Attribute",22,3,0,0
+"Pelagic Fish and Cephalapods","Air Temperature (Proxy for Nearshore Ocean Temp)","Exposure Factor",10,4,3,3
+"Pelagic Fish and Cephalapods","Complexity in Reproductive Strategy","Sensitivity Attribute",5,14,6,0
+"Pelagic Fish and Cephalapods","Currents","Exposure Factor",3,11,6,0
+"Pelagic Fish and Cephalapods","Dispersal of Early Life Stages","Sensitivity Attribute",12,13,0,0
+"Pelagic Fish and Cephalapods","Early Life History Survival and Settlement Requirements","Sensitivity Attribute",3,8,10,4
+"Pelagic Fish and Cephalapods","Habitat Specificity","Sensitivity Attribute",14,9,2,0
+"Pelagic Fish and Cephalapods","Mean Precipitation","Exposure Factor",19,1,0,0
+"Pelagic Fish and Cephalapods","Mean Sea Surface Salinity","Exposure Factor",13,6,1,0
+"Pelagic Fish and Cephalapods","Mean Sea Surface Temperature","Exposure Factor",0,0,1,19
+"Pelagic Fish and Cephalapods","Ocean Acidification","Exposure Factor",0,0,0,20
+"Pelagic Fish and Cephalapods","Other Stressors","Sensitivity Attribute",13,11,1,0
+"Pelagic Fish and Cephalapods","Population Growth Rate","Sensitivity Attribute",13,10,2,0
+"Pelagic Fish and Cephalapods","Prey Specificity","Sensitivity Attribute",22,3,0,0
+"Pelagic Fish and Cephalapods","Sea Level Rise","Exposure Factor",18,2,0,0
+"Pelagic Fish and Cephalapods","Sensitivity to Ocean Acidification","Sensitivity Attribute",16,9,0,0
+"Pelagic Fish and Cephalapods","Sensitivity to Temperature","Sensitivity Attribute",15,7,3,0
+"Pelagic Fish and Cephalapods","Spawning Cycle","Sensitivity Attribute",0,12,13,0
+"Pelagic Fish and Cephalapods","Stock Size/Status","Sensitivity Attribute",1,10,11,3
+"Pelagic Fish and Cephalapods","Variability in Air Temperature","Exposure Factor",20,0,0,0
+"Pelagic Fish and Cephalapods","Variability in Ocean Acidification","Exposure Factor",20,0,0,0
+"Pelagic Fish and Cephalapods","Variability in Precipitation","Exposure Factor",18,2,0,0
+"Pelagic Fish and Cephalapods","Variability in Sea Surface Salinity","Exposure Factor",16,4,0,0
+"Pelagic Fish and Cephalapods","Variability in Sea Surface Temperature","Exposure Factor",19,1,0,0

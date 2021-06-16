@@ -1,0 +1,25 @@
+"Functional.Group","Attribute","Attribute.Category","Low","Moderate","High","Very.High"
+"Groundfish","Adult Mobility","Sensitivity Attribute",3,14,8,0
+"Groundfish","Air Temperature (Proxy for Nearshore Ocean Temp)","Exposure Factor",20,0,0,0
+"Groundfish","Complexity in Reproductive Strategy","Sensitivity Attribute",1,13,11,0
+"Groundfish","Currents","Exposure Factor",3,11,6,0
+"Groundfish","Dispersal of Early Life Stages","Sensitivity Attribute",14,11,0,0
+"Groundfish","Early Life History Survival and Settlement Requirements","Sensitivity Attribute",1,7,14,3
+"Groundfish","Habitat Specificity","Sensitivity Attribute",9,13,3,0
+"Groundfish","Mean Precipitation","Exposure Factor",20,0,0,0
+"Groundfish","Mean Sea Surface Salinity","Exposure Factor",14,5,1,0
+"Groundfish","Mean Sea Surface Temperature","Exposure Factor",0,0,2,18
+"Groundfish","Ocean Acidification","Exposure Factor",0,0,0,20
+"Groundfish","Other Stressors","Sensitivity Attribute",6,14,5,0
+"Groundfish","Population Growth Rate","Sensitivity Attribute",1,6,16,2
+"Groundfish","Prey Specificity","Sensitivity Attribute",19,6,0,0
+"Groundfish","Sea Level Rise","Exposure Factor",11,6,3,0
+"Groundfish","Sensitivity to Ocean Acidification","Sensitivity Attribute",17,8,0,0
+"Groundfish","Sensitivity to Temperature","Sensitivity Attribute",7,12,6,0
+"Groundfish","Spawning Cycle","Sensitivity Attribute",4,18,3,0
+"Groundfish","Stock Size/Status","Sensitivity Attribute",0,0,3,22
+"Groundfish","Variability in Air Temperature","Exposure Factor",20,0,0,0
+"Groundfish","Variability in Ocean Acidification","Exposure Factor",20,0,0,0
+"Groundfish","Variability in Precipitation","Exposure Factor",20,0,0,0
+"Groundfish","Variability in Sea Surface Salinity","Exposure Factor",16,4,0,0
+"Groundfish","Variability in Sea Surface Temperature","Exposure Factor",20,0,0,0

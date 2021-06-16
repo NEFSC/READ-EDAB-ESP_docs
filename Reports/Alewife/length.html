@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.1 Length | Alewife</title>
+  <meta name="description" content="3.1 Length | Alewife" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.1 Length | Alewife" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.1 Length | Alewife" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
+
+
+<meta name="date" content="2021-06-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="biological-information.html"/>
+<link rel="next" href="von-bertalanffy-growth-curve.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/dt-ext-scroller-1.10.20/css/scroller.dataTables.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-scroller-1.10.20/js/dataTables.scroller.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Alewife</a></li>
+<li class="chapter" data-level="1" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="stock-identification.html"><a href="stock-identification.html"><i class="fa fa-check"></i><b>1.1</b> Stock identification</a></li>
+<li class="chapter" data-level="1.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html"><i class="fa fa-check"></i><b>1.2</b> Data collection and presentation</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#assessmentdata-methods"><i class="fa fa-check"></i><b>1.2.1</b> <code>assessmentdata</code> methods</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#survdat-methods"><i class="fa fa-check"></i><b>1.2.2</b> <code>survdat</code> methods</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="risk-assessment.html"><a href="risk-assessment.html"><i class="fa fa-check"></i><b>1.3</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-across-stocks"><i class="fa fa-check"></i><b>1.3.1</b> Risk across stocks</a></li>
+<li class="chapter" data-level="1.3.2" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-within-stocks"><i class="fa fa-check"></i><b>1.3.2</b> Risk within stocks</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="habitat-information.html"><a href="habitat-information.html"><i class="fa fa-check"></i><b>2</b> Habitat information</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html"><i class="fa fa-check"></i><b>2.1</b> Geographic distribution</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html#map-of-distribution"><i class="fa fa-check"></i><b>2.1.1</b> Map of distribution</a></li>
+<li class="chapter" data-level="2.1.2" data-path="geographic-distribution.html"><a href="geographic-distribution.html#latitude-and-longitude-ranges"><i class="fa fa-check"></i><b>2.1.2</b> Latitude and longitude ranges</a></li>
+<li class="chapter" data-level="2.1.3" data-path="geographic-distribution.html"><a href="geographic-distribution.html#figures"><i class="fa fa-check"></i><b>2.1.3</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="temperature.html"><a href="temperature.html"><i class="fa fa-check"></i><b>2.2</b> Temperature</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="temperature.html"><a href="temperature.html#figures-1"><i class="fa fa-check"></i><b>2.2.1</b> Figures</a></li>
+<li class="chapter" data-level="2.2.2" data-path="temperature.html"><a href="temperature.html#summary"><i class="fa fa-check"></i><b>2.2.2</b> Summary</a></li>
+<li class="chapter" data-level="2.2.3" data-path="temperature.html"><a href="temperature.html#data"><i class="fa fa-check"></i><b>2.2.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="salinity.html"><a href="salinity.html"><i class="fa fa-check"></i><b>2.3</b> Salinity</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="salinity.html"><a href="salinity.html#figures-2"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+<li class="chapter" data-level="2.3.2" data-path="salinity.html"><a href="salinity.html#summary-1"><i class="fa fa-check"></i><b>2.3.2</b> Summary</a></li>
+<li class="chapter" data-level="2.3.3" data-path="salinity.html"><a href="salinity.html#data-1"><i class="fa fa-check"></i><b>2.3.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="depth.html"><a href="depth.html"><i class="fa fa-check"></i><b>2.4</b> Depth</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="depth.html"><a href="depth.html#figures-3"><i class="fa fa-check"></i><b>2.4.1</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="habitat-vulnerability.html"><a href="habitat-vulnerability.html"><i class="fa fa-check"></i><b>2.5</b> Habitat vulnerability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="biological-information.html"><a href="biological-information.html"><i class="fa fa-check"></i><b>3</b> Biological information</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="length.html"><a href="length.html"><i class="fa fa-check"></i><b>3.1</b> Length</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="length.html"><a href="length.html#overview"><i class="fa fa-check"></i><b>3.1.1</b> Overview</a></li>
+<li class="chapter" data-level="3.1.2" data-path="length.html"><a href="length.html#summary-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.1.3" data-path="length.html"><a href="length.html#risk"><i class="fa fa-check"></i><b>3.1.3</b> Risk</a></li>
+<li class="chapter" data-level="3.1.4" data-path="length.html"><a href="length.html#summary-2"><i class="fa fa-check"></i><b>3.1.4</b> Summary</a></li>
+<li class="chapter" data-level="3.1.5" data-path="length.html"><a href="length.html#data-2"><i class="fa fa-check"></i><b>3.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html"><i class="fa fa-check"></i><b>3.2</b> von Bertalanffy growth curve</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#length-at-age-growth-curve"><i class="fa fa-check"></i><b>3.2.1</b> Length at age growth curve</a></li>
+<li class="chapter" data-level="3.2.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#growth-differences-among-groups"><i class="fa fa-check"></i><b>3.2.2</b> Growth differences among groups</a></li>
+<li class="chapter" data-level="3.2.3" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#ancova-model-output"><i class="fa fa-check"></i><b>3.2.3</b> ANCOVA model output</a></li>
+<li class="chapter" data-level="3.2.4" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#residuals-by-sex-and-decade"><i class="fa fa-check"></i><b>3.2.4</b> Residuals by sex and decade</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html"><i class="fa fa-check"></i><b>3.3</b> Length at first maturity</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#size-at-first-maturity"><i class="fa fa-check"></i><b>3.3.1</b> Size at first maturity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#maturity-classification"><i class="fa fa-check"></i><b>3.3.2</b> Maturity classification</a></li>
+<li class="chapter" data-level="3.3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#model-results"><i class="fa fa-check"></i><b>3.3.3</b> Model results</a></li>
+<li class="chapter" data-level="3.3.4" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#l50-differences-between-sexes"><i class="fa fa-check"></i><b>3.3.4</b> L50 differences between sexes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="condition.html"><a href="condition.html"><i class="fa fa-check"></i><b>3.4</b> Condition</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="condition.html"><a href="condition.html#length-vs-weight"><i class="fa fa-check"></i><b>3.4.1</b> Length vs weight</a></li>
+<li class="chapter" data-level="3.4.2" data-path="condition.html"><a href="condition.html#condition-factor-weight-volume"><i class="fa fa-check"></i><b>3.4.2</b> Condition factor: Weight-volume</a></li>
+<li class="chapter" data-level="3.4.3" data-path="condition.html"><a href="condition.html#data-3"><i class="fa fa-check"></i><b>3.4.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trophic-information.html"><a href="trophic-information.html"><i class="fa fa-check"></i><b>4</b> Trophic information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="primary-production.html"><a href="primary-production.html"><i class="fa fa-check"></i><b>4.1</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="primary-production.html"><a href="primary-production.html#figures-4"><i class="fa fa-check"></i><b>4.1.1</b> Figures</a></li>
+<li class="chapter" data-level="4.1.2" data-path="primary-production.html"><a href="primary-production.html#data-4"><i class="fa fa-check"></i><b>4.1.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="icthyoplankton.html"><a href="icthyoplankton.html"><i class="fa fa-check"></i><b>4.2</b> Icthyoplankton</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="icthyoplankton.html"><a href="icthyoplankton.html#relative-proportion-and-mean-abundance-of-alewife"><i class="fa fa-check"></i><b>4.2.1</b> Relative proportion and mean abundance of Alewife</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="diet.html"><a href="diet.html"><i class="fa fa-check"></i><b>4.3</b> Diet</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="diet.html"><a href="diet.html#figure"><i class="fa fa-check"></i><b>4.3.1</b> Figure</a></li>
+<li class="chapter" data-level="4.3.2" data-path="diet.html"><a href="diet.html#summary-3"><i class="fa fa-check"></i><b>4.3.2</b> Summary</a></li>
+<li class="chapter" data-level="4.3.3" data-path="diet.html"><a href="diet.html#data-5"><i class="fa fa-check"></i><b>4.3.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="population-information.html"><a href="population-information.html"><i class="fa fa-check"></i><b>5</b> Population information</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="abundance.html"><a href="abundance.html"><i class="fa fa-check"></i><b>5.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="abundance.html"><a href="abundance.html#survey-abundance-raw-measurements"><i class="fa fa-check"></i><b>5.1.1</b> Survey abundance (raw measurements)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="abundance.html"><a href="abundance.html#survey-abundance-swept-area-estimates"><i class="fa fa-check"></i><b>5.1.2</b> Survey abundance (swept area estimates)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="abundance.html"><a href="abundance.html#assessment-abundance"><i class="fa fa-check"></i><b>5.1.3</b> Assessment abundance</a></li>
+<li class="chapter" data-level="5.1.4" data-path="abundance.html"><a href="abundance.html#survey-summary"><i class="fa fa-check"></i><b>5.1.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.1.5" data-path="abundance.html"><a href="abundance.html#data-6"><i class="fa fa-check"></i><b>5.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="biomass.html"><a href="biomass.html"><i class="fa fa-check"></i><b>5.2</b> Biomass</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="biomass.html"><a href="biomass.html#survey-biomass-raw-measurements"><i class="fa fa-check"></i><b>5.2.1</b> Survey biomass (raw measurements)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="biomass.html"><a href="biomass.html#survey-biomass-swept-area-estimates"><i class="fa fa-check"></i><b>5.2.2</b> Survey biomass (swept area estimates)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="biomass.html"><a href="biomass.html#assessment-biomass"><i class="fa fa-check"></i><b>5.2.3</b> Assessment biomass</a></li>
+<li class="chapter" data-level="5.2.4" data-path="biomass.html"><a href="biomass.html#survey-summary-1"><i class="fa fa-check"></i><b>5.2.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.2.5" data-path="biomass.html"><a href="biomass.html#data-7"><i class="fa fa-check"></i><b>5.2.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="bbmsy.html"><a href="bbmsy.html"><i class="fa fa-check"></i><b>5.3</b> B/Bmsy</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="bbmsy.html"><a href="bbmsy.html#figure-1"><i class="fa fa-check"></i><b>5.3.1</b> Figure</a></li>
+<li class="chapter" data-level="5.3.2" data-path="bbmsy.html"><a href="bbmsy.html#data-8"><i class="fa fa-check"></i><b>5.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>5.4</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="recruitment.html"><a href="recruitment.html#figure-2"><i class="fa fa-check"></i><b>5.4.1</b> Figure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="recruitment.html"><a href="recruitment.html#data-9"><i class="fa fa-check"></i><b>5.4.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="age-diversity.html"><a href="age-diversity.html"><i class="fa fa-check"></i><b>5.5</b> Age diversity</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="age-diversity.html"><a href="age-diversity.html#age-diversity-1"><i class="fa fa-check"></i><b>5.5.1</b> Age diversity</a></li>
+<li class="chapter" data-level="5.5.2" data-path="age-diversity.html"><a href="age-diversity.html#density-plots-of-age"><i class="fa fa-check"></i><b>5.5.2</b> Density plots of age</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html"><i class="fa fa-check"></i><b>5.6</b> Climate vulnerability</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#figures-5"><i class="fa fa-check"></i><b>5.6.1</b> Figures</a></li>
+<li class="chapter" data-level="5.6.2" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#data-10"><i class="fa fa-check"></i><b>5.6.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="socio-economic-information.html"><a href="socio-economic-information.html"><i class="fa fa-check"></i><b>6</b> Socio-economic information</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html"><i class="fa fa-check"></i><b>6.1</b> Catch and landings</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="catch-and-landings.html"><a href="catch-and-landings.html#stock-assessment-catch"><i class="fa fa-check"></i><b>6.1.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.1.2" data-path="catch-and-landings.html"><a href="catch-and-landings.html#recreational-landings"><i class="fa fa-check"></i><b>6.1.2</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.1.3" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings"><i class="fa fa-check"></i><b>6.1.3</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.1.4" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-landings-by-state-and-year"><i class="fa fa-check"></i><b>6.1.4</b> Commercial landings by state and year</a></li>
+<li class="chapter" data-level="6.1.5" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-vs-recreational-catch"><i class="fa fa-check"></i><b>6.1.5</b> Commercial vs recreational catch</a></li>
+<li class="chapter" data-level="6.1.6" data-path="catch-and-landings.html"><a href="catch-and-landings.html#commercial-fishing-gear"><i class="fa fa-check"></i><b>6.1.6</b> Commercial fishing gear</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="landings-data.html"><a href="landings-data.html"><i class="fa fa-check"></i><b>6.2</b> Landings data</a></li>
+<li class="chapter" data-level="6.3" data-path="ffmsy.html"><a href="ffmsy.html"><i class="fa fa-check"></i><b>6.3</b> F/Fmsy</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="ffmsy.html"><a href="ffmsy.html#figure-3"><i class="fa fa-check"></i><b>6.3.1</b> Figure</a></li>
+<li class="chapter" data-level="6.3.2" data-path="ffmsy.html"><a href="ffmsy.html#data-11"><i class="fa fa-check"></i><b>6.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="revenue.html"><a href="revenue.html"><i class="fa fa-check"></i><b>6.4</b> Revenue</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="revenue.html"><a href="revenue.html#figures-6"><i class="fa fa-check"></i><b>6.4.1</b> Figures</a></li>
+<li class="chapter" data-level="6.4.2" data-path="revenue.html"><a href="revenue.html#data-12"><i class="fa fa-check"></i><b>6.4.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="management-information.html"><a href="management-information.html"><i class="fa fa-check"></i><b>7</b> Management information</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="stock-assessment-and-data-quality-information.html"><a href="stock-assessment-and-data-quality-information.html"><i class="fa fa-check"></i><b>7.1</b> Stock assessment and data quality information</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="risk-assessment-1.html"><a href="risk-assessment-1.html"><i class="fa fa-check"></i><b>8</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="figures-7.html"><a href="figures-7.html"><i class="fa fa-check"></i><b>8.1</b> Figures</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="figures-7.html"><a href="figures-7.html#relative-to-all-other-stocks"><i class="fa fa-check"></i><b>8.1.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.1.2" data-path="figures-7.html"><a href="figures-7.html#within-a-single-stock"><i class="fa fa-check"></i><b>8.1.2</b> Within a single stock</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-13.html"><a href="data-13.html"><i class="fa fa-check"></i><b>8.2</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-13.html"><a href="data-13.html#relative-to-all-other-stocks-1"><i class="fa fa-check"></i><b>8.2.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-13.html"><a href="data-13.html#value-within-each-stock-ranked-by-year"><i class="fa fa-check"></i><b>8.2.2</b> Value within each stock, ranked by year</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>9</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>9.1</b> R session information</a></li>
+<li class="chapter" data-level="9.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>9.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Alewife</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="length" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Length</h2>
+<p>Length data were pulled from <code>survdat</code>. Only years with more than 10 fish lengths were considered for analysis.</p>
+<div id="overview" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Overview</h3>
+length-freq
+<div class="figure" style="text-align: center"><span id="fig:length-freq-1"></span>
+<img src="figures/length-freq-1.png" alt="Alewife length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.1: Alewife length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-2"></span>
+<img src="figures/length-freq-2.png" alt="Alewife length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.2: Alewife length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-3"></span>
+<img src="figures/length-freq-3.png" alt="Alewife length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.3: Alewife length frequency distribution
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-freq-4"></span>
+<img src="figures/length-freq-4.png" alt="Alewife length frequency distribution" width="100%" />
+<p class="caption">
+Figure 3.4: Alewife length frequency distribution
+</p>
+</div>
+</div>
+<div id="summary-statistics" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Summary statistics</h3>
+<p>Separate <code>geom_gls()</code> functions were fit for the minimum, mean, and maximum lengths; trend lines are only shown when the trend was statistically significant, so some plots may have fewer than three trend lines. Please note, sometimes the survey observed a small number of fish outside of the defined stock area.</p>
+length
+<div class="figure" style="text-align: center"><span id="fig:length-1"></span>
+<img src="figures/length-1.png" alt="Alewife length" width="100%" />
+<p class="caption">
+Figure 3.5: Alewife length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-2"></span>
+<img src="figures/length-2.png" alt="Alewife length" width="100%" />
+<p class="caption">
+Figure 3.6: Alewife length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-3"></span>
+<img src="figures/length-3.png" alt="Alewife length" width="100%" />
+<p class="caption">
+Figure 3.7: Alewife length
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:length-4"></span>
+<img src="figures/length-4.png" alt="Alewife length" width="100%" />
+<p class="caption">
+Figure 3.8: Alewife length
+</p>
+</div>
+</div>
+<div id="risk" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Risk</h3>
+<p>See Methods for risk calculation details.</p>
+<div id="rank-of-change-compared-to-historical-ranked-among-stocks" class="section level5 unnumbered">
+<h5>Rank of change compared to historical, ranked among stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-41"></span>
+<img src="figures/unnamed-chunk-41-1.png" alt="Alewife rank of change in indicator compared to historical, ranked among stocks" width="100%" />
+<p class="caption">
+Figure 3.9: Alewife rank of change in indicator compared to historical, ranked among stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-in-each-year-compared-to-other-stocks" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) in each year, compared to other stocks</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-42"></span>
+<img src="figures/unnamed-chunk-42-1.png" alt="Alewife rank of value (magnitude) in each year, compared to other stocks" width="100%" />
+<p class="caption">
+Figure 3.10: Alewife rank of value (magnitude) in each year, compared to other stocks
+</p>
+</div>
+</div>
+<div id="rank-of-value-magnitude-within-a-single-stock-compared-to-all-years" class="section level5 unnumbered">
+<h5>Rank of value (magnitude) within a single stock, compared to all years</h5>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-43"></span>
+<img src="figures/unnamed-chunk-43-1.png" alt="Alewife rank of value (magnitude) within a single stock, compared to all years" width="100%" />
+<p class="caption">
+Figure 3.11: Alewife rank of value (magnitude) within a single stock, compared to all years
+</p>
+</div>
+</div>
+</div>
+<div id="summary-2" class="section level3" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Summary</h3>
+<p>length_summary</p>
+<table>
+<colgroup>
+<col width="5%" />
+<col width="13%" />
+<col width="25%" />
+<col width="29%" />
+<col width="10%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Season</th>
+<th align="left">Region</th>
+<th align="left">Mean value +- SD (n fish, n years)</th>
+<th align="left">Mean value +- SD (n fish, past 5 years)</th>
+<th align="left">Range (total)</th>
+<th align="left">Range (past 5 years)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FALL</td>
+<td align="left">all</td>
+<td align="left">20.33 +- 3.5 (78,753, 57)</td>
+<td align="left">20.41 +- 3.36 (21,341, 5)</td>
+<td align="left">3 - 38</td>
+<td align="left">9 - 30</td>
+</tr>
+<tr class="even">
+<td align="left">FALL</td>
+<td align="left">Outside stock area</td>
+<td align="left">19.62 +- 3.77 (3,130, 20)</td>
+<td align="left">18.54 +- 1.54 (1,566, 1)</td>
+<td align="left">4 - 32</td>
+<td align="left">15 - 25</td>
+</tr>
+<tr class="odd">
+<td align="left">SPRING</td>
+<td align="left">all</td>
+<td align="left">18.04 +- 5.07 (174,634, 53)</td>
+<td align="left">17.36 +- 4.44 (25,204, 5)</td>
+<td align="left">3 - 47</td>
+<td align="left">7 - 29</td>
+</tr>
+<tr class="even">
+<td align="left">SPRING</td>
+<td align="left">Outside stock area</td>
+<td align="left">17.27 +- 5.61 (15,837, 39)</td>
+<td align="left">14.3 +- 4.55 (1,098, 5)</td>
+<td align="left">6 - 44</td>
+<td align="left">7 - 30</td>
+</tr>
+<tr class="odd">
+<td align="left">SUMMER</td>
+<td align="left">all</td>
+<td align="left">22.98 +- 3.72 (9,268, 12)</td>
+<td align="left">19.74 +- 3.26 (73, 3)</td>
+<td align="left">10 - 44</td>
+<td align="left">13 - 30</td>
+</tr>
+<tr class="even">
+<td align="left">SUMMER</td>
+<td align="left">Outside stock area</td>
+<td align="left">27.23 +- 2.52 (47, 1)</td>
+<td align="left">27.23 +- 2.52 (47, 1)</td>
+<td align="left">15 - 30</td>
+<td align="left">15 - 30</td>
+</tr>
+<tr class="odd">
+<td align="left">WINTER</td>
+<td align="left">all</td>
+<td align="left">18.94 +- 5.49 (12,001, 21)</td>
+<td align="left">17.8 +- 6.06 (2,363, 5)</td>
+<td align="left">4 - 34</td>
+<td align="left">7 - 29</td>
+</tr>
+<tr class="even">
+<td align="left">WINTER</td>
+<td align="left">Outside stock area</td>
+<td align="left">8.71 +- 2.04 (767, 1)</td>
+<td align="left">8.71 +- 2.04 (767, 1)</td>
+<td align="left">5 - 27</td>
+<td align="left">5 - 27</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="data-2" class="section level3" number="3.1.5">
+<h3><span class="header-section-number">3.1.5</span> Data</h3>
+<p>length_data</p>
+<div id="htmlwidget-72b0c50ee62a1973f542" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-72b0c50ee62a1973f542">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1963\" data-max=\"2020\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;FALL&quot;,&quot;SPRING&quot;,&quot;SUMMER&quot;,&quot;WINTER&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;all&quot;,&quot;Outside stock area&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;1,000&quot;,&quot;1,032&quot;,&quot;1,044&quot;,&quot;1,063&quot;,&quot;1,079&quot;,&quot;1,084&quot;,&quot;1,105&quot;,&quot;1,109&quot;,&quot;1,161&quot;,&quot;1,192&quot;,&quot;1,216&quot;,&quot;1,271&quot;,&quot;1,276&quot;,&quot;1,327&quot;,&quot;1,354&quot;,&quot;1,375&quot;,&quot;1,388&quot;,&quot;1,424&quot;,&quot;1,430&quot;,&quot;1,516&quot;,&quot;1,566&quot;,&quot;1,567&quot;,&quot;1,575&quot;,&quot;1,771&quot;,&quot;1,892&quot;,&quot;1,955&quot;,&quot;1,974&quot;,&quot;10,305&quot;,&quot;105&quot;,&quot;109&quot;,&quot;113&quot;,&quot;117&quot;,&quot;120&quot;,&quot;129&quot;,&quot;131&quot;,&quot;136&quot;,&quot;139&quot;,&quot;14&quot;,&quot;143&quot;,&quot;16&quot;,&quot;16,219&quot;,&quot;166&quot;,&quot;17&quot;,&quot;175&quot;,&quot;18&quot;,&quot;19&quot;,&quot;198&quot;,&quot;2,077&quot;,&quot;2,089&quot;,&quot;2,097&quot;,&quot;2,248&quot;,&quot;2,329&quot;,&quot;2,348&quot;,&quot;2,349&quot;,&quot;2,384&quot;,&quot;2,391&quot;,&quot;2,397&quot;,&quot;2,418&quot;,&quot;2,423&quot;,&quot;2,428&quot;,&quot;2,521&quot;,&quot;2,596&quot;,&quot;2,632&quot;,&quot;2,664&quot;,&quot;2,782&quot;,&quot;2,794&quot;,&quot;20&quot;,&quot;200&quot;,&quot;201&quot;,&quot;203&quot;,&quot;21&quot;,&quot;211&quot;,&quot;213&quot;,&quot;215&quot;,&quot;217&quot;,&quot;218&quot;,&quot;228&quot;,&quot;23&quot;,&quot;230&quot;,&quot;235&quot;,&quot;247&quot;,&quot;248&quot;,&quot;249&quot;,&quot;250&quot;,&quot;254&quot;,&quot;255&quot;,&quot;26&quot;,&quot;266&quot;,&quot;27&quot;,&quot;270&quot;,&quot;281&quot;,&quot;287&quot;,&quot;289&quot;,&quot;292&quot;,&quot;3,111&quot;,&quot;3,156&quot;,&quot;3,255&quot;,&quot;3,387&quot;,&quot;3,490&quot;,&quot;3,762&quot;,&quot;3,802&quot;,&quot;304&quot;,&quot;308&quot;,&quot;32&quot;,&quot;334&quot;,&quot;338&quot;,&quot;34&quot;,&quot;342&quot;,&quot;350&quot;,&quot;351&quot;,&quot;359&quot;,&quot;372&quot;,&quot;38&quot;,&quot;393&quot;,&quot;4,434&quot;,&quot;4,581&quot;,&quot;4,721&quot;,&quot;401&quot;,&quot;404&quot;,&quot;413&quot;,&quot;414&quot;,&quot;416&quot;,&quot;42&quot;,&quot;427&quot;,&quot;435&quot;,&quot;439&quot;,&quot;465&quot;,&quot;47&quot;,&quot;472&quot;,&quot;480&quot;,&quot;488&quot;,&quot;49&quot;,&quot;491&quot;,&quot;497&quot;,&quot;5,293&quot;,&quot;5,357&quot;,&quot;5,376&quot;,&quot;5,729&quot;,&quot;52&quot;,&quot;53&quot;,&quot;530&quot;,&quot;536&quot;,&quot;544&quot;,&quot;549&quot;,&quot;55&quot;,&quot;558&quot;,&quot;561&quot;,&quot;567&quot;,&quot;573&quot;,&quot;58&quot;,&quot;586&quot;,&quot;589&quot;,&quot;6,078&quot;,&quot;6,124&quot;,&quot;6,184&quot;,&quot;6,330&quot;,&quot;6,667&quot;,&quot;6,692&quot;,&quot;63&quot;,&quot;640&quot;,&quot;643&quot;,&quot;65&quot;,&quot;66&quot;,&quot;67&quot;,&quot;673&quot;,&quot;674&quot;,&quot;7,914&quot;,&quot;704&quot;,&quot;706&quot;,&quot;707&quot;,&quot;71&quot;,&quot;718&quot;,&quot;737&quot;,&quot;749&quot;,&quot;753&quot;,&quot;754&quot;,&quot;76&quot;,&quot;767&quot;,&quot;77&quot;,&quot;772&quot;,&quot;78&quot;,&quot;784&quot;,&quot;8,013&quot;,&quot;8,061&quot;,&quot;8,167&quot;,&quot;807&quot;,&quot;824&quot;,&quot;831&quot;,&quot;846&quot;,&quot;864&quot;,&quot;866&quot;,&quot;872&quot;,&quot;887&quot;,&quot;9,992&quot;,&quot;92&quot;,&quot;952&quot;,&quot;974&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"8.71\" data-max=\"27.23\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"3\" data-max=\"24\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"22\" data-max=\"47\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1963,1963,1964,1964,1964,1965,1965,1965,1966,1966,1967,1968,1968,1968,1969,1969,1969,1969,1969,1970,1970,1970,1971,1971,1971,1971,1972,1972,1972,1972,1973,1973,1973,1973,1974,1974,1974,1974,1975,1975,1975,1975,1976,1976,1976,1976,1977,1977,1977,1977,1977,1978,1978,1978,1978,1978,1978,1979,1979,1979,1979,1980,1980,1980,1980,1980,1981,1981,1981,1981,1981,1981,1982,1982,1982,1982,1983,1983,1983,1984,1984,1984,1985,1985,1985,1986,1986,1986,1987,1987,1987,1988,1988,1988,1988,1989,1989,1989,1990,1990,1990,1991,1991,1991,1991,1992,1992,1992,1992,1992,1993,1993,1993,1993,1993,1993,1994,1994,1994,1994,1994,1994,1995,1995,1995,1995,1995,1996,1996,1996,1996,1997,1997,1997,1997,1998,1998,1998,1998,1998,1999,1999,1999,1999,1999,2000,2000,2000,2000,2001,2001,2001,2001,2002,2002,2002,2002,2003,2003,2003,2003,2004,2004,2004,2004,2005,2005,2005,2005,2005,2006,2006,2006,2006,2007,2007,2007,2007,2008,2008,2008,2009,2009,2010,2010,2011,2011,2012,2012,2013,2013,2014,2014,2015,2015,2016,2016,2017,2017,2018,2018,2019,2019,2020],["FALL","SUMMER","FALL","SUMMER","WINTER","FALL","SUMMER","WINTER","FALL","WINTER","FALL","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","SUMMER","FALL","FALL","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","SUMMER","SUMMER","FALL","SPRING","SPRING","SUMMER","WINTER","WINTER","FALL","SPRING","SPRING","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","FALL","FALL","SPRING","SPRING","SUMMER","WINTER","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","FALL","SPRING","SPRING","SUMMER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","SUMMER","WINTER","FALL","FALL","SPRING","SPRING","SUMMER","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","WINTER","FALL","SPRING","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","FALL","SPRING","SPRING"],["all","all","all","all","all","all","all","all","all","all","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","Outside stock area","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","Outside stock area","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all","all"],["211","359","292","707","281","586","5,293","488","480","351","530","217","14","1,974","139","19","2,089","67","807","254","20","2,794","250","16","1,109","76","561","52","824","63","120","49","6,692","673","58","26","2,428","270","203","78","784","55","266","21","2,384","846","213","1,375","113","393","47","567","2,521","2,596","753","230","767","427","2,664","1,388","109","1,084","201","4,721","772","754","589","23","2,349","674","20","640","435","20","1,575","1,271","175","831","737","136","1,063","350","643","864","472","200","866","414","166","1,430","308","706","215","1,105","27","1,192","974","65","334","952","71","304","1,892","401","38","558","77","1,327","105","465","589","92","1,567","544","18","704","887","254","1,354","129","17","536","1,771","32","1,516","198","1,161","117","2,397","228","737","248","2,391","342","1,032","2,077","289","3,156","416","718","247","66","3,802","497","491","1,424","2,782","143","1,000","338","2,632","131","549","1,276","1,955","255","255","372","2,097","42","218","749","2,418","34","1,079","1,044","1,566","2,329","53","413","1,216","8,013","573","404","439","2,248","203","249","872","2,423","235","4,581","10,305","3,255","6,667","6,330","8,167","6,124","16,219","5,376","7,914","6,184","3,762","8,061","5,729","2,348","9,992","3,111","6,078","4,434","3,490","3,387","5,357","287"],[22.3,25.52,21.8,23.89,18.5,23.95,22.1,20.42,21.36,20.42,21.44,22.29,17.71,18.62,24.29,24.68,19.38,25.12,24.27,20.46,24.6,22.65,17.7,26.62,20.24,21.43,17.22,19.42,18.46,24.41,22.12,22.12,22.15,15.56,20.24,23.85,21.82,16.99,24.57,25.27,22.76,27.15,22.11,21.19,21.43,18.64,23.41,24.03,24.93,25.21,27.23,22.13,20.89,13.2,22.13,13.27,8.71,24.9,23.29,17.71,23.09,20.51,14.57,18.54,19.35,25.83,22.63,25.61,21.93,18.85,16.3,22.43,22.2,24.05,20.69,17.83,19.38,22.65,18.77,18.04,19.42,22.43,21.95,21.11,19.18,23.4,21.14,20.57,21.73,21.64,23.05,20.98,21.9,19.01,19.7,18.48,18.06,15.32,21.54,18.87,16.62,17.91,20.72,17.38,20.13,19.83,21.81,19.74,22.25,19.4,18.68,20.75,16.65,14.52,21.61,19.03,21.69,18.48,16.81,10.67,16.88,14.5,21.66,26.56,20.13,20.57,19.16,20.9,20.39,18.56,18.36,19.76,19.2,16.6,20.3,18.96,21.88,18.03,19.13,21.99,19.45,21.83,18.48,14.7,22.39,22.32,14.74,19.9,16.1,22.22,19.66,20.71,18.56,23.02,18.79,20.42,21.47,21.95,17.66,22.17,20.03,20.69,15.65,16.15,15.64,18.73,18.54,15.06,17.49,19.19,20.38,14.55,13.07,17.56,20.91,18.68,17.45,23.29,20.77,16.11,13.61,18.12,16.9,18.92,17.86,19.39,14.4,20.54,15.04,19.46,18.75,21.37,19.01,18.31,18.04,20.81,16.33,22.14,19.25,22.39,15.84,20.98,18.07,18.45],[9,12,14,15,8,15,12,8,6,7,8,10,9,7,13,22,8,10,13,5,20,8,14,20,8,7,12,7,7,12,13,4,8,6,10,19,10,9,16,20,13,17,7,19,7,8,14,6,10,19,15,13,7,7,12,6,5,14,7,9,12,11,6,3,7,10,14,12,7,8,14,8,11,19,8,8,11,8,8,14,6,6,10,6,10,15,6,9,15,7,15,14,15,5,8,11,6,9,15,6,8,9,7,9,17,3,11,3,9,8,11,15,7,7,13,8,15,12,4,7,14,4,15,24,6,8,7,12,4,7,7,5,7,6,8,10,16,7,8,9,14,18,7,8,11,10,7,10,7,16,7,9,7,14,6,9,10,13,7,11,7,14,7,9,7,10,15,6,8,8,11,6,8,9,12,7,9,9,12,6,7,10,7,11,7,11,6,9,7,8,7,8,8,13,6,13,8,11,7,9,7,10,7,12],[30,38,38,31,31,31,30,32,32,32,31,31,28,30,30,28,36,30,33,31,30,47,27,31,34,29,32,30,35,33,31,28,32,31,30,29,36,30,30,31,36,31,30,29,32,34,30,47,30,30,30,31,36,30,32,29,27,31,33,31,30,32,31,36,31,44,31,31,35,34,28,32,38,29,34,33,31,32,33,32,37,44,30,32,31,34,32,32,32,34,30,29,28,34,28,29,33,27,30,46,27,30,36,30,30,31,26,31,30,30,28,29,30,32,28,30,29,27,29,27,22,28,29,32,30,28,31,27,36,27,28,27,35,28,34,30,26,29,28,33,28,26,29,29,32,36,29,27,31,29,29,29,29,29,29,27,28,28,29,28,28,29,29,27,29,30,25,32,30,28,28,29,28,28,28,28,28,29,30,30,26,29,29,28,29,29,30,29,29,28,30,29,28,29,30,28,29,30,29,29,28,28,28,28]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Season<\/th>\n      <th>Region<\/th>\n      <th>Number of fish<\/th>\n      <th>Mean length<\/th>\n      <th>Minimum length<\/th>\n      <th>Maximum length<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[0,4,5,6]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="biological-information.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="von-bertalanffy-growth-curve.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

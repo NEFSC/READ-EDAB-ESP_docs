@@ -1,0 +1,25 @@
+"Functional.Group","Attribute","Attribute.Category","Low","Moderate","High","Very.High"
+"Elasmobranch","Adult Mobility","Sensitivity Attribute",8,13,4,0
+"Elasmobranch","Air Temperature (Proxy for Nearshore Ocean Temp)","Exposure Factor",20,0,0,0
+"Elasmobranch","Complexity in Reproductive Strategy","Sensitivity Attribute",19,6,0,0
+"Elasmobranch","Currents","Exposure Factor",3,11,6,0
+"Elasmobranch","Dispersal of Early Life Stages","Sensitivity Attribute",6,11,8,0
+"Elasmobranch","Early Life History Survival and Settlement Requirements","Sensitivity Attribute",24,1,0,0
+"Elasmobranch","Habitat Specificity","Sensitivity Attribute",20,5,0,0
+"Elasmobranch","Mean Precipitation","Exposure Factor",20,0,0,0
+"Elasmobranch","Mean Sea Surface Salinity","Exposure Factor",3,5,8,4
+"Elasmobranch","Mean Sea Surface Temperature","Exposure Factor",0,0,2,18
+"Elasmobranch","Ocean Acidification","Exposure Factor",0,0,0,20
+"Elasmobranch","Other Stressors","Sensitivity Attribute",20,5,0,0
+"Elasmobranch","Population Growth Rate","Sensitivity Attribute",0,7,15,3
+"Elasmobranch","Prey Specificity","Sensitivity Attribute",21,4,0,0
+"Elasmobranch","Sea Level Rise","Exposure Factor",18,2,0,0
+"Elasmobranch","Sensitivity to Ocean Acidification","Sensitivity Attribute",16,9,0,0
+"Elasmobranch","Sensitivity to Temperature","Sensitivity Attribute",4,14,3,4
+"Elasmobranch","Spawning Cycle","Sensitivity Attribute",7,13,5,0
+"Elasmobranch","Stock Size/Status","Sensitivity Attribute",5,14,4,2
+"Elasmobranch","Variability in Air Temperature","Exposure Factor",20,0,0,0
+"Elasmobranch","Variability in Ocean Acidification","Exposure Factor",20,0,0,0
+"Elasmobranch","Variability in Precipitation","Exposure Factor",20,0,0,0
+"Elasmobranch","Variability in Sea Surface Salinity","Exposure Factor",16,4,0,0
+"Elasmobranch","Variability in Sea Surface Temperature","Exposure Factor",20,0,0,0
