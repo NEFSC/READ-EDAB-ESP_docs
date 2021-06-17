@@ -8,7 +8,10 @@ output: md_document
 # Ecosystem and Socioeconomic Profiles
 
 [![](https://img.shields.io/github/last-commit/NOAA-EDAB/ESP_docs.svg)](https://github.com/NOAA-EDAB/ESP_docs/commits)
-![](https://img.shields.io/badge/repo%20size-2%20GB-blue.svg)
+
+```
+## Error in loadNamespace(name): there is no package called 'badger'
+```
 ![gitleaks](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)
 
 ## View current data products
