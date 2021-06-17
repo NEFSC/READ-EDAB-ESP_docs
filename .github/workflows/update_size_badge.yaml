@@ -12,9 +12,9 @@ jobs:
       
       - name: Re-knit README
         run: | 
-        Rscript -e '
-        install.packages("knitr")
-        knitr::knit("README.Rmd")'
+          Rscript -e '
+          install.packages("knitr")
+          knitr::knit("README.Rmd")'
       
       - name: Deploy new README to Github
         uses: JamesIves/github-pages-deploy-action@4.1.1
