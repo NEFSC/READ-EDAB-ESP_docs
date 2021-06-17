@@ -18,11 +18,17 @@ jobs:
         uses: r-lib/actions/setup-r@master
         with: 
           r-version: '4.0.3' # problem with using 4.0.4 
+          
+      - name: Install command line packages
+        run: |        
+          sudo apt update
+          sudo apt-get install  libgdal-dev libcurl4-gnutls-dev libgit2-dev libudunits2-dev
+        shell: bash
       
       - name: Re-knit README
         run: | 
           Rscript -e '
-          install.packages(c("knitr", "badger", "magrittr", "stringr"))
+          install.packages(c("knitr", "usethis", "badger", "magrittr", "stringr"))
           knitr::knit("README.Rmd")'
       
       - name: Deploy new README to Github
