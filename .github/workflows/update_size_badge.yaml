@@ -22,7 +22,7 @@ jobs:
       - name: Re-knit README
         run: | 
           Rscript -e '
-          install.packages(c("knitr", "badger", "magrittr", "stringr"))
+          install.packages(c("knitr", "usethis", "badger", "magrittr", "stringr"))
           knitr::knit("README.Rmd")'
       
       - name: Deploy new README to Github
