@@ -1,0 +1,73 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Winter flounder","Gulf of Maine",2009,359,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2009,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"2","Winter flounder","Gulf of Maine",2010,187,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2010,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"3","Winter flounder","Gulf of Maine",2011,219,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2011,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"4","Winter flounder","Gulf of Maine",2012,381,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2012,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"5","Winter flounder","Gulf of Maine",2013,254,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2013,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"6","Winter flounder","Gulf of Maine",2014,275,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2014,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"7","Winter flounder","Gulf of Maine",2015,217,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2015,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"8","Winter flounder","Gulf of Maine",2016,221,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Time",2016,FALSE,8,0.439932189929396,-9.22619047619003,FALSE
+"9","Winter flounder","Gulf of Maine",2009,0.068000003695488,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2009,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"10","Winter flounder","Gulf of Maine",2010,0.0430000014603138,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2010,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"11","Winter flounder","Gulf of Maine",2011,0.0469999983906746,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2011,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"12","Winter flounder","Gulf of Maine",2012,0.165000006556511,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2012,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"13","Winter flounder","Gulf of Maine",2013,0.125,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2013,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"14","Winter flounder","Gulf of Maine",2014,0.0850000008940697,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2014,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"15","Winter flounder","Gulf of Maine",2015,0.0939999967813492,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2015,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"16","Winter flounder","Gulf of Maine",2016,0.0860000029206276,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Time",2016,FALSE,8,0.427442963264744,0.00541666633493869,FALSE
+"17","Winter flounder","Gulf of Maine",2009,5274,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2009,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"18","Winter flounder","Gulf of Maine",2010,4393,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2010,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"19","Winter flounder","Gulf of Maine",2011,4618,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2011,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"20","Winter flounder","Gulf of Maine",2012,2312,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2012,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"21","Winter flounder","Gulf of Maine",2013,2032,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2013,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"22","Winter flounder","Gulf of Maine",2014,3225,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2014,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"23","Winter flounder","Gulf of Maine",2015,2307,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2015,FALSE,8,0.0202505110214369,-401.333333333346,TRUE
+"24","Winter flounder","Gulf of Maine",2016,2585,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons","Time",2016,FALSE,8,0.0202505110214369,-401.333333333346,TRUE

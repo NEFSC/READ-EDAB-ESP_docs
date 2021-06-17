@@ -1,0 +1,65 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Winter flounder","Gulf of Maine",2009,359,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",5274,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"2","Winter flounder","Gulf of Maine",2010,187,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",4393,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"3","Winter flounder","Gulf of Maine",2011,219,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",4618,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"4","Winter flounder","Gulf of Maine",2012,381,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",2312,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"5","Winter flounder","Gulf of Maine",2013,254,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",2032,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"6","Winter flounder","Gulf of Maine",2014,275,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",3225,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"7","Winter flounder","Gulf of Maine",2015,217,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",2307,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"8","Winter flounder","Gulf of Maine",2016,221,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",2585,FALSE,8,0.946286281628094,0.00162295225066824,FALSE
+"9","Winter flounder","Gulf of Maine",2009,0.068000003695488,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",5274,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"10","Winter flounder","Gulf of Maine",2010,0.0430000014603138,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",4393,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"11","Winter flounder","Gulf of Maine",2011,0.0469999983906746,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",4618,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"12","Winter flounder","Gulf of Maine",2012,0.165000006556511,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",2312,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"13","Winter flounder","Gulf of Maine",2013,0.125,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",2032,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"14","Winter flounder","Gulf of Maine",2014,0.0850000008940697,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",3225,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"15","Winter flounder","Gulf of Maine",2015,0.0939999967813492,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",2307,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE
+"16","Winter flounder","Gulf of Maine",2016,0.0860000029206276,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass","Abundance
+Metric Tons",2585,FALSE,8,0.0268039758347176,-2.48053697286573e-05,TRUE

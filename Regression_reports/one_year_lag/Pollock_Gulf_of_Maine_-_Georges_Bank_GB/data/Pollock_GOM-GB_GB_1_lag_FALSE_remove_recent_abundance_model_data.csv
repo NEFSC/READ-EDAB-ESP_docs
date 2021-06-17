@@ -1,0 +1,21 @@
+"","Species","Region","Time","Value","Metric","MONTHLY_CHLOR_A_MEDIAN_month_12_mg_m__3","MONTHLY_CHLOR_A_RATIO_ANOMALY_month_12_","WEEKLY_CHLOR_A_MEDIAN_week_50_mg_m__3","WEEKLY_CHLOR_A_RATIO_ANOMALY_week_50_"
+"1","Pollock","Gulf of Maine / Georges Bank",1998,245000,"Abundance",0.8343962,0.9275306,0.8606349,1.019403
+"2","Pollock","Gulf of Maine / Georges Bank",1999,235000,"Abundance",0.8194287,0.8270577,0.7886553,0.8838972
+"3","Pollock","Gulf of Maine / Georges Bank",2000,266000,"Abundance",0.944187,0.8919091,0.8578945,0.9222213
+"4","Pollock","Gulf of Maine / Georges Bank",2001,282000,"Abundance",0.8216686,0.827917,0.5713879,0.8411193
+"5","Pollock","Gulf of Maine / Georges Bank",2002,310000,"Abundance",0.7597153,0.7789435,0.8397747,0.7882617
+"6","Pollock","Gulf of Maine / Georges Bank",2003,334000,"Abundance",0.8237281,0.9158121,0.8899687,0.9558814
+"7","Pollock","Gulf of Maine / Georges Bank",2004,333000,"Abundance",0.8202703,0.8177646,0.7539312,0.7950245
+"8","Pollock","Gulf of Maine / Georges Bank",2005,321000,"Abundance",0.8141021,0.8701056,0.8960331,0.8990226
+"9","Pollock","Gulf of Maine / Georges Bank",2006,311000,"Abundance",1.054123,1.05594,1.005051,1.054114
+"10","Pollock","Gulf of Maine / Georges Bank",2007,3e+05,"Abundance",0.802918,0.8008543,0.9338872,0.8609564
+"11","Pollock","Gulf of Maine / Georges Bank",2008,278000,"Abundance",0.8391045,0.8739845,0.7768101,0.8755711
+"12","Pollock","Gulf of Maine / Georges Bank",2009,246000,"Abundance",0.9366989,0.9813349,1.242482,1.214806
+"13","Pollock","Gulf of Maine / Georges Bank",2010,235000,"Abundance",1.059534,1.070056,1.012011,1.108413
+"14","Pollock","Gulf of Maine / Georges Bank",2011,209000,"Abundance",1.439101,1.452486,1.540751,1.552434
+"15","Pollock","Gulf of Maine / Georges Bank",2012,196000,"Abundance",1.418879,1.277348,2.109657,1.606006
+"16","Pollock","Gulf of Maine / Georges Bank",2013,184000,"Abundance",1.353604,1.284006,1.63071,1.243922
+"17","Pollock","Gulf of Maine / Georges Bank",2014,209000,"Abundance",1.419078,1.343752,1.362124,1.164185
+"18","Pollock","Gulf of Maine / Georges Bank",2015,221000,"Abundance",1.433662,1.311274,1.480073,1.391861
+"19","Pollock","Gulf of Maine / Georges Bank",2016,250000,"Abundance",1.330281,1.283347,1.462536,1.389676
+"20","Pollock","Gulf of Maine / Georges Bank",2017,212416,"Abundance",1.441529,1.324787,1.677715,1.42747
