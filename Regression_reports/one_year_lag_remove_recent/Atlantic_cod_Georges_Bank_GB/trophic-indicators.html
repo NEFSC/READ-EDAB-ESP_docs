@@ -1,0 +1,7810 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2.3 Trophic indicators | Preliminary ESP regressions</title>
+  <meta name="description" content="2.3 Trophic indicators | Preliminary ESP regressions" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2.3 Trophic indicators | Preliminary ESP regressions" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2.3 Trophic indicators | Preliminary ESP regressions" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell" />
+
+
+<meta name="date" content="2021-06-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="physical-indicators.html"/>
+<link rel="next" href="trophic-indicators-in-the-stock-region.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="atlantic-cod.html"><a href="atlantic-cod.html"><i class="fa fa-check"></i>Atlantic cod</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="regression-analysis.html"><a href="regression-analysis.html"><i class="fa fa-check"></i><b>2</b> Regression analysis</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="trends-with-time.html"><a href="trends-with-time.html"><i class="fa fa-check"></i><b>2.1</b> Trends with time</a></li>
+<li class="chapter" data-level="2.2" data-path="physical-indicators.html"><a href="physical-indicators.html"><i class="fa fa-check"></i><b>2.2</b> Physical indicators</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="physical-indicators.html"><a href="physical-indicators.html#temperature-related"><i class="fa fa-check"></i><b>2.2.1</b> Temperature-related</a>
+<ul>
+<li class="chapter" data-level="2.2.1.1" data-path="physical-indicators.html"><a href="physical-indicators.html#cold-pool-index"><i class="fa fa-check"></i><b>2.2.1.1</b> Cold pool index</a></li>
+<li class="chapter" data-level="2.2.1.2" data-path="physical-indicators.html"><a href="physical-indicators.html#warm-core-rings"><i class="fa fa-check"></i><b>2.2.1.2</b> Warm core rings</a></li>
+<li class="chapter" data-level="2.2.1.3" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index"><i class="fa fa-check"></i><b>2.2.1.3</b> Marine heatwave index</a></li>
+<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.4</b> GLORYS bottom temperature</a></li>
+<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> Long-term sea surface temperature</a></li>
+<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.6</b> Sea surface temperature anomaly in EPU</a></li>
+<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in stock region</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2.2" data-path="physical-indicators.html"><a href="physical-indicators.html#stratification"><i class="fa fa-check"></i><b>2.2.2</b> Stratification</a></li>
+<li class="chapter" data-level="2.2.3" data-path="physical-indicators.html"><a href="physical-indicators.html#wind"><i class="fa fa-check"></i><b>2.2.3</b> Wind</a>
+<ul>
+<li class="chapter" data-level="2.2.3.1" data-path="physical-indicators.html"><a href="physical-indicators.html#winter-wind-speed"><i class="fa fa-check"></i><b>2.2.3.1</b> Winter wind speed</a></li>
+<li class="chapter" data-level="2.2.3.2" data-path="physical-indicators.html"><a href="physical-indicators.html#spring-wind-speed"><i class="fa fa-check"></i><b>2.2.3.2</b> Spring wind speed</a></li>
+<li class="chapter" data-level="2.2.3.3" data-path="physical-indicators.html"><a href="physical-indicators.html#summer-wind-speed"><i class="fa fa-check"></i><b>2.2.3.3</b> Summer wind speed</a></li>
+<li class="chapter" data-level="2.2.3.4" data-path="physical-indicators.html"><a href="physical-indicators.html#fall-wind-speed"><i class="fa fa-check"></i><b>2.2.3.4</b> Fall wind speed</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2.4" data-path="physical-indicators.html"><a href="physical-indicators.html#gulf-stream-index"><i class="fa fa-check"></i><b>2.2.4</b> Gulf Stream Index</a></li>
+<li class="chapter" data-level="2.2.5" data-path="physical-indicators.html"><a href="physical-indicators.html#north-atlantic-oscillation"><i class="fa fa-check"></i><b>2.2.5</b> North Atlantic Oscillation</a></li>
+<li class="chapter" data-level="2.2.6" data-path="physical-indicators.html"><a href="physical-indicators.html#species-location"><i class="fa fa-check"></i><b>2.2.6</b> Species location</a>
+<ul>
+<li class="chapter" data-level="2.2.6.1" data-path="physical-indicators.html"><a href="physical-indicators.html#species-distribution"><i class="fa fa-check"></i><b>2.2.6.1</b> Species distribution</a></li>
+<li class="chapter" data-level="2.2.6.2" data-path="physical-indicators.html"><a href="physical-indicators.html#northern-range"><i class="fa fa-check"></i><b>2.2.6.2</b> Northern range</a></li>
+<li class="chapter" data-level="2.2.6.3" data-path="physical-indicators.html"><a href="physical-indicators.html#southern-range"><i class="fa fa-check"></i><b>2.2.6.3</b> Southern range</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="trophic-indicators.html"><a href="trophic-indicators.html"><i class="fa fa-check"></i><b>2.3</b> Trophic indicators</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="trophic-indicators.html"><a href="trophic-indicators.html#chlorophyll"><i class="fa fa-check"></i><b>2.3.1</b> Chlorophyll</a>
+<ul>
+<li class="chapter" data-level="2.3.1.1" data-path="trophic-indicators.html"><a href="trophic-indicators.html#annual-chlorophyll"><i class="fa fa-check"></i><b>2.3.1.1</b> Annual chlorophyll</a></li>
+<li class="chapter" data-level="2.3.1.2" data-path="trophic-indicators.html"><a href="trophic-indicators.html#monthly-chlorophyll"><i class="fa fa-check"></i><b>2.3.1.2</b> Monthly chlorophyll</a></li>
+<li class="chapter" data-level="2.3.1.3" data-path="trophic-indicators.html"><a href="trophic-indicators.html#weekly-chlorophyll"><i class="fa fa-check"></i><b>2.3.1.3</b> Weekly chlorophyll</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3.2" data-path="trophic-indicators.html"><a href="trophic-indicators.html#primary-production"><i class="fa fa-check"></i><b>2.3.2</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="2.3.2.1" data-path="trophic-indicators.html"><a href="trophic-indicators.html#annual-primary-production"><i class="fa fa-check"></i><b>2.3.2.1</b> Annual primary production</a></li>
+<li class="chapter" data-level="2.3.2.2" data-path="trophic-indicators.html"><a href="trophic-indicators.html#monthly-primary-production"><i class="fa fa-check"></i><b>2.3.2.2</b> Monthly primary production</a></li>
+<li class="chapter" data-level="2.3.2.3" data-path="trophic-indicators.html"><a href="trophic-indicators.html#weekly-primary-production"><i class="fa fa-check"></i><b>2.3.2.3</b> Weekly primary production</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3.3" data-path="trophic-indicators.html"><a href="trophic-indicators.html#zooplankton"><i class="fa fa-check"></i><b>2.3.3</b> Zooplankton</a>
+<ul>
+<li class="chapter" data-level="2.3.3.1" data-path="trophic-indicators.html"><a href="trophic-indicators.html#spring-zooplankton-abundance-by-species"><i class="fa fa-check"></i><b>2.3.3.1</b> Spring zooplankton abundance by species</a></li>
+<li class="chapter" data-level="2.3.3.2" data-path="trophic-indicators.html"><a href="trophic-indicators.html#fall-zooplankton-abundance-by-species"><i class="fa fa-check"></i><b>2.3.3.2</b> Fall zooplankton abundance by species</a></li>
+<li class="chapter" data-level="2.3.3.3" data-path="trophic-indicators.html"><a href="trophic-indicators.html#zooplankton-abundance-by-group"><i class="fa fa-check"></i><b>2.3.3.3</b> Zooplankton abundance by group</a></li>
+<li class="chapter" data-level="2.3.3.4" data-path="trophic-indicators.html"><a href="trophic-indicators.html#abundance-of-calanus-cv-and-adults"><i class="fa fa-check"></i><b>2.3.3.4</b> Abundance of Calanus CV and adults</a></li>
+<li class="chapter" data-level="2.3.3.5" data-path="trophic-indicators.html"><a href="trophic-indicators.html#zooplankton-abundance-anomaly"><i class="fa fa-check"></i><b>2.3.3.5</b> Zooplankton abundance anomaly</a></li>
+<li class="chapter" data-level="2.3.3.6" data-path="trophic-indicators.html"><a href="trophic-indicators.html#zooplankton-diversity-index"><i class="fa fa-check"></i><b>2.3.3.6</b> Zooplankton diversity index</a></li>
+<li class="chapter" data-level="2.3.3.7" data-path="trophic-indicators.html"><a href="trophic-indicators.html#smalllarge-copepod-anomaly"><i class="fa fa-check"></i><b>2.3.3.7</b> Small/large copepod anomaly</a></li>
+<li class="chapter" data-level="2.3.3.8" data-path="trophic-indicators.html"><a href="trophic-indicators.html#ichthyoplankton-diversity"><i class="fa fa-check"></i><b>2.3.3.8</b> Ichthyoplankton diversity</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3.4" data-path="trophic-indicators.html"><a href="trophic-indicators.html#forage-fish-abundance"><i class="fa fa-check"></i><b>2.3.4</b> Forage fish abundance</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html"><i class="fa fa-check"></i><b>2.4</b> Trophic indicators in the stock region</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#chlorophyll-in-stock-region"><i class="fa fa-check"></i><b>2.4.1</b> Chlorophyll in stock region</a></li>
+<li class="chapter" data-level="2.4.2" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#primary-production-in-stock-region"><i class="fa fa-check"></i><b>2.4.2</b> Primary production in stock region</a></li>
+<li class="chapter" data-level="2.4.3" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#zooplankton-in-the-stock-region"><i class="fa fa-check"></i><b>2.4.3</b> Zooplankton in the stock region</a>
+<ul>
+<li class="chapter" data-level="2.4.3.1" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#annual-zooplankton-abundance-in-the-stock-region"><i class="fa fa-check"></i><b>2.4.3.1</b> Annual zooplankton abundance in the stock region</a></li>
+<li class="chapter" data-level="2.4.3.2" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#spring-zooplankton-abundance-in-the-stock-region"><i class="fa fa-check"></i><b>2.4.3.2</b> Spring zooplankton abundance in the stock region</a></li>
+<li class="chapter" data-level="2.4.3.3" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html#fall-zooplankton-abundance-in-the-stock-region"><i class="fa fa-check"></i><b>2.4.3.3</b> Fall zooplankton abundance in the stock region</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="larvae-and-yoy-indicators.html"><a href="larvae-and-yoy-indicators.html"><i class="fa fa-check"></i><b>2.5</b> Larvae and YOY indicators</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="larvae-and-yoy-indicators.html"><a href="larvae-and-yoy-indicators.html#recruitment"><i class="fa fa-check"></i><b>2.5.1</b> Recruitment</a></li>
+<li class="chapter" data-level="2.5.2" data-path="larvae-and-yoy-indicators.html"><a href="larvae-and-yoy-indicators.html#larval-growth"><i class="fa fa-check"></i><b>2.5.2</b> Larval growth</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="juvenile-indicators.html"><a href="juvenile-indicators.html"><i class="fa fa-check"></i><b>2.6</b> Juvenile indicators</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="juvenile-indicators.html"><a href="juvenile-indicators.html#length-age-curves"><i class="fa fa-check"></i><b>2.6.1</b> Length-age curves</a></li>
+<li class="chapter" data-level="2.6.2" data-path="juvenile-indicators.html"><a href="juvenile-indicators.html#condition"><i class="fa fa-check"></i><b>2.6.2</b> Condition</a></li>
+<li class="chapter" data-level="2.6.3" data-path="juvenile-indicators.html"><a href="juvenile-indicators.html#cpue"><i class="fa fa-check"></i><b>2.6.3</b> CPUE</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="adult-indicators.html"><a href="adult-indicators.html"><i class="fa fa-check"></i><b>2.7</b> Adult indicators</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="adult-indicators.html"><a href="adult-indicators.html#abundance"><i class="fa fa-check"></i><b>2.7.1</b> Abundance</a></li>
+<li class="chapter" data-level="2.7.2" data-path="adult-indicators.html"><a href="adult-indicators.html#mean-age-of-spawning-stock"><i class="fa fa-check"></i><b>2.7.2</b> Mean age of spawning stock</a></li>
+<li class="chapter" data-level="2.7.3" data-path="adult-indicators.html"><a href="adult-indicators.html#age-distribution"><i class="fa fa-check"></i><b>2.7.3</b> Age distribution</a></li>
+<li class="chapter" data-level="2.7.4" data-path="adult-indicators.html"><a href="adult-indicators.html#length-age-curves-1"><i class="fa fa-check"></i><b>2.7.4</b> Length-age curves</a></li>
+<li class="chapter" data-level="2.7.5" data-path="adult-indicators.html"><a href="adult-indicators.html#condition-1"><i class="fa fa-check"></i><b>2.7.5</b> Condition</a></li>
+<li class="chapter" data-level="2.7.6" data-path="adult-indicators.html"><a href="adult-indicators.html#stomach-fullness"><i class="fa fa-check"></i><b>2.7.6</b> Stomach fullness</a></li>
+<li class="chapter" data-level="2.7.7" data-path="adult-indicators.html"><a href="adult-indicators.html#center-of-gravity-and-area-occupied"><i class="fa fa-check"></i><b>2.7.7</b> Center of gravity and area occupied</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="socioeconomic-indicators.html"><a href="socioeconomic-indicators.html"><i class="fa fa-check"></i><b>2.8</b> Socioeconomic indicators</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="socioeconomic-indicators.html"><a href="socioeconomic-indicators.html#cpue-by-catch-strategy"><i class="fa fa-check"></i><b>2.8.1</b> CPUE by catch strategy</a></li>
+<li class="chapter" data-level="2.8.2" data-path="socioeconomic-indicators.html"><a href="socioeconomic-indicators.html#recreational-cpue"><i class="fa fa-check"></i><b>2.8.2</b> Recreational CPUE</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="summary-of-statistically-significant-indicators.html"><a href="summary-of-statistically-significant-indicators.html"><i class="fa fa-check"></i><b>3</b> Summary of statistically significant indicators</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="abundance-1.html"><a href="abundance-1.html"><i class="fa fa-check"></i><b>3.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="abundance-1.html"><a href="abundance-1.html#generalized-linear-model"><i class="fa fa-check"></i><b>3.1.1</b> Generalized linear model</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="recruitment-1.html"><a href="recruitment-1.html"><i class="fa fa-check"></i><b>3.2</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="recruitment-1.html"><a href="recruitment-1.html#generalized-linear-model-1"><i class="fa fa-check"></i><b>3.2.1</b> Generalized linear model</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="catch.html"><a href="catch.html"><i class="fa fa-check"></i><b>3.3</b> Catch</a></li>
+<li class="chapter" data-level="3.4" data-path="fmort.html"><a href="fmort.html"><i class="fa fa-check"></i><b>3.4</b> Fmort</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>4</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>4.1</b> R session information</a></li>
+<li class="chapter" data-level="4.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>4.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Preliminary ESP regressions</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="trophic-indicators" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Trophic indicators</h2>
+<div id="chlorophyll" class="section level3" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Chlorophyll</h3>
+<div id="annual-chlorophyll" class="section level4" number="2.3.1.1">
+<h4><span class="header-section-number">2.3.1.1</span> Annual chlorophyll</h4>
+<div id="figures-18" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/chl-annual-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-18" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
+<div id="monthly-chlorophyll" class="section level4" number="2.3.1.2">
+<h4><span class="header-section-number">2.3.1.2</span> Monthly chlorophyll</h4>
+<div id="figures-19" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/chl-month-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-month-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-month-fig-3.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-month-fig-4.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-19" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-224">Table 2.9: </span>Abundance vs MONTHLY
+CHLOR
+A
+RATIO
+ANOMALY
+month
+09
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">13.55</td>
+<td align="right">3.45</td>
+<td align="right">3.93</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-8.30</td>
+<td align="right">3.23</td>
+<td align="right">-2.57</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.6</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.36</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="weekly-chlorophyll" class="section level4" number="2.3.1.3">
+<h4><span class="header-section-number">2.3.1.3</span> Weekly chlorophyll</h4>
+<div id="figures-20" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/chl-week-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-3.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-4.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-5.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-6.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-7.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-8.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-9.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-10.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-11.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-12.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-13.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-14.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-15.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-16.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/chl-week-fig-17.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-20" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+MEDIAN
+week
+16
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">14054.66</td>
+<td align="right">2591.11</td>
+<td align="right">5.42</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-5551.01</td>
+<td align="right">2142.49</td>
+<td align="right">-2.59</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.71</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.43</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.36</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+MEDIAN
+week
+20
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-7616.84</td>
+<td align="right">4957.83</td>
+<td align="right">-1.54</td>
+<td align="right">0.16</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">17794.60</td>
+<td align="right">5706.88</td>
+<td align="right">3.12</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">9.72</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.52</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.47</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+03
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21284.45</td>
+<td align="right">4757.20</td>
+<td align="right">4.47</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-14996.23</td>
+<td align="right">5172.79</td>
+<td align="right">-2.90</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.4</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.43</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+16
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">14770.59</td>
+<td align="right">2897.03</td>
+<td align="right">5.10</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-6445.73</td>
+<td align="right">2526.06</td>
+<td align="right">-2.55</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.51</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.36</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+20
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-7500.50</td>
+<td align="right">6497.95</td>
+<td align="right">-1.15</td>
+<td align="right">0.28</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">14420.58</td>
+<td align="right">6125.14</td>
+<td align="right">2.35</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.54</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+24
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">24259.94</td>
+<td align="right">6960.41</td>
+<td align="right">3.49</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-15498.58</td>
+<td align="right">6456.86</td>
+<td align="right">-2.40</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.76</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Catch vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+47
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">28656.53</td>
+<td align="right">9041.83</td>
+<td align="right">3.17</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-24460.30</td>
+<td align="right">10493.83</td>
+<td align="right">-2.33</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.43</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Abundance vs WEEKLY
+CHLOR
+A
+MEDIAN
+week
+18
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1.21</td>
+<td align="right">1.70</td>
+<td align="right">-0.71</td>
+<td align="right">0.49</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">6.13</td>
+<td align="right">1.73</td>
+<td align="right">3.54</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.56</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.58</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.54</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Abundance vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+18
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.76</td>
+<td align="right">1.44</td>
+<td align="right">-0.52</td>
+<td align="right">0.61</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">4.80</td>
+<td align="right">1.24</td>
+<td align="right">3.87</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">14.98</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.62</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.58</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Abundance vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+27
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">13.04</td>
+<td align="right">3.30</td>
+<td align="right">3.96</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-7.73</td>
+<td align="right">3.05</td>
+<td align="right">-2.53</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.42</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Fmort vs WEEKLY
+CHLOR
+A
+MEDIAN
+week
+16
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.54</td>
+<td align="right">0.22</td>
+<td align="right">6.98</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-0.69</td>
+<td align="right">0.18</td>
+<td align="right">-3.81</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">14.52</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.62</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.57</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Fmort vs WEEKLY
+CHLOR
+A
+MEDIAN
+week
+20
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.76</td>
+<td align="right">0.55</td>
+<td align="right">-1.40</td>
+<td align="right">0.20</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.75</td>
+<td align="right">0.63</td>
+<td align="right">2.78</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.74</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Fmort vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+16
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.53</td>
+<td align="right">0.29</td>
+<td align="right">5.35</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-0.72</td>
+<td align="right">0.25</td>
+<td align="right">-2.88</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.27</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-235">Table 2.10: </span>Fmort vs WEEKLY
+CHLOR
+A
+RATIO
+ANOMALY
+week
+20
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.85</td>
+<td align="right">0.67</td>
+<td align="right">-1.26</td>
+<td align="right">0.24</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.51</td>
+<td align="right">0.63</td>
+<td align="right">2.38</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.66</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+</div>
+<div id="primary-production" class="section level3" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Primary production</h3>
+<div id="annual-primary-production" class="section level4" number="2.3.2.1">
+<h4><span class="header-section-number">2.3.2.1</span> Annual primary production</h4>
+<div id="figures-21" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/pp-annual-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-21" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
+<div id="monthly-primary-production" class="section level4" number="2.3.2.2">
+<h4><span class="header-section-number">2.3.2.2</span> Monthly primary production</h4>
+<div id="figures-22" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/pp-month-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-month-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-22" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Catch vs MONTHLY
+PPD
+MEDIAN
+month
+07
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20776.57</td>
+<td align="right">3791.55</td>
+<td align="right">5.48</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12575.74</td>
+<td align="right">3577.90</td>
+<td align="right">-3.51</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.35</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.58</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.53</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Catch vs MONTHLY
+PPD
+MEDIAN
+month
+08
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">23662.02</td>
+<td align="right">5856.57</td>
+<td align="right">4.04</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-14094.28</td>
+<td align="right">5115.90</td>
+<td align="right">-2.75</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.59</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Catch vs MONTHLY
+PPD
+MEDIAN
+month
+10
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-7505.85</td>
+<td align="right">6271.46</td>
+<td align="right">-1.20</td>
+<td align="right">0.26</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">20449.76</td>
+<td align="right">8377.25</td>
+<td align="right">2.44</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.96</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.4</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Catch vs MONTHLY
+PPD
+MEDIAN
+month
+11
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-9200.08</td>
+<td align="right">4920.12</td>
+<td align="right">-1.87</td>
+<td align="right">0.09</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">30234.43</td>
+<td align="right">8728.97</td>
+<td align="right">3.46</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.57</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.52</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Fmort vs MONTHLY
+PPD
+MEDIAN
+month
+11
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.81</td>
+<td align="right">0.58</td>
+<td align="right">-1.38</td>
+<td align="right">0.20</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">2.77</td>
+<td align="right">1.03</td>
+<td align="right">2.68</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.16</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.44</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.38</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-257">Table 2.11: </span>Fmort vs MONTHLY
+PPD
+MEDIAN
+month
+02
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1.74</td>
+<td align="right">1.05</td>
+<td align="right">-1.65</td>
+<td align="right">0.13</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">7.58</td>
+<td align="right">3.21</td>
+<td align="right">2.36</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.59</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="weekly-primary-production" class="section level4" number="2.3.2.3">
+<h4><span class="header-section-number">2.3.2.3</span> Weekly primary production</h4>
+<div id="figures-23" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/pp-week-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-3.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-4.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-5.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-6.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-7.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-8.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-9.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-10.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-11.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-12.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-13.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-14.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-15.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-16.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/pp-week-fig-17.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-23" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+04
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-6357.75</td>
+<td align="right">5818.41</td>
+<td align="right">-1.09</td>
+<td align="right">0.30</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">44469.05</td>
+<td align="right">18257.69</td>
+<td align="right">2.44</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.93</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.4</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+20
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">18416.79</td>
+<td align="right">4321.90</td>
+<td align="right">4.26</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-14864.36</td>
+<td align="right">5872.51</td>
+<td align="right">-2.53</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.41</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+21
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">17325.66</td>
+<td align="right">3562.90</td>
+<td align="right">4.86</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-13333.56</td>
+<td align="right">4801.93</td>
+<td align="right">-2.78</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.71</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+22
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">22170.60</td>
+<td align="right">4633.36</td>
+<td align="right">4.78</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-19200.92</td>
+<td align="right">6059.39</td>
+<td align="right">-3.17</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.04</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.47</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+26
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">18230.39</td>
+<td align="right">3988.97</td>
+<td align="right">4.57</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-10947.96</td>
+<td align="right">4054.37</td>
+<td align="right">-2.70</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.29</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.39</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+27
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21135.08</td>
+<td align="right">4418.97</td>
+<td align="right">4.78</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-13523.06</td>
+<td align="right">4376.01</td>
+<td align="right">-3.09</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">9.55</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.51</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.46</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+28
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20545.98</td>
+<td align="right">4125.14</td>
+<td align="right">4.98</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12656.06</td>
+<td align="right">3991.33</td>
+<td align="right">-3.17</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.05</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.48</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+29
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20861.12</td>
+<td align="right">2990.13</td>
+<td align="right">6.98</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12017.24</td>
+<td align="right">2671.08</td>
+<td align="right">-4.50</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">20.24</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.69</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.66</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+30
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20810.36</td>
+<td align="right">3785.12</td>
+<td align="right">5.50</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-11908.78</td>
+<td align="right">3373.78</td>
+<td align="right">-3.53</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.46</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.58</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.53</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+31
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20220.41</td>
+<td align="right">4298.88</td>
+<td align="right">4.70</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-10548.96</td>
+<td align="right">3557.67</td>
+<td align="right">-2.97</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.79</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.49</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.44</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+32
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21316.64</td>
+<td align="right">5241.31</td>
+<td align="right">4.07</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-11640.06</td>
+<td align="right">4419.11</td>
+<td align="right">-2.63</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.94</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.44</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.37</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+33
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">22107.44</td>
+<td align="right">5487.43</td>
+<td align="right">4.03</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12541.71</td>
+<td align="right">4717.22</td>
+<td align="right">-2.66</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.07</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.44</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.38</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+35
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">26103.70</td>
+<td align="right">7479.01</td>
+<td align="right">3.49</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-17178.14</td>
+<td align="right">6928.35</td>
+<td align="right">-2.48</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.15</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.41</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.34</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+42
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-7432.01</td>
+<td align="right">5302.27</td>
+<td align="right">-1.40</td>
+<td align="right">0.19</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">20694.36</td>
+<td align="right">7189.10</td>
+<td align="right">2.88</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.29</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+43
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-4324.14</td>
+<td align="right">4456.22</td>
+<td align="right">-0.97</td>
+<td align="right">0.36</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">17212.32</td>
+<td align="right">6294.65</td>
+<td align="right">2.73</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.48</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.39</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+45
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-6984.59</td>
+<td align="right">6245.70</td>
+<td align="right">-1.12</td>
+<td align="right">0.29</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">23346.96</td>
+<td align="right">9860.75</td>
+<td align="right">2.37</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.61</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+46
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1924.23</td>
+<td align="right">4307.86</td>
+<td align="right">-0.45</td>
+<td align="right">0.67</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">17499.57</td>
+<td align="right">7703.67</td>
+<td align="right">2.27</td>
+<td align="right">0.05</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.16</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.36</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.29</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+47
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-7168.74</td>
+<td align="right">3811.32</td>
+<td align="right">-1.88</td>
+<td align="right">0.09</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">27419.34</td>
+<td align="right">6941.66</td>
+<td align="right">3.95</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">15.6</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.63</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.59</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+MEDIAN
+week
+49
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-6038.22</td>
+<td align="right">4910.13</td>
+<td align="right">-1.23</td>
+<td align="right">0.25</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">33410.65</td>
+<td align="right">11817.56</td>
+<td align="right">2.83</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.99</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.47</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.41</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+04
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-15271.97</td>
+<td align="right">9162.23</td>
+<td align="right">-1.67</td>
+<td align="right">0.13</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">23661.94</td>
+<td align="right">9412.00</td>
+<td align="right">2.51</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.32</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.41</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+06
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-5860.35</td>
+<td align="right">5622.84</td>
+<td align="right">-1.04</td>
+<td align="right">0.32</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">13973.13</td>
+<td align="right">5743.70</td>
+<td align="right">2.43</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.92</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.4</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+07
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-8661.51</td>
+<td align="right">6823.90</td>
+<td align="right">-1.27</td>
+<td align="right">0.24</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">16862.21</td>
+<td align="right">6993.25</td>
+<td align="right">2.41</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.81</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+20
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">18224.90</td>
+<td align="right">4205.76</td>
+<td align="right">4.33</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-11000.27</td>
+<td align="right">4302.33</td>
+<td align="right">-2.56</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.54</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.36</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+22
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">19864.03</td>
+<td align="right">4419.83</td>
+<td align="right">4.49</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12338.21</td>
+<td align="right">4403.31</td>
+<td align="right">-2.80</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.85</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.47</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.41</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+26
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">18344.82</td>
+<td align="right">3978.56</td>
+<td align="right">4.61</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-10844.02</td>
+<td align="right">3962.99</td>
+<td align="right">-2.74</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.49</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.39</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+27
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20075.18</td>
+<td align="right">4613.26</td>
+<td align="right">4.35</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12995.08</td>
+<td align="right">4762.77</td>
+<td align="right">-2.73</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.44</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.39</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+28
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20368.29</td>
+<td align="right">4071.94</td>
+<td align="right">5.00</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-13497.97</td>
+<td align="right">4258.91</td>
+<td align="right">-3.17</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.04</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.47</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+29
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21267.98</td>
+<td align="right">3119.86</td>
+<td align="right">6.82</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-14095.80</td>
+<td align="right">3175.30</td>
+<td align="right">-4.44</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">19.71</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.69</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.65</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+30
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">20184.93</td>
+<td align="right">3654.23</td>
+<td align="right">5.52</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-12812.31</td>
+<td align="right">3673.87</td>
+<td align="right">-3.49</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.16</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.57</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.53</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+31
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21007.45</td>
+<td align="right">4043.45</td>
+<td align="right">5.20</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-13544.63</td>
+<td align="right">4043.34</td>
+<td align="right">-3.35</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">11.22</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.55</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.51</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+32
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">21090.88</td>
+<td align="right">5626.20</td>
+<td align="right">3.75</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-13620.36</td>
+<td align="right">5648.44</td>
+<td align="right">-2.41</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.81</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.32</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+35
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">26346.01</td>
+<td align="right">7369.35</td>
+<td align="right">3.58</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-18919.51</td>
+<td align="right">7420.94</td>
+<td align="right">-2.55</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.5</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+41
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-13177.13</td>
+<td align="right">8931.32</td>
+<td align="right">-1.48</td>
+<td align="right">0.17</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">20090.35</td>
+<td align="right">8568.85</td>
+<td align="right">2.34</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.5</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+42
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-8997.09</td>
+<td align="right">5004.50</td>
+<td align="right">-1.80</td>
+<td align="right">0.11</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">15695.10</td>
+<td align="right">4665.21</td>
+<td align="right">3.36</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">11.32</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.56</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.51</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+43
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-5189.63</td>
+<td align="right">3546.06</td>
+<td align="right">-1.46</td>
+<td align="right">0.18</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">12000.61</td>
+<td align="right">3249.54</td>
+<td align="right">3.69</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">13.64</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.6</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.56</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+45
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-10350.51</td>
+<td align="right">5823.32</td>
+<td align="right">-1.78</td>
+<td align="right">0.11</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">16844.53</td>
+<td align="right">5399.41</td>
+<td align="right">3.12</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">9.73</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.52</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.47</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+46
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-3560.61</td>
+<td align="right">4221.55</td>
+<td align="right">-0.84</td>
+<td align="right">0.42</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">11031.35</td>
+<td align="right">4073.49</td>
+<td align="right">2.71</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.33</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.39</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+47
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-8290.60</td>
+<td align="right">3668.39</td>
+<td align="right">-2.26</td>
+<td align="right">0.05</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">15455.24</td>
+<td align="right">3504.71</td>
+<td align="right">4.41</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">19.45</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.68</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.65</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+48
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2628.66</td>
+<td align="right">4199.81</td>
+<td align="right">-0.63</td>
+<td align="right">0.55</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">10036.97</td>
+<td align="right">4014.90</td>
+<td align="right">2.50</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.25</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.41</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.34</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Catch vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+49
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-8569.89</td>
+<td align="right">4657.61</td>
+<td align="right">-1.84</td>
+<td align="right">0.10</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">16521.63</td>
+<td align="right">4686.21</td>
+<td align="right">3.53</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.43</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.58</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.53</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+20
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.85</td>
+<td align="right">0.45</td>
+<td align="right">4.09</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.53</td>
+<td align="right">0.61</td>
+<td align="right">-2.50</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.25</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.41</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.34</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+21
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.89</td>
+<td align="right">0.32</td>
+<td align="right">5.99</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.59</td>
+<td align="right">0.43</td>
+<td align="right">-3.74</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">14.01</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.61</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.57</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+22
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">2.35</td>
+<td align="right">0.44</td>
+<td align="right">5.33</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-2.14</td>
+<td align="right">0.58</td>
+<td align="right">-3.70</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">13.68</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.6</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.56</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+27
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.94</td>
+<td align="right">0.52</td>
+<td align="right">3.72</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.20</td>
+<td align="right">0.52</td>
+<td align="right">-2.33</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.44</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+43
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.59</td>
+<td align="right">0.44</td>
+<td align="right">-1.34</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.90</td>
+<td align="right">0.62</td>
+<td align="right">3.08</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">9.49</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.51</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.46</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+46
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.35</td>
+<td align="right">0.42</td>
+<td align="right">-0.82</td>
+<td align="right">0.44</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.98</td>
+<td align="right">0.76</td>
+<td align="right">2.61</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.81</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.43</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.37</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+47
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.60</td>
+<td align="right">0.47</td>
+<td align="right">-1.26</td>
+<td align="right">0.24</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">2.47</td>
+<td align="right">0.86</td>
+<td align="right">2.86</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.17</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+49
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.90</td>
+<td align="right">0.43</td>
+<td align="right">-2.08</td>
+<td align="right">0.07</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">3.99</td>
+<td align="right">1.04</td>
+<td align="right">3.84</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">14.77</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.62</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.58</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+06
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.72</td>
+<td align="right">0.57</td>
+<td align="right">-1.26</td>
+<td align="right">0.24</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.51</td>
+<td align="right">0.58</td>
+<td align="right">2.59</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.7</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.43</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.36</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+07
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1.13</td>
+<td align="right">0.66</td>
+<td align="right">-1.71</td>
+<td align="right">0.12</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.93</td>
+<td align="right">0.68</td>
+<td align="right">2.85</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.1</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.47</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+20
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.80</td>
+<td align="right">0.45</td>
+<td align="right">4.03</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.11</td>
+<td align="right">0.46</td>
+<td align="right">-2.42</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.87</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+22
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">2.10</td>
+<td align="right">0.43</td>
+<td align="right">4.88</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.37</td>
+<td align="right">0.43</td>
+<td align="right">-3.21</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.3</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.48</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+27
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.90</td>
+<td align="right">0.52</td>
+<td align="right">3.68</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-1.22</td>
+<td align="right">0.53</td>
+<td align="right">-2.28</td>
+<td align="right">0.05</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.21</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.3</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+41
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1.47</td>
+<td align="right">0.92</td>
+<td align="right">-1.60</td>
+<td align="right">0.14</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">2.13</td>
+<td align="right">0.88</td>
+<td align="right">2.42</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.85</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+42
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.95</td>
+<td align="right">0.54</td>
+<td align="right">-1.75</td>
+<td align="right">0.11</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.59</td>
+<td align="right">0.50</td>
+<td align="right">3.16</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">9.97</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.47</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+43
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.71</td>
+<td align="right">0.31</td>
+<td align="right">-2.27</td>
+<td align="right">0.05</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.36</td>
+<td align="right">0.29</td>
+<td align="right">4.70</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">22.06</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.71</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.68</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+45
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.90</td>
+<td align="right">0.68</td>
+<td align="right">-1.32</td>
+<td align="right">0.22</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.53</td>
+<td align="right">0.63</td>
+<td align="right">2.42</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.88</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.4</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+46
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.46</td>
+<td align="right">0.43</td>
+<td align="right">-1.07</td>
+<td align="right">0.31</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.18</td>
+<td align="right">0.41</td>
+<td align="right">2.83</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.03</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.47</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.41</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+47
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.66</td>
+<td align="right">0.49</td>
+<td align="right">-1.36</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.36</td>
+<td align="right">0.46</td>
+<td align="right">2.92</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.52</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.49</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.43</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+48
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.32</td>
+<td align="right">0.44</td>
+<td align="right">-0.72</td>
+<td align="right">0.49</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.03</td>
+<td align="right">0.42</td>
+<td align="right">2.44</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.97</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.4</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+49
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1.07</td>
+<td align="right">0.43</td>
+<td align="right">-2.45</td>
+<td align="right">0.04</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.84</td>
+<td align="right">0.44</td>
+<td align="right">4.20</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">17.61</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.66</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.62</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+02
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.40</td>
+<td align="right">0.50</td>
+<td align="right">-0.80</td>
+<td align="right">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">4.05</td>
+<td align="right">1.76</td>
+<td align="right">2.31</td>
+<td align="right">0.05</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.32</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.3</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+MEDIAN
+week
+48
+gCarbon/m^2/Day
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.27</td>
+<td align="right">0.45</td>
+<td align="right">-0.61</td>
+<td align="right">0.56</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">2.10</td>
+<td align="right">0.91</td>
+<td align="right">2.30</td>
+<td align="right">0.05</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.27</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.3</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+21
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.70</td>
+<td align="right">0.37</td>
+<td align="right">4.57</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-0.98</td>
+<td align="right">0.37</td>
+<td align="right">-2.65</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.44</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.38</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-268">Table 2.12: </span>Fmort vs WEEKLY
+PPD
+RATIO
+ANOMALY
+week
+40
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2.37</td>
+<td align="right">1.13</td>
+<td align="right">-2.10</td>
+<td align="right">0.06</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">2.94</td>
+<td align="right">1.06</td>
+<td align="right">2.77</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.66</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 9</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+</div>
+<div id="zooplankton" class="section level3" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> Zooplankton</h3>
+<div id="spring-zooplankton-abundance-by-species" class="section level4" number="2.3.3.1">
+<h4><span class="header-section-number">2.3.3.1</span> Spring zooplankton abundance by species</h4>
+<div id="figures-24" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-oi-spring-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-24" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-279">Table 2.13: </span>Catch vs temora zoo spring
+log N m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">37055.61</td>
+<td align="right">6413.20</td>
+<td align="right">5.78</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-10767.95</td>
+<td align="right">3915.16</td>
+<td align="right">-2.75</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.56</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 23</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.25</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.21</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="fall-zooplankton-abundance-by-species" class="section level4" number="2.3.3.2">
+<h4><span class="header-section-number">2.3.3.2</span> Fall zooplankton abundance by species</h4>
+<div id="figures-25" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-oi-fall-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-25" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-290">Table 2.14: </span>Catch vs pseudocalanus zoo fall
+log N m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2054.82</td>
+<td align="right">10309.19</td>
+<td align="right">-0.20</td>
+<td align="right">0.84</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">11086.94</td>
+<td align="right">4642.93</td>
+<td align="right">2.39</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.7</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 24</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.19</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.16</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-290">Table 2.14: </span>Fmort vs pseudocalanus zoo fall
+log N m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">0.09</td>
+<td align="right">0.37</td>
+<td align="right">0.24</td>
+<td align="right">0.81</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.48</td>
+<td align="right">0.17</td>
+<td align="right">2.83</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.31</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.27</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="zooplankton-abundance-by-group" class="section level4" number="2.3.3.3">
+<h4><span class="header-section-number">2.3.3.3</span> Zooplankton abundance by group</h4>
+<div id="figures-26" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-strat-abun-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-26" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-301">Table 2.15: </span>Catch vs Cnidaria
+Absolute Number of Individuals
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">28500.19</td>
+<td align="right">3512.06</td>
+<td align="right">8.11</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-2.79</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.78</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 27</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.22</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.19</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-301">Table 2.15: </span>Catch vs SmallCalanoida
+Absolute Number of Individuals
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">40939.8</td>
+<td align="right">5166.58</td>
+<td align="right">7.92</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.0</td>
+<td align="right">0.00</td>
+<td align="right">-4.03</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">16.23</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 27</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.38</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-301">Table 2.15: </span>Abundance vs Cnidaria
+Absolute Number of Individuals
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">6.23</td>
+<td align="right">0.43</td>
+<td align="right">14.39</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-2.48</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.17</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 21</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.23</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.19</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-301">Table 2.15: </span>Abundance vs SmallCalanoida
+Absolute Number of Individuals
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">7.42</td>
+<td align="right">0.65</td>
+<td align="right">11.40</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-3.25</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.59</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 21</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.34</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.3</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-301">Table 2.15: </span>Fmort vs SmallCalanoida
+Absolute Number of Individuals
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.84</td>
+<td align="right">0.29</td>
+<td align="right">6.31</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-2.29</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.24</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 21</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.2</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.16</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="abundance-of-calanus-cv-and-adults" class="section level4" number="2.3.3.4">
+<h4><span class="header-section-number">2.3.3.4</span> Abundance of Calanus CV and adults</h4>
+<div id="figures-27" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/calanus-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-27" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-312">Table 2.16: </span>Catch vs Calanus CV and adult Spring
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">35497.70</td>
+<td align="right">4776.14</td>
+<td align="right">7.43</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-9.15</td>
+<td align="right">2.83</td>
+<td align="right">-3.24</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.48</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 27</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.28</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.25</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-312">Table 2.16: </span>Fmort vs Calanus CV and adult Spring
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.81</td>
+<td align="right">0.23</td>
+<td align="right">7.87</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-2.95</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.73</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 21</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.29</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.26</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="zooplankton-abundance-anomaly" class="section level4" number="2.3.3.5">
+<h4><span class="header-section-number">2.3.3.5</span> Zooplankton abundance anomaly</h4>
+<div id="figures-28" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-abund-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-28" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
+<div id="zooplankton-diversity-index" class="section level4" number="2.3.3.6">
+<h4><span class="header-section-number">2.3.3.6</span> Zooplankton diversity index</h4>
+<div id="figures-29" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-diversity-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-29" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
+<div id="smalllarge-copepod-anomaly" class="section level4" number="2.3.3.7">
+<h4><span class="header-section-number">2.3.3.7</span> Small/large copepod anomaly</h4>
+<div id="figures-30" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/zoo-sli-anom-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-30" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-345">Table 2.17: </span>Fmort vs large
+Anomaly
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">1.32</td>
+<td align="right">0.14</td>
+<td align="right">9.26</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-0.91</td>
+<td align="right">0.38</td>
+<td align="right">-2.39</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.7</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 21</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.21</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.18</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="ichthyoplankton-diversity" class="section level4" number="2.3.3.8">
+<h4><span class="header-section-number">2.3.3.8</span> Ichthyoplankton diversity</h4>
+<div id="figures-31" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/ich-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-31" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
+</div>
+<div id="forage-fish-abundance" class="section level3" number="2.3.4">
+<h3><span class="header-section-number">2.3.4</span> Forage fish abundance</h3>
+<div id="figures-32" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/forage-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-32" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-367">Table 2.18: </span>Catch vs Forage_Lower
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">8427.77</td>
+<td align="right">1007.01</td>
+<td align="right">8.37</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">4980.56</td>
+<td align="right">1901.09</td>
+<td align="right">2.62</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.86</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 7</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.5</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-367">Table 2.18: </span>Catch vs Forage_Mean
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">7240.15</td>
+<td align="right">832.39</td>
+<td align="right">8.70</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">5395.87</td>
+<td align="right">1919.10</td>
+<td align="right">2.81</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.91</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 7</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.46</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-367">Table 2.18: </span>Catch vs Forage_Upper
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">5867.12</td>
+<td align="right">899.44</td>
+<td align="right">6.52</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">5738.87</td>
+<td align="right">1931.60</td>
+<td align="right">2.97</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.83</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 7</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.56</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.49</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-367">Table 2.18: </span>Abundance vs Forage_SE
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-0.09</td>
+<td align="right">2.04</td>
+<td align="right">-0.04</td>
+<td align="right">0.97</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">20.02</td>
+<td align="right">8.30</td>
+<td align="right">2.41</td>
+<td align="right">0.05</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.82</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 7</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.45</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.38</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="physical-indicators.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="trophic-indicators-in-the-stock-region.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

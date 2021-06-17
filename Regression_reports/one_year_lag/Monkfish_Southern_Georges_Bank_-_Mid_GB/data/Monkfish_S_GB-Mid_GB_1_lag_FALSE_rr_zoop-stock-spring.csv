@@ -1,0 +1,35 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Goosefish","Southern Georges Bank / Mid",2009,7105,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",20592,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"2","Goosefish","Southern Georges Bank / Mid",2010,8545,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",32509,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"3","Goosefish","Southern Georges Bank / Mid",2011,8438,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",25878,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"4","Goosefish","Southern Georges Bank / Mid",2012,7176,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",31016,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"5","Goosefish","Southern Georges Bank / Mid",2013,6859,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",23849,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"6","Goosefish","Southern Georges Bank / Mid",2014,5844,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",20359,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"7","Goosefish","Southern Georges Bank / Mid",2015,7199,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",50510,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"8","Goosefish","Southern Georges Bank / Mid",2016,9143,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",52014,FALSE,8,0.168062167775969,0.0461437023710786,FALSE
+"9",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Abundance
+Metric Tons",26619,TRUE,0,NA,NA,NA

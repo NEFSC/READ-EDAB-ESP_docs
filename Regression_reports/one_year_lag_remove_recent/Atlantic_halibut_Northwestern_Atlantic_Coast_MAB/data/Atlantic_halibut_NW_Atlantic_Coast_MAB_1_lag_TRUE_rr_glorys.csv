@@ -1,0 +1,69 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic halibut","Northwestern Atlantic Coast",2001,35.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.276622289,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"2","Atlantic halibut","Northwestern Atlantic Coast",2002,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.298862795,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"3","Atlantic halibut","Northwestern Atlantic Coast",2003,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.68143186,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"4","Atlantic halibut","Northwestern Atlantic Coast",2004,44.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-1.410899092,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"5","Atlantic halibut","Northwestern Atlantic Coast",2005,40.5999984741211,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.669594338,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"6","Atlantic halibut","Northwestern Atlantic Coast",2006,71.3000030517578,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.091761755,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"7","Atlantic halibut","Northwestern Atlantic Coast",2007,68.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.441779606,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"8","Atlantic halibut","Northwestern Atlantic Coast",2008,76.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.5917528,FALSE,8,0.423834044181995,5.62826045423098,FALSE
+"9",NA,NA,1993,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.818007931,TRUE,0,NA,NA,NA
+"10",NA,NA,1994,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.062321409,TRUE,0,NA,NA,NA
+"11",NA,NA,1995,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.570108581,TRUE,0,NA,NA,NA
+"12",NA,NA,1996,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-1.453431234,TRUE,0,NA,NA,NA
+"13",NA,NA,1997,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.263889618,TRUE,0,NA,NA,NA
+"14",NA,NA,1998,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.65886288,TRUE,0,NA,NA,NA
+"15",NA,NA,1999,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.237862138,TRUE,0,NA,NA,NA
+"16",NA,NA,2000,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.549581083,TRUE,0,NA,NA,NA
+"17",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.642233392,TRUE,0,NA,NA,NA
+"18",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.321625563,TRUE,0,NA,NA,NA
+"19",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.401191284,TRUE,0,NA,NA,NA
+"20",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.971029624,TRUE,0,NA,NA,NA
+"21",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.86008091,TRUE,0,NA,NA,NA
+"22",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.167381922,TRUE,0,NA,NA,NA
+"23",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.536763377,TRUE,0,NA,NA,NA
+"24",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.656052996,TRUE,0,NA,NA,NA
+"25",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.72947613,TRUE,0,NA,NA,NA
+"26",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.028370174,TRUE,0,NA,NA,NA

@@ -1,0 +1,87 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic cod","Gulf of Maine",1993,9775,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",0.305826872333333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"2","Atlantic cod","Gulf of Maine",1994,8445,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",0.665447415333333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"3","Atlantic cod","Gulf of Maine",1995,8014,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",1.47168778475,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"4","Atlantic cod","Gulf of Maine",1996,6015,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.247053804833333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"5","Atlantic cod","Gulf of Maine",1997,4894,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.724616407,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"6","Atlantic cod","Gulf of Maine",1998,3878,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.938718915333333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"7","Atlantic cod","Gulf of Maine",1999,6581,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.381520641583333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"8","Atlantic cod","Gulf of Maine",2000,8600,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",1.14645195708333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"9","Atlantic cod","Gulf of Maine",2001,7142,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.330385732083333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"10","Atlantic cod","Gulf of Maine",2002,6686,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",0.192448056083333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"11","Atlantic cod","Gulf of Maine",2003,7005,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.803570048583333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"12","Atlantic cod","Gulf of Maine",2004,7088,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.932953449833333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"13","Atlantic cod","Gulf of Maine",2005,4264,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.744510875083333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"14","Atlantic cod","Gulf of Maine",2006,5966,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.0896493745,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"15","Atlantic cod","Gulf of Maine",2007,8303,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.739860933333333,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"16","Atlantic cod","Gulf of Maine",2008,9485,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","gulf stream index
+latitude anomaly",-0.322276511,FALSE,16,0.0341279058391504,1254.44750549676,TRUE
+"17",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",0.0420546628333333,TRUE,0,NA,NA,NA
+"18",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",-0.482836774916667,TRUE,0,NA,NA,NA
+"19",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",-1.09398477708333,TRUE,0,NA,NA,NA
+"20",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",0.260769543416667,TRUE,0,NA,NA,NA
+"21",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",-0.619170524416667,TRUE,0,NA,NA,NA
+"22",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",-0.01109165725,TRUE,0,NA,NA,NA
+"23",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",0.45464812875,TRUE,0,NA,NA,NA
+"24",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",0.633233058,TRUE,0,NA,NA,NA
+"25",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",0.354967711166667,TRUE,0,NA,NA,NA
+"26",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",1.39735229558333,TRUE,0,NA,NA,NA
+"27",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",1.53731294166667,TRUE,0,NA,NA,NA

@@ -1,0 +1,87 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic halibut","Northwestern Atlantic Coast",2001,35.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.276622289,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"2","Atlantic halibut","Northwestern Atlantic Coast",2002,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.298862795,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"3","Atlantic halibut","Northwestern Atlantic Coast",2003,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.68143186,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"4","Atlantic halibut","Northwestern Atlantic Coast",2004,44.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-1.410899092,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"5","Atlantic halibut","Northwestern Atlantic Coast",2005,40.5999984741211,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.669594338,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"6","Atlantic halibut","Northwestern Atlantic Coast",2006,71.3000030517578,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.091761755,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"7","Atlantic halibut","Northwestern Atlantic Coast",2007,68.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.441779606,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"8","Atlantic halibut","Northwestern Atlantic Coast",2008,76.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.5917528,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"9","Atlantic halibut","Northwestern Atlantic Coast",2009,60.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.642233392,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"10","Atlantic halibut","Northwestern Atlantic Coast",2010,81.6999969482422,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.321625563,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"11","Atlantic halibut","Northwestern Atlantic Coast",2011,107.599998474121,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.401191284,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"12","Atlantic halibut","Northwestern Atlantic Coast",2012,115.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.971029624,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"13","Atlantic halibut","Northwestern Atlantic Coast",2013,103.900001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.86008091,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"14","Atlantic halibut","Northwestern Atlantic Coast",2014,115.400001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.167381922,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"15","Atlantic halibut","Northwestern Atlantic Coast",2015,132.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.536763377,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"16","Atlantic halibut","Northwestern Atlantic Coast",2016,124,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.656052996,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"17","Atlantic halibut","Northwestern Atlantic Coast",2017,156.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.72947613,FALSE,17,0.00958891023884828,24.0339422664203,TRUE
+"18",NA,NA,1993,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.818007931,TRUE,0,NA,NA,NA
+"19",NA,NA,1994,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.062321409,TRUE,0,NA,NA,NA
+"20",NA,NA,1995,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.570108581,TRUE,0,NA,NA,NA
+"21",NA,NA,1996,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-1.453431234,TRUE,0,NA,NA,NA
+"22",NA,NA,1997,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.263889618,TRUE,0,NA,NA,NA
+"23",NA,NA,1998,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.65886288,TRUE,0,NA,NA,NA
+"24",NA,NA,1999,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.237862138,TRUE,0,NA,NA,NA
+"25",NA,NA,2000,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.549581083,TRUE,0,NA,NA,NA
+"26",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",-0.028370174,TRUE,0,NA,NA,NA

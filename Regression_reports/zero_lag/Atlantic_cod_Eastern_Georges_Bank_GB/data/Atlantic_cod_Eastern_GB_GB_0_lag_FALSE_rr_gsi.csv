@@ -1,0 +1,107 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic cod","Eastern Georges Bank",1993,4077,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.305826872333333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"2","Atlantic cod","Eastern Georges Bank",1994,1003,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.665447415333333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"3","Atlantic cod","Eastern Georges Bank",1995,544,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",1.47168778475,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"4","Atlantic cod","Eastern Georges Bank",1996,677,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.247053804833333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"5","Atlantic cod","Eastern Georges Bank",1997,555,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.724616407,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"6","Atlantic cod","Eastern Georges Bank",1998,686,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.938718915333333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"7","Atlantic cod","Eastern Georges Bank",1999,1204,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.381520641583333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"8","Atlantic cod","Eastern Georges Bank",2000,788,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",1.14645195708333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"9","Atlantic cod","Eastern Georges Bank",2001,1634,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.330385732083333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"10","Atlantic cod","Eastern Georges Bank",2002,1697,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.192448056083333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"11","Atlantic cod","Eastern Georges Bank",2003,1935,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.803570048583333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"12","Atlantic cod","Eastern Georges Bank",2004,1063,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.932953449833333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"13","Atlantic cod","Eastern Georges Bank",2005,370,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.744510875083333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"14","Atlantic cod","Eastern Georges Bank",2006,226,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.0896493745,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"15","Atlantic cod","Eastern Georges Bank",2007,513,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.739860933333333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"16","Atlantic cod","Eastern Georges Bank",2008,244,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.322276511,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"17","Atlantic cod","Eastern Georges Bank",2009,580,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.0420546628333333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"18","Atlantic cod","Eastern Georges Bank",2010,454,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.482836774916667,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"19","Atlantic cod","Eastern Georges Bank",2011,287,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-1.09398477708333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"20","Atlantic cod","Eastern Georges Bank",2012,148,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.260769543416667,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"21","Atlantic cod","Eastern Georges Bank",2013,40,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.619170524416667,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"22","Atlantic cod","Eastern Georges Bank",2014,116,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",-0.01109165725,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"23","Atlantic cod","Eastern Georges Bank",2015,116,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.45464812875,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"24","Atlantic cod","Eastern Georges Bank",2016,97,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.633233058,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"25","Atlantic cod","Eastern Georges Bank",2017,38,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",0.354967711166667,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"26","Atlantic cod","Eastern Georges Bank",2018,48,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","gulf stream index
+latitude anomaly",1.39735229558333,FALSE,26,0.818574383993288,-56.8450069746254,FALSE
+"27",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"gulf stream index
+latitude anomaly",1.53731294166667,TRUE,0,NA,NA,NA

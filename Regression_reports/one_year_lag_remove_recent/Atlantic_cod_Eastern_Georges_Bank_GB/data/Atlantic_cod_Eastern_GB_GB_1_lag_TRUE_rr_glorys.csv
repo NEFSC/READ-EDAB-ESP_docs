@@ -1,0 +1,85 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic cod","Eastern Georges Bank",1993,1003,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.321235959,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"2","Atlantic cod","Eastern Georges Bank",1994,544,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.390613247,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"3","Atlantic cod","Eastern Georges Bank",1995,677,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.449395482,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"4","Atlantic cod","Eastern Georges Bank",1996,555,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.972414388,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"5","Atlantic cod","Eastern Georges Bank",1997,686,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.01648011,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"6","Atlantic cod","Eastern Georges Bank",1998,1204,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.671553849,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"7","Atlantic cod","Eastern Georges Bank",1999,788,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.034883793,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"8","Atlantic cod","Eastern Georges Bank",2000,1634,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.540390256,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"9","Atlantic cod","Eastern Georges Bank",2001,1697,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.353426606,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"10","Atlantic cod","Eastern Georges Bank",2002,1935,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.758368165,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"11","Atlantic cod","Eastern Georges Bank",2003,1063,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.408021732,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"12","Atlantic cod","Eastern Georges Bank",2004,370,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-1.182823355,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"13","Atlantic cod","Eastern Georges Bank",2005,226,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.685677265,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"14","Atlantic cod","Eastern Georges Bank",2006,513,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.269768393,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"15","Atlantic cod","Eastern Georges Bank",2007,244,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.661743053,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"16","Atlantic cod","Eastern Georges Bank",2008,580,"Catch","Estimated Total Catch - USA","Metric Tons",2019,2019,"Catch
+Estimated Total Catch - USA
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.194086493,FALSE,16,0.0482941992635518,401.692298683161,TRUE
+"17",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.466250514,TRUE,0,NA,NA,NA
+"18",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.855895732,TRUE,0,NA,NA,NA
+"19",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.36062931,TRUE,0,NA,NA,NA
+"20",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.884990349,TRUE,0,NA,NA,NA
+"21",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.184849764,TRUE,0,NA,NA,NA
+"22",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.220714317,TRUE,0,NA,NA,NA
+"23",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.445139772,TRUE,0,NA,NA,NA
+"24",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.712813225,TRUE,0,NA,NA,NA
+"25",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",1.165640136,TRUE,0,NA,NA,NA
+"26",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"GLORYS bottom temp anomaly
+degreesC",0.749238974,TRUE,0,NA,NA,NA

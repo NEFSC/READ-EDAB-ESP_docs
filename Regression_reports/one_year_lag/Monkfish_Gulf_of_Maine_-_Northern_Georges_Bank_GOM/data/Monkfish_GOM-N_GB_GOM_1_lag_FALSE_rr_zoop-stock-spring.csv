@@ -1,0 +1,39 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Goosefish","Gulf of Maine / Northern Georges Bank",2009,2741,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",32406,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"2","Goosefish","Gulf of Maine / Northern Georges Bank",2010,2814,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",42178,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"3","Goosefish","Gulf of Maine / Northern Georges Bank",2011,4635,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",49936,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"4","Goosefish","Gulf of Maine / Northern Georges Bank",2012,3922,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",51063,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"5","Goosefish","Gulf of Maine / Northern Georges Bank",2013,3954,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",40838,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"6","Goosefish","Gulf of Maine / Northern Georges Bank",2014,4630,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",54125,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"7","Goosefish","Gulf of Maine / Northern Georges Bank",2015,5508,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",77578,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"8","Goosefish","Gulf of Maine / Northern Georges Bank",2016,7894,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",103686,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"9","Goosefish","Gulf of Maine / Northern Georges Bank",2017,8115,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Abundance
+Metric Tons",113147,FALSE,9,7.81498867838897e-06,0.0663039631747474,TRUE
+"10",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Abundance
+Metric Tons",140801,TRUE,0,NA,NA,NA

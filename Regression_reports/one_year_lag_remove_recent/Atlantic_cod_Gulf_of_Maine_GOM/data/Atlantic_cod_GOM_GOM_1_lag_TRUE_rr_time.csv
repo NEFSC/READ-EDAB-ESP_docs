@@ -1,0 +1,83 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic cod","Gulf of Maine",1982,17988,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1982,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"2","Atlantic cod","Gulf of Maine",1983,14457,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1983,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"3","Atlantic cod","Gulf of Maine",1984,18101,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1984,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"4","Atlantic cod","Gulf of Maine",1985,14686,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1985,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"5","Atlantic cod","Gulf of Maine",1986,14307,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1986,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"6","Atlantic cod","Gulf of Maine",1987,12143,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1987,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"7","Atlantic cod","Gulf of Maine",1988,15284,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1988,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"8","Atlantic cod","Gulf of Maine",1989,21932,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1989,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"9","Atlantic cod","Gulf of Maine",1990,21375,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1990,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"10","Atlantic cod","Gulf of Maine",1991,13023,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1991,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"11","Atlantic cod","Gulf of Maine",1992,11178,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1992,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"12","Atlantic cod","Gulf of Maine",1993,9775,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1993,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"13","Atlantic cod","Gulf of Maine",1994,8445,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1994,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"14","Atlantic cod","Gulf of Maine",1995,8014,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1995,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"15","Atlantic cod","Gulf of Maine",1996,6015,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1996,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"16","Atlantic cod","Gulf of Maine",1997,4894,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1997,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"17","Atlantic cod","Gulf of Maine",1998,3878,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1998,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"18","Atlantic cod","Gulf of Maine",1999,6581,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",1999,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"19","Atlantic cod","Gulf of Maine",2000,8600,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2000,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"20","Atlantic cod","Gulf of Maine",2001,7142,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2001,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"21","Atlantic cod","Gulf of Maine",2002,6686,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2002,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"22","Atlantic cod","Gulf of Maine",2003,7005,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2003,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"23","Atlantic cod","Gulf of Maine",2004,7088,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2004,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"24","Atlantic cod","Gulf of Maine",2005,4264,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2005,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"25","Atlantic cod","Gulf of Maine",2006,5966,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2006,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"26","Atlantic cod","Gulf of Maine",2007,8303,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2007,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"27","Atlantic cod","Gulf of Maine",2008,9485,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","Time",2008,FALSE,27,4.82097825046133e-06,-488.905982905982,TRUE
+"28",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"Time",2009,TRUE,0,NA,NA,NA

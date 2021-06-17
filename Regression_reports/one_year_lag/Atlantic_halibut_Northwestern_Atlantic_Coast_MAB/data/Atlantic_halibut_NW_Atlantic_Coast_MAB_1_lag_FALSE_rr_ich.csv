@@ -1,0 +1,77 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic halibut","Northwestern Atlantic Coast",2001,35.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.31069214531773,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"2","Atlantic halibut","Northwestern Atlantic Coast",2002,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.65769682419334,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"3","Atlantic halibut","Northwestern Atlantic Coast",2003,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.88902176334585,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"4","Atlantic halibut","Northwestern Atlantic Coast",2004,44.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.30839407916973,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"5","Atlantic halibut","Northwestern Atlantic Coast",2005,40.5999984741211,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.6762277337174,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"6","Atlantic halibut","Northwestern Atlantic Coast",2006,71.3000030517578,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.58663250369499,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"7","Atlantic halibut","Northwestern Atlantic Coast",2007,68.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.2392431396126,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"8","Atlantic halibut","Northwestern Atlantic Coast",2008,76.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.92800880629282,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"9","Atlantic halibut","Northwestern Atlantic Coast",2009,60.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.50979148748229,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"10","Atlantic halibut","Northwestern Atlantic Coast",2010,81.6999969482422,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.07244961127498,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"11","Atlantic halibut","Northwestern Atlantic Coast",2011,107.599998474121,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.47699369010643,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"12","Atlantic halibut","Northwestern Atlantic Coast",2012,115.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.51366625971415,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"13","Atlantic halibut","Northwestern Atlantic Coast",2013,103.900001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.41157129659106,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"14","Atlantic halibut","Northwestern Atlantic Coast",2014,115.400001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.18407162451133,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"15","Atlantic halibut","Northwestern Atlantic Coast",2015,132.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.14525593535193,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"16","Atlantic halibut","Northwestern Atlantic Coast",2016,124,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.3238299006724,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"17","Atlantic halibut","Northwestern Atlantic Coast",2017,156.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
+Total Catch - International
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.83412114895976,FALSE,17,0.211325624720606,-45.3848251066818,FALSE
+"18",NA,NA,1999,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",1.64818021721719,TRUE,0,NA,NA,NA
+"19",NA,NA,2000,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.43110439391878,TRUE,0,NA,NA,NA
+"20",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.20353217928117,TRUE,0,NA,NA,NA
+"21",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.16447076765615,TRUE,0,NA,NA,NA

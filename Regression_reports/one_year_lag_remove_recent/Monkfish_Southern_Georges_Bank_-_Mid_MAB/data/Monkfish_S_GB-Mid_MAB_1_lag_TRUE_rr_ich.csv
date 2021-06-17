@@ -1,0 +1,67 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Goosefish","Southern Georges Bank / Mid",1999,13379,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.64818021721719,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"2","Goosefish","Southern Georges Bank / Mid",2000,14219,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.43110439391878,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"3","Goosefish","Southern Georges Bank / Mid",2001,12680,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.31069214531773,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"4","Goosefish","Southern Georges Bank / Mid",2002,14964,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.65769682419334,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"5","Goosefish","Southern Georges Bank / Mid",2003,11760,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.88902176334585,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"6","Goosefish","Southern Georges Bank / Mid",2004,12597,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.30839407916973,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"7","Goosefish","Southern Georges Bank / Mid",2005,11428,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.6762277337174,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"8","Goosefish","Southern Georges Bank / Mid",2006,10143,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.58663250369499,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"9","Goosefish","Southern Georges Bank / Mid",2007,9151,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",2.2392431396126,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"10","Goosefish","Southern Georges Bank / Mid",2008,7158,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
+Estimated Total Catch
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.92800880629282,FALSE,10,0.525967307383074,1560.88960373054,FALSE
+"11","Goosefish","Southern Georges Bank / Mid",2008,20592,"Abundance","Survey Estimated Area-Swept Biomass","Metric Tons",2019,2019,"Abundance
+Survey Estimated Area-Swept Biomass
+Metric Tons","Ich_Shannon-Wiener_Diversity_index
+Unitless",1.92800880629282,FALSE,1,NA,NA,NA
+"12",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.50979148748229,TRUE,0,NA,NA,NA
+"13",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.07244961127498,TRUE,0,NA,NA,NA
+"14",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.47699369010643,TRUE,0,NA,NA,NA
+"15",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.51366625971415,TRUE,0,NA,NA,NA
+"16",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.41157129659106,TRUE,0,NA,NA,NA
+"17",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.18407162451133,TRUE,0,NA,NA,NA
+"18",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.14525593535193,TRUE,0,NA,NA,NA
+"19",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.3238299006724,TRUE,0,NA,NA,NA
+"20",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",1.83412114895976,TRUE,0,NA,NA,NA
+"21",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.20353217928117,TRUE,0,NA,NA,NA
+"22",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
+Unitless",2.16447076765615,TRUE,0,NA,NA,NA

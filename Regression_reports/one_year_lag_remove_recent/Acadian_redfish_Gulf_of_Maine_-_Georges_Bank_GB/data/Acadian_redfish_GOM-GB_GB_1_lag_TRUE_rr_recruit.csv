@@ -1,0 +1,61 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Acadian redfish","Gulf of Maine / Georges Bank",1999,480,"Catch","Reported Catch - Total (Mean)","Metric Tons",2017,2017,"Catch
+Reported Catch - Total (Mean)
+Metric Tons","Acadian redfish
+anom",-0.0108977563380277,FALSE,3,0.885002703882076,13467.0278774504,FALSE
+"2","Acadian redfish","Gulf of Maine / Georges Bank",2001,499,"Catch","Reported Catch - Total (Mean)","Metric Tons",2017,2017,"Catch
+Reported Catch - Total (Mean)
+Metric Tons","Acadian redfish
+anom",-0.000676563848867655,FALSE,3,0.885002703882076,13467.0278774504,FALSE
+"3","Acadian redfish","Gulf of Maine / Georges Bank",2006,1161,"Catch","Reported Catch - Total (Mean)","Metric Tons",2017,2017,"Catch
+Reported Catch - Total (Mean)
+Metric Tons","Acadian redfish
+anom",-0.00439371224140559,FALSE,3,0.885002703882076,13467.0278774504,FALSE
+"4","Acadian redfish","Gulf of Maine / Georges Bank",1999,0.00637000007554889,"Fmort","Max F Rate at Age (Retro Adjusted 2016)","Apical F",2017,2017,"Fmort
+Max F Rate at Age (Retro Adjusted 2016)
+Apical F","Acadian redfish
+anom",-0.0108977563380277,FALSE,3,0.360457285761158,-0.151192727742932,FALSE
+"5","Acadian redfish","Gulf of Maine / Georges Bank",2001,0.0046700001694262,"Fmort","Max F Rate at Age (Retro Adjusted 2016)","Apical F",2017,2017,"Fmort
+Max F Rate at Age (Retro Adjusted 2016)
+Apical F","Acadian redfish
+anom",-0.000676563848867655,FALSE,3,0.360457285761158,-0.151192727742932,FALSE
+"6","Acadian redfish","Gulf of Maine / Georges Bank",2006,0.00615999987348914,"Fmort","Max F Rate at Age (Retro Adjusted 2016)","Apical F",2017,2017,"Fmort
+Max F Rate at Age (Retro Adjusted 2016)
+Apical F","Acadian redfish
+anom",-0.00439371224140559,FALSE,3,0.360457285761158,-0.151192727742932,FALSE
+"7","Acadian redfish","Gulf of Maine / Georges Bank",1999,92116,"Recruitment","Abundance - Age 1 (Mean)","Thousand Recruits",2017,2017,"Recruitment
+Abundance - Age 1 (Mean)
+Thousand Recruits","Acadian redfish
+anom",-0.0108977563380277,FALSE,3,0.719453399463092,-1841994.070935,FALSE
+"8","Acadian redfish","Gulf of Maine / Georges Bank",2001,79573,"Recruitment","Abundance - Age 1 (Mean)","Thousand Recruits",2017,2017,"Recruitment
+Abundance - Age 1 (Mean)
+Thousand Recruits","Acadian redfish
+anom",-0.000676563848867655,FALSE,3,0.719453399463092,-1841994.070935,FALSE
+"9","Acadian redfish","Gulf of Maine / Georges Bank",2006,48705,"Recruitment","Abundance - Age 1 (Mean)","Thousand Recruits",2017,2017,"Recruitment
+Abundance - Age 1 (Mean)
+Thousand Recruits","Acadian redfish
+anom",-0.00439371224140559,FALSE,3,0.719453399463092,-1841994.070935,FALSE
+"10","Acadian redfish","Gulf of Maine / Georges Bank",1999,80354,"Abundance","Mature Biomass Retro Adjusted 2016 (Mean)","Metric Tons",2017,2017,"Abundance
+Mature Biomass Retro Adjusted 2016 (Mean)
+Metric Tons","Acadian redfish
+anom",-0.0108977563380277,FALSE,3,0.743859787635339,4521719.78032925,FALSE
+"11","Acadian redfish","Gulf of Maine / Georges Bank",2001,109475,"Abundance","Mature Biomass Retro Adjusted 2016 (Mean)","Metric Tons",2017,2017,"Abundance
+Mature Biomass Retro Adjusted 2016 (Mean)
+Metric Tons","Acadian redfish
+anom",-0.000676563848867655,FALSE,3,0.743859787635339,4521719.78032925,FALSE
+"12","Acadian redfish","Gulf of Maine / Georges Bank",2006,195269,"Abundance","Mature Biomass Retro Adjusted 2016 (Mean)","Metric Tons",2017,2017,"Abundance
+Mature Biomass Retro Adjusted 2016 (Mean)
+Metric Tons","Acadian redfish
+anom",-0.00439371224140559,FALSE,3,0.743859787635339,4521719.78032925,FALSE
+"13",NA,NA,2007,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",-0.010309884487898,TRUE,0,NA,NA,NA
+"14",NA,NA,2008,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",-0.014705769784887,TRUE,0,NA,NA,NA
+"15",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",0.0658502309273637,TRUE,0,NA,NA,NA
+"16",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",-0.00760205347382579,TRUE,0,NA,NA,NA
+"17",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",-0.00384429547471613,TRUE,0,NA,NA,NA
+"18",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Acadian redfish
+anom",-0.0134201952777359,TRUE,0,NA,NA,NA

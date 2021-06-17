@@ -1,0 +1,105 @@
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"1","Atlantic cod","Gulf of Maine",1993,11178,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.30722013,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"2","Atlantic cod","Gulf of Maine",1994,9775,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.529720908,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"3","Atlantic cod","Gulf of Maine",1995,8445,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.50414665,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"4","Atlantic cod","Gulf of Maine",1996,8014,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.433545823,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"5","Atlantic cod","Gulf of Maine",1997,6015,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.360002993,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"6","Atlantic cod","Gulf of Maine",1998,4894,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.518909817,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"7","Atlantic cod","Gulf of Maine",1999,3878,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.008170778,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"8","Atlantic cod","Gulf of Maine",2000,6581,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.446816123,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"9","Atlantic cod","Gulf of Maine",2001,8600,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.096358348,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"10","Atlantic cod","Gulf of Maine",2002,7142,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.43727551,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"11","Atlantic cod","Gulf of Maine",2003,6686,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.291764338,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"12","Atlantic cod","Gulf of Maine",2004,7005,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.846661798,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"13","Atlantic cod","Gulf of Maine",2005,7088,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.561707206,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"14","Atlantic cod","Gulf of Maine",2006,4264,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.405892245,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"15","Atlantic cod","Gulf of Maine",2007,5966,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.259748125,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"16","Atlantic cod","Gulf of Maine",2008,8303,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.429896651,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"17","Atlantic cod","Gulf of Maine",2009,9485,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",-0.446050276,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"18","Atlantic cod","Gulf of Maine",2010,9100,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.45745599,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"19","Atlantic cod","Gulf of Maine",2011,8007,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.962343241,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"20","Atlantic cod","Gulf of Maine",2012,4204,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.219864389,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"21","Atlantic cod","Gulf of Maine",2013,2723,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.169083437,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"22","Atlantic cod","Gulf of Maine",2014,1806,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",0.986840565,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"23","Atlantic cod","Gulf of Maine",2015,420,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.088567344,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"24","Atlantic cod","Gulf of Maine",2016,850,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.472046932,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"25","Atlantic cod","Gulf of Maine",2017,1171,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.287989916,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
+"26","Atlantic cod","Gulf of Maine",2018,753,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
+Total Catch
+Metric Tons","GLORYS bottom temp anomaly
+degreesC",1.373104793,FALSE,26,0.000606068116848179,-2850.27068828839,TRUE
