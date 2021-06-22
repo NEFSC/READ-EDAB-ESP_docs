@@ -1,4 +1,3 @@
-
 ---
 output: md_document
 ---
@@ -7,9 +6,10 @@ output: md_document
 
 # Ecosystem and Socioeconomic Profiles
 
-[![](https://img.shields.io/github/last-commit/NOAA-EDAB/ESP_docs.svg)](https://github.com/NOAA-EDAB/ESP_docs/commits)
-![](https://img.shields.io/badge/repo%20size-1.99%20GB-blue.svg)
-![gitleaks](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)
+[![](https://img.shields.io/github/last-commit/NOAA-EDAB/ESP_docs.svg)](https://github.com/NOAA-EDAB/ESP_docs/commits/main) ![](https://img.shields.io/badge/repo%20size-1.99%20GB-blue.svg)
+[![](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NOAA-EDAB/ESP_docs/actions/workflows/secretScan.yml)
+[![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Indicator%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_indicator_reports_dev.yaml)
+[![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Regression%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_regression_reports_dev.yaml)
 
 ## View current data products
 https://NOAA-EDAB.github.io/ESP_docs/docs
