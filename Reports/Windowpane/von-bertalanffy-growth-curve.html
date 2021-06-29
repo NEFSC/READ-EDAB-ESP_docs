@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
 
 
-<meta name="date" content="2021-06-16" />
+<meta name="date" content="2021-06-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -286,92 +286,31 @@
 <p>setup-vonb</p>
 <p>data_wrangling</p>
 <p>vonb-model</p>
+<pre><code>## [1] &quot;NOT ENOUGH DATA TO FIT A CURVE&quot;</code></pre>
 <div id="length-at-age-growth-curve" class="section level3" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Length at age growth curve</h3>
 <p>The predicted von Bertalanffy growth curve for NMFS managed fish species. Growth parameters of <code>Linf</code> (Length infinity), <code>K</code> (growth coefficient), and <code>t0</code> (size at time 0) were estimated using non-linear least square model. The starting point for model building is accomplished using <code>FSA::vbStarts</code>. Age and length data sourced from <code>survdat</code> and spans all years and survey areas.</p>
-single-growth-curve
-<div class="figure" style="text-align: center"><span id="fig:single-growth-curve"></span>
-<img src="figures/single-growth-curve-1.png" alt="Windowpane length at age growth curve" width="100%" />
-<p class="caption">
-Figure 3.15: Windowpane length at age growth curve
-</p>
-</div>
+<p>single-growth-curve</p>
+<pre><code>## [1] &quot;NO DATA&quot;</code></pre>
 </div>
 <div id="growth-differences-among-groups" class="section level3" number="3.2.2">
 <h3><span class="header-section-number">3.2.2</span> Growth differences among groups</h3>
 <p>The rate of growth may vary through time and between sexes. To assess for potential differences in growth among these groups, the global von Bertalanffy growth model was constructed and the residuals of each observation and the predicted size was tested for significant differences among groups and through time.</p>
 <p>growth_diff_testing</p>
+<pre><code>## [1] &quot;Not enough data to test differences&quot;</code></pre>
 <p>ancova model</p>
+<pre><code>## [1] &quot;Not enough data to perform analysis&quot;</code></pre>
 </div>
 <div id="ancova-model-output" class="section level3" number="3.2.3">
 <h3><span class="header-section-number">3.2.3</span> ANCOVA model output</h3>
 <p>vonb ancova table</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">P-value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">0.056</td>
-<td align="right">0.007</td>
-<td align="right">7.442</td>
-<td align="right">0.000</td>
-</tr>
-<tr class="even">
-<td align="left">SEXmale</td>
-<td align="right">-0.050</td>
-<td align="right">0.012</td>
-<td align="right">-4.298</td>
-<td align="right">0.000</td>
-</tr>
-<tr class="odd">
-<td align="left">Decade(2005,2015]</td>
-<td align="right">-0.029</td>
-<td align="right">0.011</td>
-<td align="right">-2.709</td>
-<td align="right">0.007</td>
-</tr>
-<tr class="even">
-<td align="left">Decade(2015,2025]</td>
-<td align="right">-0.031</td>
-<td align="right">0.013</td>
-<td align="right">-2.493</td>
-<td align="right">0.013</td>
-</tr>
-<tr class="odd">
-<td align="left">SEXmale:Decade(2005,2015]</td>
-<td align="right">-0.022</td>
-<td align="right">0.017</td>
-<td align="right">-1.284</td>
-<td align="right">0.199</td>
-</tr>
-<tr class="even">
-<td align="left">SEXmale:Decade(2015,2025]</td>
-<td align="right">-0.005</td>
-<td align="right">0.020</td>
-<td align="right">-0.236</td>
-<td align="right">0.814</td>
-</tr>
-</tbody>
-</table>
+<pre><code>## [1] &quot;No model output&quot;</code></pre>
 </div>
 <div id="residuals-by-sex-and-decade" class="section level3" number="3.2.4">
 <h3><span class="header-section-number">3.2.4</span> Residuals by sex and decade</h3>
 <p>The fit of each of these grouping to the global model is visualized as the distribution of standardized residuals for each observation. Groups with good fit to the model should have smaller overall residuals that have equal variance above and below zero idicating the model predicting growth accuratly. If residuals are unballenced or the average of the residiuals devates from zero, this could indicate that this grouping differs from the expected growth from the global model. This deviation from the global model may indicate slower or faster growth than predicted, and this may be due to either changing energetic conditions, sexual dimorphism, or other variation in the population.</p>
-residuals boxplots
-<div class="figure" style="text-align: center">
-<img src="figures/residuals%20boxplots-1.png" alt="Windowpane fit to global von b model by sex and decade" width="100%" />
-<p class="caption">
-(#fig:residuals boxplots)Windowpane fit to global von b model by sex and decade
-</p>
-</div>
+<p>residuals boxplots</p>
+<pre><code>## [1] &quot;No data&quot;</code></pre>
 
 </div>
 </div>
