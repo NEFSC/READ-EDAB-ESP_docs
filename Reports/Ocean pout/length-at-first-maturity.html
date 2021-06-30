@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
 
 
-<meta name="date" content="2021-06-29" />
+<meta name="date" content="2021-06-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -287,14 +287,10 @@
 <h3><span class="header-section-number">3.3.1</span> Size at first maturity</h3>
 <p>L50 or length at which 50% maturity can be calculated using differing methods. Using Data sourced from <code>survdat</code> that consist of visual sexual maturity determination and length measurements. Here, L50 is estimated by fitting a logistic generalized linear model to gonadal maturity and body length measurements and estimating the inflection point of the logistic model. This point represents the size where the individual has 50% odds of being mature. Decade variations of this parameter are investigated utilizing decade as a additive and interaction term in the model specification.</p>
 <p>The relationship between sexual maturity by body size is a well established life history parameter. L50 is a useful metric in fisheries to identify sizes that are able to reproduce. This information can be used to inform regulation as to minimum catch size that should allow for a significant portion of the population to spawn and contribute genetic information to sustain the stock. Changes in this parameter can signal population/evolutionary pressures on the stock with reduction in this size potentially indicating excessive fishing pressure.</p>
-<p>L50-data-wrangling</p>
-<p>mature_model</p>
 </div>
 <div id="maturity-classification" class="section level3" number="3.3.2">
 <h3><span class="header-section-number">3.3.2</span> Maturity classification</h3>
 <p>The gonadal development stage can vary between immature and mature. Once mature, there are several stages that represent phases in the spawning sequence. These stages and phases can vary across body length and the proportion of the population in each of these categories can help identify spawning size and what seasonal effects there are on development.</p>
-<p>maturity-classification</p>
-maturity-classification-plot
 <div class="figure" style="text-align: center"><span id="fig:maturity-classification-plot"></span>
 <img src="figures/maturity-classification-plot-1.png" alt="Ocean pout maturity classification" width="768" />
 <p class="caption">
@@ -305,7 +301,6 @@ Figure 3.12: Ocean pout maturity classification
 <div id="model-results" class="section level3" number="3.3.3">
 <h3><span class="header-section-number">3.3.3</span> Model results</h3>
 <p>If the overall model is significant, there is support for the relationship between sexual maturity and body size. This model can predict the size where there are 50% odds of the indevidual is sexually mature. The results table below displays the L50 for Male and female indeviduals.</p>
-<p>model-table</p>
 <table>
 <thead>
 <tr class="header">
@@ -371,7 +366,6 @@ Figure 3.12: Ocean pout maturity classification
 <div id="l50-differences-between-sexes" class="section level3" number="3.3.4">
 <h3><span class="header-section-number">3.3.4</span> L50 differences between sexes</h3>
 <p>The significance of differences between sex can be determined by referencing the model summary table above differences in intercept indicate differences in mean size between groups. Differences in betta coefficents indicate increases or decreases to the degree to which probability of maturity increases across body lengths</p>
-<p>model-results-and-L50</p>
 <table>
 <thead>
 <tr class="header">
@@ -388,7 +382,6 @@ Figure 3.12: Ocean pout maturity classification
 </tr>
 </tbody>
 </table>
-probability-plot
 <div class="figure" style="text-align: center"><span id="fig:probability-plot"></span>
 <img src="figures/probability-plot-1.png" alt="Ocean pout probability of maturity" width="768" />
 <p class="caption">
