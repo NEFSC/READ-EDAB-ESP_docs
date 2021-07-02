@@ -227,17 +227,170 @@
 <h2><span class="header-section-number">2.7</span> Adult indicators</h2>
 <div id="abundance" class="section level3" number="2.7.1">
 <h3><span class="header-section-number">2.7.1</span> Abundance</h3>
-<pre><code>## # A tibble: 6 x 9
-##   Species  Region   Time    Val Var   Description  Units AssessmentYear max_year
-##   &lt;chr&gt;    &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;        &lt;chr&gt;          &lt;dbl&gt;    &lt;dbl&gt;
-## 1 Acadian… Gulf o…  1913 671466 Abun… Mature Biom… Metr…           2017     2017
-## 2 Acadian… Gulf o…  1914 671462 Abun… Mature Biom… Metr…           2017     2017
-## 3 Acadian… Gulf o…  1915 671446 Abun… Mature Biom… Metr…           2017     2017
-## 4 Acadian… Gulf o…  1916 671431 Abun… Mature Biom… Metr…           2017     2017
-## 5 Acadian… Gulf o…  1917 671423 Abun… Mature Biom… Metr…           2017     2017
-## 6 Acadian… Gulf o…  1918 671442 Abun… Mature Biom… Metr…           2017     2017</code></pre>
-<p>Error : Can’t subset columns that don’t exist.
-✖ Column <code>Region</code> doesn’t exist.</p>
+<pre><code>## # A tibble: 6 x 3
+##    Time    Val Var      
+##   &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;    
+## 1  1913 671466 Abundance
+## 2  1914 671462 Abundance
+## 3  1915 671446 Abundance
+## 4  1916 671431 Abundance
+## 5  1917 671423 Abundance
+## 6  1918 671442 Abundance</code></pre>
+<pre><code>## # A tibble: 6 x 17
+## # Groups:   Metric, Var [1]
+##   Species  Region   Time Value Metric Description  Units AssessmentYear max_year
+##   &lt;chr&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt;          &lt;dbl&gt;    &lt;dbl&gt;
+## 1 Acadian… Gulf o…  1913     7 Catch  Reported Ca… Metr…           2017     2017
+## 2 Acadian… Gulf o…  1914    30 Catch  Reported Ca… Metr…           2017     2017
+## 3 Acadian… Gulf o…  1915    40 Catch  Reported Ca… Metr…           2017     2017
+## 4 Acadian… Gulf o…  1916    53 Catch  Reported Ca… Metr…           2017     2017
+## 5 Acadian… Gulf o…  1917    82 Catch  Reported Ca… Metr…           2017     2017
+## 6 Acadian… Gulf o…  1918    73 Catch  Reported Ca… Metr…           2017     2017
+## # … with 8 more variables: facet &lt;chr&gt;, Val &lt;dbl&gt;, Var &lt;chr&gt;, missing &lt;lgl&gt;,
+## #   n_data_points &lt;dbl&gt;, pval &lt;dbl&gt;, slope &lt;dbl&gt;, sig &lt;lgl&gt;</code></pre>
+<div id="figures-37" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/abundance-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-37" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-422">Table 2.33: </span>Fmort vs Abundance
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">0.13</td>
+<td align="right">0.01</td>
+<td align="right">10.96</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">-6.00</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">35.98</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 102</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.26</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.25</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-422">Table 2.33: </span>Recruitment vs Abundance
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">33003.38</td>
+<td align="right">5889.30</td>
+<td align="right">5.60</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.04</td>
+<td align="right">0.02</td>
+<td align="right">2.83</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.99</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 102</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.07</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.06</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
 </div>
 <div id="mean-age-of-spawning-stock" class="section level3" number="2.7.2">
 <h3><span class="header-section-number">2.7.2</span> Mean age of spawning stock</h3>
@@ -250,11 +403,11 @@
 </div>
 <div id="condition-1" class="section level3" number="2.7.5">
 <h3><span class="header-section-number">2.7.5</span> Condition</h3>
-<div id="figures-36" class="section level5 unnumbered">
+<div id="figures-38" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p>[1] “No data for the EPU selected”</p>
 </div>
-<div id="regression-statistics-36" class="section level5 unnumbered">
+<div id="regression-statistics-38" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No data for the EPU selected”</p>
 </div>
@@ -274,11 +427,11 @@
 ## # … with 10 more variables: facet &lt;chr&gt;, Var &lt;chr&gt;, Val &lt;dbl&gt;, EPU &lt;fct&gt;,
 ## #   Units.y &lt;chr&gt;, missing &lt;lgl&gt;, n_data_points &lt;dbl&gt;, pval &lt;dbl&gt;, slope &lt;dbl&gt;,
 ## #   sig &lt;lgl&gt;</code></pre>
-<div id="figures-37" class="section level5 unnumbered">
+<div id="figures-39" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/condition-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-37" class="section level5 unnumbered">
+<div id="regression-statistics-39" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
