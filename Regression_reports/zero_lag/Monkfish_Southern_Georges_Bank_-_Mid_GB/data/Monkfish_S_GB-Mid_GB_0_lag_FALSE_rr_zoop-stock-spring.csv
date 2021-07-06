@@ -1,37 +1,28 @@
-"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Val","Var","missing","n_data_points","pval","slope","sig"
 "1","Goosefish","Southern Georges Bank / Mid",2009,7158,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",20592,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",20592,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "2","Goosefish","Southern Georges Bank / Mid",2010,7105,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",32509,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",32509,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "3","Goosefish","Southern Georges Bank / Mid",2011,8545,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",25878,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",25878,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "4","Goosefish","Southern Georges Bank / Mid",2012,8438,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",31016,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",31016,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "5","Goosefish","Southern Georges Bank / Mid",2013,7176,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",23849,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",23849,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "6","Goosefish","Southern Georges Bank / Mid",2014,6859,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",20359,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",20359,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "7","Goosefish","Southern Georges Bank / Mid",2015,5844,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",50510,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",50510,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "8","Goosefish","Southern Georges Bank / Mid",2016,7199,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",52014,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",52014,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
 "9","Goosefish","Southern Georges Bank / Mid",2018,9615,"Catch","Estimated Total Catch","Metric Tons",2019,2019,"Catch
 Estimated Total Catch
-Metric Tons","Abundance
-Metric Tons",26619,FALSE,9,0.304459842579466,-0.0362531477712582,FALSE
+Metric Tons",26619,"Abundance",FALSE,9,0.304459842579466,-0.0362531477712582,FALSE

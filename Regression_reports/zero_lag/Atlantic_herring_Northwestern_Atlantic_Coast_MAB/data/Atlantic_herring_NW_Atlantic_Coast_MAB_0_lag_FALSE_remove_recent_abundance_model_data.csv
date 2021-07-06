@@ -1,4 +1,4 @@
-"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_23_gCarbon_m_2_Day","WEEKLY_PPD_RATIO_ANOMALY_week_23_","centropages_zoo_spring_log_N_m__3","spring_Atlantic_herring_spring_gC_m_2_d_1","Recruitment_Thousand_Recruits","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
+"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_23_gCarbon_m_2_Day","WEEKLY_PPD_RATIO_ANOMALY_week_23_","centropages_zoo_spring_log_N_m__3","spring_Atlantic_herring_spring_gC_m_2_d_1","Recruitment","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
 "1","Atlantic herring","Northwestern Atlantic Coast",1998,447860,"Abundance",0.6520316,0.6814038,4.31643390625778,0.552247176532717,805422,1.79260316828951
 "2","Atlantic herring","Northwestern Atlantic Coast",1999,414034,"Abundance",0.7071875,0.6880284,4.22171159975358,0.591167565147251,840145,1.9499994572924
 "3","Atlantic herring","Northwestern Atlantic Coast",2000,394747,"Abundance",0.8325699,0.874154,4.56834702251471,0.653990349920693,833338,2.38501518124824

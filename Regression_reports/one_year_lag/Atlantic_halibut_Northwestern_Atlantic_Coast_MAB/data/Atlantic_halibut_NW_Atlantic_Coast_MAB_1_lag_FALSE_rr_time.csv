@@ -1,50 +1,50 @@
-"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Val","Var","missing","n_data_points","pval","slope","sig"
 "1","Atlantic halibut","Northwestern Atlantic Coast",2002,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2002,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2002,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "2","Atlantic halibut","Northwestern Atlantic Coast",2003,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2003,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2003,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "3","Atlantic halibut","Northwestern Atlantic Coast",2004,44.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2004,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2004,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "4","Atlantic halibut","Northwestern Atlantic Coast",2005,40.5999984741211,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2005,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2005,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "5","Atlantic halibut","Northwestern Atlantic Coast",2006,71.3000030517578,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2006,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2006,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "6","Atlantic halibut","Northwestern Atlantic Coast",2007,68.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2007,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2007,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "7","Atlantic halibut","Northwestern Atlantic Coast",2008,76.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2008,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2008,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "8","Atlantic halibut","Northwestern Atlantic Coast",2009,60.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2009,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2009,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "9","Atlantic halibut","Northwestern Atlantic Coast",2010,81.6999969482422,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2010,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2010,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "10","Atlantic halibut","Northwestern Atlantic Coast",2011,107.599998474121,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2011,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2011,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "11","Atlantic halibut","Northwestern Atlantic Coast",2012,115.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2012,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2012,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "12","Atlantic halibut","Northwestern Atlantic Coast",2013,103.900001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2013,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2013,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "13","Atlantic halibut","Northwestern Atlantic Coast",2014,115.400001525879,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2014,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2014,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "14","Atlantic halibut","Northwestern Atlantic Coast",2015,132.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2015,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2015,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "15","Atlantic halibut","Northwestern Atlantic Coast",2016,124,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2016,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+Metric Tons",2016,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
 "16","Atlantic halibut","Northwestern Atlantic Coast",2017,156.399993896484,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
-Metric Tons","Time",2017,FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
-"17",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Time",2018,TRUE,0,NA,NA,NA
+Metric Tons",2017,"Time",FALSE,16,5.99286129632916e-09,7.30794094310087,TRUE
+"17",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,2018,"Time",TRUE,0,NA,NA,NA

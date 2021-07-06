@@ -1,63 +1,63 @@
-"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"","Species","Region","Time","Value","Metric","Description","Units.x","AssessmentYear","max_year","facet","Var","Units.y","EPU","Val","missing","n_data_points","pval","slope","sig"
 "1","Atlantic cod","Gulf of Maine",1999,6581,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.27735818895879,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",2.27735818895879,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "2","Atlantic cod","Gulf of Maine",2000,8600,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.79262114622353,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",1.79262114622353,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "3","Atlantic cod","Gulf of Maine",2001,7142,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.11622966713327,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",2.11622966713327,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "4","Atlantic cod","Gulf of Maine",2002,6686,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.3616977925468,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",2.3616977925468,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "5","Atlantic cod","Gulf of Maine",2003,7005,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.4620638538459,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",1.4620638538459,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "6","Atlantic cod","Gulf of Maine",2004,7088,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.74249124173379,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",1.74249124173379,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "7","Atlantic cod","Gulf of Maine",2005,4264,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.99949717344967,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",1.99949717344967,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "8","Atlantic cod","Gulf of Maine",2006,5966,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.17492238806272,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",2.17492238806272,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "9","Atlantic cod","Gulf of Maine",2007,8303,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.1250134746904,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",2.1250134746904,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "10","Atlantic cod","Gulf of Maine",2008,9485,"Catch","Total Catch","Metric Tons",2019,2019,"Catch
 Total Catch
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.83824068400577,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
+Unitless","Unitless","GOM",1.83824068400577,FALSE,10,0.453428312835177,-1413.18267800752,FALSE
 "11",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.77017086236796,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.77017086236796,TRUE,0,NA,NA,NA
 "12",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.19129225629337,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",2.19129225629337,TRUE,0,NA,NA,NA
 "13",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.05160649598365,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",2.05160649598365,TRUE,0,NA,NA,NA
 "14",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.78928323312871,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.78928323312871,TRUE,0,NA,NA,NA
 "15",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.19696549767246,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",2.19696549767246,TRUE,0,NA,NA,NA
 "16",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.72491401469114,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.72491401469114,TRUE,0,NA,NA,NA
 "17",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.88710286191304,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.88710286191304,TRUE,0,NA,NA,NA
 "18",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",0.373275619592187,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",0.373275619592187,TRUE,0,NA,NA,NA
 "19",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.53387749716651,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.53387749716651,TRUE,0,NA,NA,NA
 "20",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.09026009767404,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",2.09026009767404,TRUE,0,NA,NA,NA
 "21",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.3276940604644,TRUE,0,NA,NA,NA
+Unitless","Unitless","GOM",1.3276940604644,TRUE,0,NA,NA,NA

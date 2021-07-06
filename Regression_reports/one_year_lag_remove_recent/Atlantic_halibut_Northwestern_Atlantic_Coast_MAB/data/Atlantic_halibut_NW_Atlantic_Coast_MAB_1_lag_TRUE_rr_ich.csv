@@ -1,59 +1,59 @@
-"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"","Species","Region","Time","Value","Metric","Description","Units.x","AssessmentYear","max_year","facet","Var","Units.y","EPU","Val","missing","n_data_points","pval","slope","sig"
 "1","Atlantic halibut","Northwestern Atlantic Coast",2001,35.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.31069214531773,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.31069214531773,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "2","Atlantic halibut","Northwestern Atlantic Coast",2002,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.65769682419334,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.65769682419334,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "3","Atlantic halibut","Northwestern Atlantic Coast",2003,43,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.88902176334585,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",1.88902176334585,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "4","Atlantic halibut","Northwestern Atlantic Coast",2004,44.7000007629395,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.30839407916973,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.30839407916973,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "5","Atlantic halibut","Northwestern Atlantic Coast",2005,40.5999984741211,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.6762277337174,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.6762277337174,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "6","Atlantic halibut","Northwestern Atlantic Coast",2006,71.3000030517578,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.58663250369499,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.58663250369499,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "7","Atlantic halibut","Northwestern Atlantic Coast",2007,68.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.2392431396126,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",2.2392431396126,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "8","Atlantic halibut","Northwestern Atlantic Coast",2008,76.5,"Catch","Total Catch - International","Metric Tons",2019,2019,"Catch
 Total Catch - International
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.92800880629282,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
+Unitless","Unitless","MAB",1.92800880629282,FALSE,8,0.547202867524046,-13.3816874217059,FALSE
 "9",NA,NA,1999,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.64818021721719,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",1.64818021721719,TRUE,0,NA,NA,NA
 "10",NA,NA,2000,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.43110439391878,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.43110439391878,TRUE,0,NA,NA,NA
 "11",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.50979148748229,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.50979148748229,TRUE,0,NA,NA,NA
 "12",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.07244961127498,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.07244961127498,TRUE,0,NA,NA,NA
 "13",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.47699369010643,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.47699369010643,TRUE,0,NA,NA,NA
 "14",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.51366625971415,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.51366625971415,TRUE,0,NA,NA,NA
 "15",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.41157129659106,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.41157129659106,TRUE,0,NA,NA,NA
 "16",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.18407162451133,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.18407162451133,TRUE,0,NA,NA,NA
 "17",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.14525593535193,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.14525593535193,TRUE,0,NA,NA,NA
 "18",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.3238299006724,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.3238299006724,TRUE,0,NA,NA,NA
 "19",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.83412114895976,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",1.83412114895976,TRUE,0,NA,NA,NA
 "20",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.20353217928117,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.20353217928117,TRUE,0,NA,NA,NA
 "21",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.16447076765615,TRUE,0,NA,NA,NA
+Unitless","Unitless","MAB",2.16447076765615,TRUE,0,NA,NA,NA

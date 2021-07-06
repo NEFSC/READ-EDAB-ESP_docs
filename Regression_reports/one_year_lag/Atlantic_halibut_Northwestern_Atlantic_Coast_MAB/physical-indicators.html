@@ -13,7 +13,7 @@
   
   
   
-  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+  <meta name="github-repo" content="NOAA-EDAB/NEesp" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="2.2 Physical indicators | Preliminary ESP regressions" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell" />
 
 
-<meta name="date" content="2021-06-16" />
+<meta name="date" content="2021-07-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,10 +97,11 @@
 <li class="chapter" data-level="2.2.1.1" data-path="physical-indicators.html"><a href="physical-indicators.html#cold-pool-index"><i class="fa fa-check"></i><b>2.2.1.1</b> Cold pool index</a></li>
 <li class="chapter" data-level="2.2.1.2" data-path="physical-indicators.html"><a href="physical-indicators.html#warm-core-rings"><i class="fa fa-check"></i><b>2.2.1.2</b> Warm core rings</a></li>
 <li class="chapter" data-level="2.2.1.3" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index"><i class="fa fa-check"></i><b>2.2.1.3</b> Marine heatwave index</a></li>
-<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.4</b> GLORYS bottom temperature</a></li>
-<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> Long-term sea surface temperature</a></li>
-<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.6</b> Sea surface temperature anomaly in EPU</a></li>
-<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in stock region</a></li>
+<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index-in-the-stock-region"><i class="fa fa-check"></i><b>2.2.1.4</b> Marine heatwave index in the stock region</a></li>
+<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> GLORYS bottom temperature</a></li>
+<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.6</b> Long-term sea surface temperature</a></li>
+<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in EPU</a></li>
+<li class="chapter" data-level="2.2.1.8" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.8</b> Sea surface temperature anomaly in stock region</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2.2" data-path="physical-indicators.html"><a href="physical-indicators.html#stratification"><i class="fa fa-check"></i><b>2.2.2</b> Stratification</a></li>
 <li class="chapter" data-level="2.2.3" data-path="physical-indicators.html"><a href="physical-indicators.html#wind"><i class="fa fa-check"></i><b>2.2.3</b> Wind</a>
@@ -261,6 +262,7 @@
 <caption>
 <span id="tab:unnamed-chunk-48">Table 2.2: </span>Catch vs cumulative intensity
 degrees C
+(annual mean)
 </caption>
 <tbody>
 <tr>
@@ -327,18 +329,168 @@ degrees C
 <!-- -->
 </div>
 </div>
-<div id="glorys-bottom-temperature" class="section level4" number="2.2.1.4">
-<h4><span class="header-section-number">2.2.1.4</span> GLORYS bottom temperature</h4>
+<div id="marine-heatwave-index-in-the-stock-region" class="section level4" number="2.2.1.4">
+<h4><span class="header-section-number">2.2.1.4</span> Marine heatwave index in the stock region</h4>
 <div id="figures-4" class="section level5 unnumbered">
 <h5>Figures</h5>
-<p><img src="figures/glorys-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/heatwave-stock-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="regression-statistics-4" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-59">Table 2.3: </span>Catch vs GLORYS bottom temp anomaly
+<span id="tab:unnamed-chunk-59">Table 2.3: </span>Catch vs cumulative intensity_stock
+degrees C
+(annual mean)
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">65.11</td>
+<td align="right">10.98</td>
+<td align="right">5.93</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">0.11</td>
+<td align="right">0.04</td>
+<td align="right">2.91</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.47</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 13</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.39</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.35</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-59">Table 2.3: </span>Catch vs maximum intensity_stock
+degrees C
+(annual mean)
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-56.73</td>
+<td align="right">60.47</td>
+<td align="right">-0.94</td>
+<td align="right">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">61.85</td>
+<td align="right">25.73</td>
+<td align="right">2.40</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.78</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 13</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.31</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.25</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="glorys-bottom-temperature" class="section level4" number="2.2.1.5">
+<h4><span class="header-section-number">2.2.1.5</span> GLORYS bottom temperature</h4>
+<div id="figures-5" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/glorys-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-5" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-70">Table 2.4: </span>Catch vs GLORYS bottom temp anomaly
 degreesC
 </caption>
 <tbody>
@@ -406,18 +558,18 @@ degreesC
 <!-- -->
 </div>
 </div>
-<div id="long-term-sea-surface-temperature" class="section level4" number="2.2.1.5">
-<h4><span class="header-section-number">2.2.1.5</span> Long-term sea surface temperature</h4>
-<div id="figures-5" class="section level5 unnumbered">
+<div id="long-term-sea-surface-temperature" class="section level4" number="2.2.1.6">
+<h4><span class="header-section-number">2.2.1.6</span> Long-term sea surface temperature</h4>
+<div id="figures-6" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/sst-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-5" class="section level5 unnumbered">
+<div id="regression-statistics-6" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-70">Table 2.4: </span>Catch vs long-term sst
+<span id="tab:unnamed-chunk-81">Table 2.5: </span>Catch vs long-term sst
 degreesC
 </caption>
 <tbody>
@@ -485,87 +637,18 @@ degreesC
 <!-- -->
 </div>
 </div>
-<div id="sea-surface-temperature-anomaly-in-epu" class="section level4" number="2.2.1.6">
-<h4><span class="header-section-number">2.2.1.6</span> Sea surface temperature anomaly in EPU</h4>
-<div id="figures-6" class="section level5 unnumbered">
+<div id="sea-surface-temperature-anomaly-in-epu" class="section level4" number="2.2.1.7">
+<h4><span class="header-section-number">2.2.1.7</span> Sea surface temperature anomaly in EPU</h4>
+<div id="figures-7" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/sst-anom-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-6" class="section level5 unnumbered">
+<div id="regression-statistics-7" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-81">Table 2.5: </span>Catch vs fall OI SST Anomaly
-degreesC
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">61.40</td>
-<td align="right">9.30</td>
-<td align="right">6.60</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">43.12</td>
-<td align="right">12.16</td>
-<td align="right">3.55</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">12.58</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 15</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.46</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.42</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-81">Table 2.5: </span>Catch vs spring OI SST Anomaly
+<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs spring OI SST Anomaly
 degreesC
 </caption>
 <tbody>
@@ -634,7 +717,7 @@ degreesC
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-81">Table 2.5: </span>Catch vs summer OI SST Anomaly
+<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs summer OI SST Anomaly
 degreesC
 </caption>
 <tbody>
@@ -700,20 +783,10 @@ degreesC
 </tbody>
 </table>
 <!-- -->
-</div>
-</div>
-<div id="sea-surface-temperature-anomaly-in-stock-region" class="section level4" number="2.2.1.7">
-<h4><span class="header-section-number">2.2.1.7</span> Sea surface temperature anomaly in stock region</h4>
-<div id="figures-7" class="section level5 unnumbered">
-<h5>Figures</h5>
-<p><img src="figures/sst-anom-stock-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="regression-statistics-7" class="section level5 unnumbered">
-<h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs fall OI SST Anomaly_stock
+<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs fall OI SST Anomaly
 degreesC
 </caption>
 <tbody>
@@ -732,16 +805,16 @@ degreesC
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">48.77</td>
-<td align="right">7.92</td>
-<td align="right">6.16</td>
+<td align="right">61.40</td>
+<td align="right">9.30</td>
+<td align="right">6.60</td>
 <td align="right">0</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">42.79</td>
-<td align="right">7.36</td>
-<td align="right">5.81</td>
+<td align="right">43.12</td>
+<td align="right">12.16</td>
+<td align="right">3.55</td>
 <td align="right">0</td>
 </tr>
 </tbody>
@@ -758,7 +831,7 @@ degreesC
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">33.79</td>
+<td align="left">12.58</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -766,11 +839,90 @@ degreesC
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.69</td>
+<td align="left">0.46</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.67</td>
+<td align="left">0.42</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+</div>
+</div>
+<div id="sea-surface-temperature-anomaly-in-stock-region" class="section level4" number="2.2.1.8">
+<h4><span class="header-section-number">2.2.1.8</span> Sea surface temperature anomaly in stock region</h4>
+<div id="figures-8" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/sst-anom-stock-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-8" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-103">Table 2.7: </span>Catch vs winter OI SST Anomaly_stock
+degreesC
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">69.91</td>
+<td align="right">7.90</td>
+<td align="right">8.85</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">32.69</td>
+<td align="right">9.24</td>
+<td align="right">3.54</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">12.52</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 15</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.42</td>
 </tr>
 </tbody>
 </table>
@@ -782,7 +934,7 @@ degreesC
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs spring OI SST Anomaly_stock
+<span id="tab:unnamed-chunk-103">Table 2.7: </span>Catch vs spring OI SST Anomaly_stock
 degreesC
 </caption>
 <tbody>
@@ -851,7 +1003,7 @@ degreesC
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs summer OI SST Anomaly_stock
+<span id="tab:unnamed-chunk-103">Table 2.7: </span>Catch vs summer OI SST Anomaly_stock
 degreesC
 </caption>
 <tbody>
@@ -920,7 +1072,7 @@ degreesC
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-92">Table 2.6: </span>Catch vs winter OI SST Anomaly_stock
+<span id="tab:unnamed-chunk-103">Table 2.7: </span>Catch vs fall OI SST Anomaly_stock
 degreesC
 </caption>
 <tbody>
@@ -939,16 +1091,16 @@ degreesC
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">69.91</td>
-<td align="right">7.90</td>
-<td align="right">8.85</td>
+<td align="right">48.77</td>
+<td align="right">7.92</td>
+<td align="right">6.16</td>
 <td align="right">0</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">32.69</td>
-<td align="right">9.24</td>
-<td align="right">3.54</td>
+<td align="right">42.79</td>
+<td align="right">7.36</td>
+<td align="right">5.81</td>
 <td align="right">0</td>
 </tr>
 </tbody>
@@ -965,7 +1117,7 @@ degreesC
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">12.52</td>
+<td align="left">33.79</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -973,11 +1125,11 @@ degreesC
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.46</td>
+<td align="left">0.69</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.42</td>
+<td align="left">0.67</td>
 </tr>
 </tbody>
 </table>
@@ -991,11 +1143,11 @@ degreesC
 </div>
 <div id="stratification" class="section level3" number="2.2.2">
 <h3><span class="header-section-number">2.2.2</span> Stratification</h3>
-<div id="figures-8" class="section level5 unnumbered">
+<div id="figures-9" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/strat-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-8" class="section level5 unnumbered">
+<div id="regression-statistics-9" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
@@ -1004,44 +1156,44 @@ degreesC
 <h3><span class="header-section-number">2.2.3</span> Wind</h3>
 <div id="winter-wind-speed" class="section level4" number="2.2.3.1">
 <h4><span class="header-section-number">2.2.3.1</span> Winter wind speed</h4>
-<div id="figures-9" class="section level5 unnumbered">
-<h5>Figures</h5>
-<p><img src="figures/winter-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="regression-statistics-9" class="section level5 unnumbered">
-<h5>Regression statistics</h5>
-<p>[1] “No statistically significant data”</p>
-</div>
-</div>
-<div id="spring-wind-speed" class="section level4" number="2.2.3.2">
-<h4><span class="header-section-number">2.2.3.2</span> Spring wind speed</h4>
 <div id="figures-10" class="section level5 unnumbered">
 <h5>Figures</h5>
-<p><img src="figures/spring-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/winter-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="regression-statistics-10" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
 </div>
-<div id="summer-wind-speed" class="section level4" number="2.2.3.3">
-<h4><span class="header-section-number">2.2.3.3</span> Summer wind speed</h4>
+<div id="spring-wind-speed" class="section level4" number="2.2.3.2">
+<h4><span class="header-section-number">2.2.3.2</span> Spring wind speed</h4>
 <div id="figures-11" class="section level5 unnumbered">
 <h5>Figures</h5>
-<p><img src="figures/summer-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="figures/spring-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="regression-statistics-11" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
 </div>
+<div id="summer-wind-speed" class="section level4" number="2.2.3.3">
+<h4><span class="header-section-number">2.2.3.3</span> Summer wind speed</h4>
+<div id="figures-12" class="section level5 unnumbered">
+<h5>Figures</h5>
+<p><img src="figures/summer-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="regression-statistics-12" class="section level5 unnumbered">
+<h5>Regression statistics</h5>
+<p>[1] “No statistically significant data”</p>
+</div>
+</div>
 <div id="fall-wind-speed" class="section level4" number="2.2.3.4">
 <h4><span class="header-section-number">2.2.3.4</span> Fall wind speed</h4>
-<div id="figures-12" class="section level5 unnumbered">
+<div id="figures-13" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/fall-wind-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-12" class="section level5 unnumbered">
+<div id="regression-statistics-13" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
@@ -1049,17 +1201,18 @@ degreesC
 </div>
 <div id="gulf-stream-index" class="section level3" number="2.2.4">
 <h3><span class="header-section-number">2.2.4</span> Gulf Stream Index</h3>
-<div id="figures-13" class="section level5 unnumbered">
+<div id="figures-14" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/gsi-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-13" class="section level5 unnumbered">
+<div id="regression-statistics-14" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-158">Table 2.7: </span>Catch vs gulf stream index
+<span id="tab:unnamed-chunk-169">Table 2.8: </span>Catch vs gulf stream index
 latitude anomaly
+(annual mean)
 </caption>
 <tbody>
 <tr>
@@ -1128,11 +1281,11 @@ latitude anomaly
 </div>
 <div id="north-atlantic-oscillation" class="section level3" number="2.2.5">
 <h3><span class="header-section-number">2.2.5</span> North Atlantic Oscillation</h3>
-<div id="figures-14" class="section level5 unnumbered">
+<div id="figures-15" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/nao-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-14" class="section level5 unnumbered">
+<div id="regression-statistics-15" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
@@ -1141,85 +1294,16 @@ latitude anomaly
 <h3><span class="header-section-number">2.2.6</span> Species location</h3>
 <div id="species-distribution" class="section level4" number="2.2.6.1">
 <h4><span class="header-section-number">2.2.6.1</span> Species distribution</h4>
-<div id="figures-15" class="section level5 unnumbered">
+<div id="figures-16" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/species-dist-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-15" class="section level5 unnumbered">
+<div id="regression-statistics-16" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-180">Table 2.8: </span>Catch vs along-shelf distance
-km
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-826.43</td>
-<td align="right">303.94</td>
-<td align="right">-2.72</td>
-<td align="right">0.02</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">1.06</td>
-<td align="right">0.35</td>
-<td align="right">2.99</td>
-<td align="right">0.01</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">8.97</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 15</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.37</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.33</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-180">Table 2.8: </span>Catch vs Latitude
+<span id="tab:unnamed-chunk-191">Table 2.9: </span>Catch vs Latitude
 degreesN
 </caption>
 <tbody>
@@ -1288,7 +1372,7 @@ degreesN
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-180">Table 2.8: </span>Catch vs Longitude
+<span id="tab:unnamed-chunk-191">Table 2.9: </span>Catch vs Longitude
 degreesW
 </caption>
 <tbody>
@@ -1354,16 +1438,85 @@ degreesW
 </tbody>
 </table>
 <!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-191">Table 2.9: </span>Catch vs along-shelf distance
+km
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-826.43</td>
+<td align="right">303.94</td>
+<td align="right">-2.72</td>
+<td align="right">0.02</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">1.06</td>
+<td align="right">0.35</td>
+<td align="right">2.99</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.97</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 15</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
 </div>
 </div>
 <div id="northern-range" class="section level4" number="2.2.6.2">
 <h4><span class="header-section-number">2.2.6.2</span> Northern range</h4>
 <p>Northernmost survey observation in each year.</p>
-<div id="figures-16" class="section level5 unnumbered">
+<div id="figures-17" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/northern-bound-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-16" class="section level5 unnumbered">
+<div id="regression-statistics-17" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 </div>
@@ -1371,11 +1524,11 @@ degreesW
 <div id="southern-range" class="section level4" number="2.2.6.3">
 <h4><span class="header-section-number">2.2.6.3</span> Southern range</h4>
 <p>Southernmost survey observation in each year.</p>
-<div id="figures-17" class="section level5 unnumbered">
+<div id="figures-18" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/southern-bound-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-17" class="section level5 unnumbered">
+<div id="regression-statistics-18" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <p>[1] “No statistically significant data”</p>
 

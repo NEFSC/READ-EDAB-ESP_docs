@@ -1,4 +1,4 @@
-"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_11_gCarbon_m_2_Day","Abundance_Metric_Tons","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
+"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_11_gCarbon_m_2_Day","Abundance","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
 "1","Atlantic wolffish","Gulf of Maine / Georges Bank",1998,121,"Recruitment",0.2626825,977,1.79260316828951
 "2","Atlantic wolffish","Gulf of Maine / Georges Bank",1999,85,"Recruitment",0.317443,867,1.9499994572924
 "3","Atlantic wolffish","Gulf of Maine / Georges Bank",2000,69,"Recruitment",0.2697852,814,2.38501518124824
