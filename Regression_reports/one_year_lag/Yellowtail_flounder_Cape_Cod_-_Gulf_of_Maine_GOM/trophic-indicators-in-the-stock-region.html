@@ -13,7 +13,7 @@
   
   
   
-  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+  <meta name="github-repo" content="NOAA-EDAB/NEesp" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="2.4 Trophic indicators in the stock region | Preliminary ESP regressions" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell" />
 
 
-<meta name="date" content="2021-06-16" />
+<meta name="date" content="2021-07-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,10 +97,11 @@
 <li class="chapter" data-level="2.2.1.1" data-path="physical-indicators.html"><a href="physical-indicators.html#cold-pool-index"><i class="fa fa-check"></i><b>2.2.1.1</b> Cold pool index</a></li>
 <li class="chapter" data-level="2.2.1.2" data-path="physical-indicators.html"><a href="physical-indicators.html#warm-core-rings"><i class="fa fa-check"></i><b>2.2.1.2</b> Warm core rings</a></li>
 <li class="chapter" data-level="2.2.1.3" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index"><i class="fa fa-check"></i><b>2.2.1.3</b> Marine heatwave index</a></li>
-<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.4</b> GLORYS bottom temperature</a></li>
-<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> Long-term sea surface temperature</a></li>
-<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.6</b> Sea surface temperature anomaly in EPU</a></li>
-<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in stock region</a></li>
+<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index-in-the-stock-region"><i class="fa fa-check"></i><b>2.2.1.4</b> Marine heatwave index in the stock region</a></li>
+<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> GLORYS bottom temperature</a></li>
+<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.6</b> Long-term sea surface temperature</a></li>
+<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in EPU</a></li>
+<li class="chapter" data-level="2.2.1.8" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.8</b> Sea surface temperature anomaly in stock region</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2.2" data-path="physical-indicators.html"><a href="physical-indicators.html#stratification"><i class="fa fa-check"></i><b>2.2.2</b> Stratification</a></li>
 <li class="chapter" data-level="2.2.3" data-path="physical-indicators.html"><a href="physical-indicators.html#wind"><i class="fa fa-check"></i><b>2.2.3</b> Wind</a>
@@ -226,90 +227,18 @@
 <h2><span class="header-section-number">2.4</span> Trophic indicators in the stock region</h2>
 <div id="chlorophyll-in-stock-region" class="section level3" number="2.4.1">
 <h3><span class="header-section-number">2.4.1</span> Chlorophyll in stock region</h3>
-<div id="figures-33" class="section level5 unnumbered">
+<div id="figures-34" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/chl-stock-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="figures/chl-stock-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="figures/chl-stock-fig-3.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-33" class="section level5 unnumbered">
+<div id="regression-statistics-34" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Fmort vs fall
-Yellowtail
-flounder
-gb both
-mg m^-3
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">4.70</td>
-<td align="right">1.24</td>
-<td align="right">3.79</td>
-<td align="right">0.00</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">-3.66</td>
-<td align="right">1.22</td>
-<td align="right">-2.99</td>
-<td align="right">0.01</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">8.95</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.33</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.3</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Fmort vs winter
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs winter
 Yellowtail
 flounder
 gb both
@@ -381,7 +310,79 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs fall
+Yellowtail
+flounder
+gb both
+mg m^-3
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">4.70</td>
+<td align="right">1.24</td>
+<td align="right">3.79</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-3.66</td>
+<td align="right">1.22</td>
+<td align="right">-2.99</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">8.95</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.33</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.3</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
 Yellowtail
 flounder
 cc
@@ -454,7 +455,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
 Yellowtail
 flounder
 cc fall
@@ -526,7 +527,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
 Yellowtail
 flounder
 gb both
@@ -598,7 +599,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Recruitment vs summer
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs summer
 Yellowtail
 flounder
 gb both
@@ -670,7 +671,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Abundance vs winter
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Abundance vs winter
 Yellowtail
 flounder
 gb both
@@ -742,7 +743,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Abundance vs spring
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Abundance vs spring
 Yellowtail
 flounder
 cc
@@ -815,7 +816,7 @@ mg m^-3
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-378">Table 2.26: </span>Abundance vs spring
+<span id="tab:unnamed-chunk-389">Table 2.27: </span>Abundance vs spring
 Yellowtail
 flounder
 cc fall
@@ -888,381 +889,18 @@ mg m^-3
 </div>
 <div id="primary-production-in-stock-region" class="section level3" number="2.4.2">
 <h3><span class="header-section-number">2.4.2</span> Primary production in stock region</h3>
-<div id="figures-34" class="section level5 unnumbered">
+<div id="figures-35" class="section level5 unnumbered">
 <h5>Figures</h5>
 <p><img src="figures/pp-stock-fig-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="figures/pp-stock-fig-2.png" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="figures/pp-stock-fig-3.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="regression-statistics-34" class="section level5 unnumbered">
+<div id="regression-statistics-35" class="section level5 unnumbered">
 <h5>Regression statistics</h5>
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs fall
-Yellowtail
-flounder
-cc
-spring
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-3500.99</td>
-<td align="right">1128.12</td>
-<td align="right">-3.10</td>
-<td align="right">0.01</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">8014.08</td>
-<td align="right">1984.46</td>
-<td align="right">4.04</td>
-<td align="right">0.00</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">16.31</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.48</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.45</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs fall
-Yellowtail
-flounder
-cc fall
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-3565.64</td>
-<td align="right">1186.45</td>
-<td align="right">-3.01</td>
-<td align="right">0.01</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">7947.54</td>
-<td align="right">2041.40</td>
-<td align="right">3.89</td>
-<td align="right">0.00</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">15.16</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.46</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.43</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs fall
-Yellowtail
-flounder
-gb both
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-3566.49</td>
-<td align="right">1737.25</td>
-<td align="right">-2.05</td>
-<td align="right">0.05</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">8629.14</td>
-<td align="right">3251.90</td>
-<td align="right">2.65</td>
-<td align="right">0.02</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">7.04</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.28</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.24</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs fall
-Yellowtail
-flounder
-sne ma
-fall
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-2117.75</td>
-<td align="right">1277.19</td>
-<td align="right">-1.66</td>
-<td align="right">0.11</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">6169.02</td>
-<td align="right">2488.41</td>
-<td align="right">2.48</td>
-<td align="right">0.02</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">6.15</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.25</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.21</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs fall
-Yellowtail
-flounder
-sne ma
-spring
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-1536.33</td>
-<td align="right">1164.51</td>
-<td align="right">-1.32</td>
-<td align="right">0.20</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">4873.95</td>
-<td align="right">2195.12</td>
-<td align="right">2.22</td>
-<td align="right">0.04</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">4.93</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.22</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.17</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs spring
 Yellowtail
 flounder
 cc
@@ -1335,297 +973,7 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs spring
-Yellowtail
-flounder
-cc fall
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">4042.25</td>
-<td align="right">942.87</td>
-<td align="right">4.29</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">-3635.40</td>
-<td align="right">1125.09</td>
-<td align="right">-3.23</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">10.44</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.37</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.33</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs spring
-Yellowtail
-flounder
-gb both
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">4255.35</td>
-<td align="right">1285.38</td>
-<td align="right">3.31</td>
-<td align="right">0.00</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">-4556.40</td>
-<td align="right">1802.53</td>
-<td align="right">-2.53</td>
-<td align="right">0.02</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">6.39</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.26</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.22</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs spring
-Yellowtail
-flounder
-sne ma
-fall
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">4668.35</td>
-<td align="right">989.53</td>
-<td align="right">4.72</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">-4764.45</td>
-<td align="right">1283.91</td>
-<td align="right">-3.71</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">13.77</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.43</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.4</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs spring
-Yellowtail
-flounder
-sne ma
-spring
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">4722.22</td>
-<td align="right">923.6</td>
-<td align="right">5.11</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">-4713.76</td>
-<td align="right">1167.7</td>
-<td align="right">-4.04</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">16.3</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 18</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.48</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.45</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs summer
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs summer
 Yellowtail
 flounder
 cc
@@ -1698,7 +1046,152 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs summer
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs fall
+Yellowtail
+flounder
+cc
+spring
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-3500.99</td>
+<td align="right">1128.12</td>
+<td align="right">-3.10</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">8014.08</td>
+<td align="right">1984.46</td>
+<td align="right">4.04</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">16.31</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.45</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs spring
+Yellowtail
+flounder
+cc fall
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">4042.25</td>
+<td align="right">942.87</td>
+<td align="right">4.29</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-3635.40</td>
+<td align="right">1125.09</td>
+<td align="right">-3.23</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">10.44</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs summer
 Yellowtail
 flounder
 cc fall
@@ -1770,7 +1263,151 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Catch vs summer
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs fall
+Yellowtail
+flounder
+cc fall
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-3565.64</td>
+<td align="right">1186.45</td>
+<td align="right">-3.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">7947.54</td>
+<td align="right">2041.40</td>
+<td align="right">3.89</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">15.16</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.46</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.43</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs spring
+Yellowtail
+flounder
+gb both
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">4255.35</td>
+<td align="right">1285.38</td>
+<td align="right">3.31</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-4556.40</td>
+<td align="right">1802.53</td>
+<td align="right">-2.53</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.39</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.26</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.22</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs summer
 Yellowtail
 flounder
 gb both
@@ -1842,7 +1479,371 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs fall
+Yellowtail
+flounder
+gb both
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-3566.49</td>
+<td align="right">1737.25</td>
+<td align="right">-2.05</td>
+<td align="right">0.05</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">8629.14</td>
+<td align="right">3251.90</td>
+<td align="right">2.65</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">7.04</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.28</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.24</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs spring
+Yellowtail
+flounder
+sne ma
+spring
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">4722.22</td>
+<td align="right">923.6</td>
+<td align="right">5.11</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-4713.76</td>
+<td align="right">1167.7</td>
+<td align="right">-4.04</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">16.3</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.48</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.45</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs fall
+Yellowtail
+flounder
+sne ma
+spring
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-1536.33</td>
+<td align="right">1164.51</td>
+<td align="right">-1.32</td>
+<td align="right">0.20</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">4873.95</td>
+<td align="right">2195.12</td>
+<td align="right">2.22</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">4.93</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.22</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.17</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs spring
+Yellowtail
+flounder
+sne ma
+fall
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">4668.35</td>
+<td align="right">989.53</td>
+<td align="right">4.72</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">-4764.45</td>
+<td align="right">1283.91</td>
+<td align="right">-3.71</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">13.77</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.43</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Catch vs fall
+Yellowtail
+flounder
+sne ma
+fall
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2117.75</td>
+<td align="right">1277.19</td>
+<td align="right">-1.66</td>
+<td align="right">0.11</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">6169.02</td>
+<td align="right">2488.41</td>
+<td align="right">2.48</td>
+<td align="right">0.02</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">6.15</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 18</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.25</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.21</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Fmort vs spring
 Yellowtail
 flounder
 gb both
@@ -1914,11 +1915,10 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Fmort vs summer
 Yellowtail
 flounder
-sne ma
-fall
+gb both
 gC m-2 d-1
 </caption>
 <tbody>
@@ -1937,17 +1937,17 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">3.55</td>
-<td align="right">0.91</td>
-<td align="right">3.90</td>
+<td align="right">4.07</td>
+<td align="right">1.18</td>
+<td align="right">3.46</td>
 <td align="right">0.00</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">-3.32</td>
-<td align="right">1.18</td>
-<td align="right">-2.82</td>
-<td align="right">0.01</td>
+<td align="right">-2.99</td>
+<td align="right">1.14</td>
+<td align="right">-2.62</td>
+<td align="right">0.02</td>
 </tr>
 </tbody>
 </table>
@@ -1963,7 +1963,7 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">7.93</td>
+<td align="left">6.84</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -1971,11 +1971,11 @@ gC m-2 d-1
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.31</td>
+<td align="left">0.28</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.27</td>
+<td align="left">0.24</td>
 </tr>
 </tbody>
 </table>
@@ -1987,7 +1987,7 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Fmort vs spring
 Yellowtail
 flounder
 sne ma
@@ -2060,10 +2060,11 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Fmort vs summer
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Fmort vs spring
 Yellowtail
 flounder
-gb both
+sne ma
+fall
 gC m-2 d-1
 </caption>
 <tbody>
@@ -2082,17 +2083,17 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">4.07</td>
-<td align="right">1.18</td>
-<td align="right">3.46</td>
+<td align="right">3.55</td>
+<td align="right">0.91</td>
+<td align="right">3.90</td>
 <td align="right">0.00</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">-2.99</td>
-<td align="right">1.14</td>
-<td align="right">-2.62</td>
-<td align="right">0.02</td>
+<td align="right">-3.32</td>
+<td align="right">1.18</td>
+<td align="right">-2.82</td>
+<td align="right">0.01</td>
 </tr>
 </tbody>
 </table>
@@ -2108,7 +2109,7 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">6.84</td>
+<td align="left">7.93</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -2116,11 +2117,11 @@ gC m-2 d-1
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.28</td>
+<td align="left">0.31</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.24</td>
+<td align="left">0.27</td>
 </tr>
 </tbody>
 </table>
@@ -2132,224 +2133,7 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs fall
-Yellowtail
-flounder
-cc
-spring
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-2862.84</td>
-<td align="right">3423.36</td>
-<td align="right">-0.84</td>
-<td align="right">0.41</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">14047.96</td>
-<td align="right">6062.22</td>
-<td align="right">2.32</td>
-<td align="right">0.03</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">5.37</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 19</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.22</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.18</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs fall
-Yellowtail
-flounder
-cc fall
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-2927.85</td>
-<td align="right">3592.81</td>
-<td align="right">-0.81</td>
-<td align="right">0.43</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">13838.13</td>
-<td align="right">6219.00</td>
-<td align="right">2.23</td>
-<td align="right">0.04</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">4.95</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 19</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.21</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.16</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs fall
-Yellowtail
-flounder
-gb both
-gC m-2 d-1
-</caption>
-<tbody>
-<tr>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="right">Estimate</th>
-<th align="right">Std. Error</th>
-<th align="right">t value</th>
-<th align="right">Pr(&gt;|t|)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">(Intercept)</td>
-<td align="right">-5569.76</td>
-<td align="right">4484.41</td>
-<td align="right">-1.24</td>
-<td align="right">0.23</td>
-</tr>
-<tr class="even">
-<td align="left">Val</td>
-<td align="right">19997.89</td>
-<td align="right">8437.60</td>
-<td align="right">2.37</td>
-<td align="right">0.03</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">F-statistic</td>
-<td align="left">5.62</td>
-</tr>
-<tr class="even">
-<td align="left">df</td>
-<td align="left">1, 19</td>
-</tr>
-<tr class="odd">
-<td align="left">R2</td>
-<td align="left">0.23</td>
-</tr>
-<tr class="even">
-<td align="left">R2-adj</td>
-<td align="left">0.19</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
-<!-- -->
-<table class="kable_wrapper">
-<caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs spring
 Yellowtail
 flounder
 cc
@@ -2422,7 +2206,80 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs fall
+Yellowtail
+flounder
+cc
+spring
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2862.84</td>
+<td align="right">3423.36</td>
+<td align="right">-0.84</td>
+<td align="right">0.41</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">14047.96</td>
+<td align="right">6062.22</td>
+<td align="right">2.32</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.37</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 19</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.22</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.18</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs spring
 Yellowtail
 flounder
 cc fall
@@ -2494,7 +2351,79 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs fall
+Yellowtail
+flounder
+cc fall
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-2927.85</td>
+<td align="right">3592.81</td>
+<td align="right">-0.81</td>
+<td align="right">0.43</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">13838.13</td>
+<td align="right">6219.00</td>
+<td align="right">2.23</td>
+<td align="right">0.04</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">4.95</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 19</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.21</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.16</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs spring
 Yellowtail
 flounder
 gb both
@@ -2566,11 +2495,10 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs summer
 Yellowtail
 flounder
-sne ma
-fall
+gb both
 gC m-2 d-1
 </caption>
 <tbody>
@@ -2589,17 +2517,17 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">12274.00</td>
-<td align="right">2986.92</td>
-<td align="right">4.11</td>
+<td align="right">15079.91</td>
+<td align="right">3647.77</td>
+<td align="right">4.13</td>
 <td align="right">0.00</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">-9475.94</td>
-<td align="right">3870.46</td>
-<td align="right">-2.45</td>
-<td align="right">0.02</td>
+<td align="right">-9789.94</td>
+<td align="right">3531.99</td>
+<td align="right">-2.77</td>
+<td align="right">0.01</td>
 </tr>
 </tbody>
 </table>
@@ -2615,7 +2543,7 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">5.99</td>
+<td align="left">7.68</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -2623,11 +2551,11 @@ gC m-2 d-1
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.24</td>
+<td align="left">0.29</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.2</td>
+<td align="left">0.25</td>
 </tr>
 </tbody>
 </table>
@@ -2639,7 +2567,79 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs spring
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs fall
+Yellowtail
+flounder
+gb both
+gC m-2 d-1
+</caption>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(Intercept)</td>
+<td align="right">-5569.76</td>
+<td align="right">4484.41</td>
+<td align="right">-1.24</td>
+<td align="right">0.23</td>
+</tr>
+<tr class="even">
+<td align="left">Val</td>
+<td align="right">19997.89</td>
+<td align="right">8437.60</td>
+<td align="right">2.37</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F-statistic</td>
+<td align="left">5.62</td>
+</tr>
+<tr class="even">
+<td align="left">df</td>
+<td align="left">1, 19</td>
+</tr>
+<tr class="odd">
+<td align="left">R2</td>
+<td align="left">0.23</td>
+</tr>
+<tr class="even">
+<td align="left">R2-adj</td>
+<td align="left">0.19</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -->
+<!-- -->
+<table class="kable_wrapper">
+<caption>
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs spring
 Yellowtail
 flounder
 sne ma
@@ -2712,10 +2712,11 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Recruitment vs summer
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Recruitment vs spring
 Yellowtail
 flounder
-gb both
+sne ma
+fall
 gC m-2 d-1
 </caption>
 <tbody>
@@ -2734,17 +2735,17 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">(Intercept)</td>
-<td align="right">15079.91</td>
-<td align="right">3647.77</td>
-<td align="right">4.13</td>
+<td align="right">12274.00</td>
+<td align="right">2986.92</td>
+<td align="right">4.11</td>
 <td align="right">0.00</td>
 </tr>
 <tr class="even">
 <td align="left">Val</td>
-<td align="right">-9789.94</td>
-<td align="right">3531.99</td>
-<td align="right">-2.77</td>
-<td align="right">0.01</td>
+<td align="right">-9475.94</td>
+<td align="right">3870.46</td>
+<td align="right">-2.45</td>
+<td align="right">0.02</td>
 </tr>
 </tbody>
 </table>
@@ -2760,7 +2761,7 @@ gC m-2 d-1
 <tbody>
 <tr class="odd">
 <td align="left">F-statistic</td>
-<td align="left">7.68</td>
+<td align="left">5.99</td>
 </tr>
 <tr class="even">
 <td align="left">df</td>
@@ -2768,11 +2769,11 @@ gC m-2 d-1
 </tr>
 <tr class="odd">
 <td align="left">R2</td>
-<td align="left">0.29</td>
+<td align="left">0.24</td>
 </tr>
 <tr class="even">
 <td align="left">R2-adj</td>
-<td align="left">0.25</td>
+<td align="left">0.2</td>
 </tr>
 </tbody>
 </table>
@@ -2784,7 +2785,7 @@ gC m-2 d-1
 <!-- -->
 <table class="kable_wrapper">
 <caption>
-<span id="tab:unnamed-chunk-389">Table 2.27: </span>Abundance vs winter
+<span id="tab:unnamed-chunk-400">Table 2.28: </span>Abundance vs winter
 Yellowtail
 flounder
 gb both

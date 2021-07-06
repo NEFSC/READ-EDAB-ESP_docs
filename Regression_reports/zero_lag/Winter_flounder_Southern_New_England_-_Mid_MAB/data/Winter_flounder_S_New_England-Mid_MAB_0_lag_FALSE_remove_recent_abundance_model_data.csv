@@ -1,4 +1,4 @@
-"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_43_gCarbon_m_2_Day","WEEKLY_PPD_RATIO_ANOMALY_week_43_","Recruitment_Number_x_1000","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
+"","Species","Region","Time","Value","Metric","WEEKLY_PPD_MEDIAN_week_43_gCarbon_m_2_Day","WEEKLY_PPD_RATIO_ANOMALY_week_43_","Recruitment","recreational_CPUE_number_of_fish_caught_per_day_fished_all_species"
 "1","Winter flounder","Southern New England / Mid",1998,8645,"Abundance",0.6742252,1.253294,22820,1.79260316828951
 "2","Winter flounder","Southern New England / Mid",1999,9190,"Abundance",0.8654519,1.582554,15964,1.9499994572924
 "3","Winter flounder","Southern New England / Mid",2000,10011,"Abundance",0.7825239,1.463538,13262,2.38501518124824

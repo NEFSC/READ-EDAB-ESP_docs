@@ -13,7 +13,7 @@
   
   
   
-  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+  <meta name="github-repo" content="NOAA-EDAB/NEesp" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="4.2 NEesp information | Preliminary ESP regressions" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell" />
 
 
-<meta name="date" content="2021-06-16" />
+<meta name="date" content="2021-07-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,10 +97,11 @@
 <li class="chapter" data-level="2.2.1.1" data-path="physical-indicators.html"><a href="physical-indicators.html#cold-pool-index"><i class="fa fa-check"></i><b>2.2.1.1</b> Cold pool index</a></li>
 <li class="chapter" data-level="2.2.1.2" data-path="physical-indicators.html"><a href="physical-indicators.html#warm-core-rings"><i class="fa fa-check"></i><b>2.2.1.2</b> Warm core rings</a></li>
 <li class="chapter" data-level="2.2.1.3" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index"><i class="fa fa-check"></i><b>2.2.1.3</b> Marine heatwave index</a></li>
-<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.4</b> GLORYS bottom temperature</a></li>
-<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> Long-term sea surface temperature</a></li>
-<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.6</b> Sea surface temperature anomaly in EPU</a></li>
-<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in stock region</a></li>
+<li class="chapter" data-level="2.2.1.4" data-path="physical-indicators.html"><a href="physical-indicators.html#marine-heatwave-index-in-the-stock-region"><i class="fa fa-check"></i><b>2.2.1.4</b> Marine heatwave index in the stock region</a></li>
+<li class="chapter" data-level="2.2.1.5" data-path="physical-indicators.html"><a href="physical-indicators.html#glorys-bottom-temperature"><i class="fa fa-check"></i><b>2.2.1.5</b> GLORYS bottom temperature</a></li>
+<li class="chapter" data-level="2.2.1.6" data-path="physical-indicators.html"><a href="physical-indicators.html#long-term-sea-surface-temperature"><i class="fa fa-check"></i><b>2.2.1.6</b> Long-term sea surface temperature</a></li>
+<li class="chapter" data-level="2.2.1.7" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-epu"><i class="fa fa-check"></i><b>2.2.1.7</b> Sea surface temperature anomaly in EPU</a></li>
+<li class="chapter" data-level="2.2.1.8" data-path="physical-indicators.html"><a href="physical-indicators.html#sea-surface-temperature-anomaly-in-stock-region"><i class="fa fa-check"></i><b>2.2.1.8</b> Sea surface temperature anomaly in stock region</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2.2" data-path="physical-indicators.html"><a href="physical-indicators.html#stratification"><i class="fa fa-check"></i><b>2.2.2</b> Stratification</a></li>
 <li class="chapter" data-level="2.2.3" data-path="physical-indicators.html"><a href="physical-indicators.html#wind"><i class="fa fa-check"></i><b>2.2.3</b> Wind</a>
@@ -224,46 +225,47 @@
             <section class="normal" id="section-">
 <div id="neesp-information" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> <code>NEesp</code> information</h2>
-<p>Package: NEesp
-Title: Generate Preliminary ESP Reports for the Northeast
-Version: 0.1.1
-Description: Generates preliminary Ecosystem and Socioeconomic Profiles
-for Northeast and Mid-Atlantic USA fishery stocks.
-License: file LICENSE
-<a href="mailto:Authors@R" class="email">Authors@R</a>: c(person(“Abigail”, “Tyrell”, email =
-“<a href="mailto:abigail.tyrell@noaa.gov" class="email">abigail.tyrell@noaa.gov</a>”, role = c(“aut”, “cre”), comment =
-c(ORCID = “0000-0002-6656-8470”)), person(“Ricky”, “Tabandera”,
-email = “<a href="mailto:ricky.tabandera@noaa.gov" class="email">ricky.tabandera@noaa.gov</a>”, role = “aut”))
-Maintainer: Abigail Tyrell <a href="mailto:abigail.tyrell@noaa.gov" class="email">abigail.tyrell@noaa.gov</a>
-URL: <a href="https://noaa-edab.github.io/NEesp/" class="uri">https://noaa-edab.github.io/NEesp/</a>
-BugReports: <a href="https://github.com/NOAA-EDAB/NEesp/issues" class="uri">https://github.com/NOAA-EDAB/NEesp/issues</a>
-Imports: bookdown, DT, ecodata, FSA, ggpubr, ggrepel, ggridges, here,
-nmfspalette, papeR, priceR, rgeos, rnaturalearth,
-rnaturalearthhires, viridis
-Remotes: ropensci/rnaturalearthhires,
-nmfs-general-modeling-tools/nmfspalette, NOAA-EDAB/ecodata
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
-Depends: R (&gt;= 3.5.0)
-RemoteType: github
-RemoteHost: api.github.com
-RemoteRepo: NEesp
-RemoteUsername: NOAA-EDAB
-RemoteRef: dev
-RemoteSha: 1422006b9f6e30b91c39bb0905773e6b5305087c
-GithubRepo: NEesp
-GithubUsername: NOAA-EDAB
-GithubRef: dev
-GithubSHA1: 1422006b9f6e30b91c39bb0905773e6b5305087c
-NeedsCompilation: no
-Packaged: 2021-06-16 21:13:22 UTC; runner
-Author: Abigail Tyrell [aut, cre]
-(<a href="https://orcid.org/0000-0002-6656-8470" class="uri">https://orcid.org/0000-0002-6656-8470</a>), Ricky Tabandera
-[aut]
-Built: R 4.0.3; ; 2021-06-16 21:13:30 UTC; unix</p>
-<p>– File: /home/runner/work/_temp/Library/NEesp/Meta/package.rds</p>
+<pre><code>## Package: NEesp
+## Title: Generate Preliminary ESP Reports for the Northeast
+## Version: 0.1.1
+## Description: Generates preliminary Ecosystem and Socioeconomic Profiles
+##         for Northeast and Mid-Atlantic USA fishery stocks.
+## License: file LICENSE
+## Authors@R: c(person(&quot;Abigail&quot;, &quot;Tyrell&quot;, email =
+##         &quot;abigail.tyrell@noaa.gov&quot;, role = c(&quot;aut&quot;, &quot;cre&quot;), comment =
+##         c(ORCID = &quot;0000-0002-6656-8470&quot;)), person(&quot;Ricky&quot;, &quot;Tabandera&quot;,
+##         email = &quot;ricky.tabandera@noaa.gov&quot;, role = &quot;aut&quot;))
+## Maintainer: Abigail Tyrell &lt;abigail.tyrell@noaa.gov&gt;
+## URL: https://noaa-edab.github.io/NEesp/
+## BugReports: https://github.com/NOAA-EDAB/NEesp/issues
+## Imports: bookdown, DT, ecodata, FSA, ggpubr, ggrepel, ggridges, here,
+##         nmfspalette, papeR, priceR, rgeos, rnaturalearth,
+##         rnaturalearthhires, viridis
+## Remotes: ropensci/rnaturalearthhires,
+##         nmfs-general-modeling-tools/nmfspalette, NOAA-EDAB/ecodata
+## Encoding: UTF-8
+## LazyData: true
+## Roxygen: list(markdown = TRUE)
+## RoxygenNote: 7.1.1
+## Depends: R (&gt;= 3.5.0)
+## RemoteType: github
+## RemoteHost: api.github.com
+## RemoteRepo: NEesp
+## RemoteUsername: NOAA-EDAB
+## RemoteRef: dev
+## RemoteSha: 5266485b6ac4e0592d366d29519406e2313f0f53
+## GithubRepo: NEesp
+## GithubUsername: NOAA-EDAB
+## GithubRef: dev
+## GithubSHA1: 5266485b6ac4e0592d366d29519406e2313f0f53
+## NeedsCompilation: no
+## Packaged: 2021-07-06 14:44:20 UTC; runner
+## Author: Abigail Tyrell [aut, cre]
+##         (&lt;https://orcid.org/0000-0002-6656-8470&gt;), Ricky Tabandera
+##         [aut]
+## Built: R 4.0.3; ; 2021-07-06 14:44:29 UTC; unix
+## 
+## -- File: /home/runner/work/_temp/Library/NEesp/Meta/package.rds</code></pre>
 
 </div>
 <!-- </div> -->

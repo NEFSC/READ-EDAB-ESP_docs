@@ -1,4 +1,4 @@
-"","Species","Region","Time","Value","Metric","Warm_Core_Rings_n","MONTHLY_PPD_MEDIAN_month_06_gCarbon_m_2_Day","MONTHLY_PPD_MEDIAN_month_07_gCarbon_m_2_Day","WEEKLY_PPD_MEDIAN_week_28_gCarbon_m_2_Day","spring_Scup_fall_gC_m_2_d_1","Recruitment_Million_Recruits"
+"","Species","Region","Time","Value","Metric","Warm_Core_Rings_n","MONTHLY_PPD_MEDIAN_month_06_gCarbon_m_2_Day","MONTHLY_PPD_MEDIAN_month_07_gCarbon_m_2_Day","WEEKLY_PPD_MEDIAN_week_28_gCarbon_m_2_Day","spring_Scup_fall_gC_m_2_d_1","Recruitment"
 "1","Scup","Atlantic Coast",1998,16868,"Abundance",22,0.6837545,0.8694675,0.7877161,0.683347120359416,110
 "2","Scup","Atlantic Coast",1999,33108,"Abundance",20,0.6795353,0.7956205,0.858653,0.689023090945457,231
 "3","Scup","Atlantic Coast",2000,61166,"Abundance",27,0.8921169,1.082485,1.131792,0.755789107363405,154

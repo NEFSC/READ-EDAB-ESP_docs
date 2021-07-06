@@ -1,63 +1,63 @@
-"","Species","Region","Time","Value","Metric","Description","Units","AssessmentYear","max_year","facet","Var","Val","missing","n_data_points","pval","slope","sig"
+"","Species","Region","Time","Value","Metric","Description","Units.x","AssessmentYear","max_year","facet","Var","Units.y","EPU","Val","missing","n_data_points","pval","slope","sig"
 "1","Yellowtail flounder","Georges Bank",1999,3373,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",0.953180798659644,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",0.953180798659644,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "2","Yellowtail flounder","Georges Bank",2000,3613,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.71863848483189,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",1.71863848483189,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "3","Yellowtail flounder","Georges Bank",2001,2476,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.009948965157,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",2.009948965157,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "4","Yellowtail flounder","Georges Bank",2002,3236,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.86712329301817,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",1.86712329301817,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "5","Yellowtail flounder","Georges Bank",2003,5837,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.21907131819378,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",2.21907131819378,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "6","Yellowtail flounder","Georges Bank",2004,3161,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.58523211889477,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",1.58523211889477,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "7","Yellowtail flounder","Georges Bank",2005,1196,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",1.83781990475627,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",1.83781990475627,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "8","Yellowtail flounder","Georges Bank",2006,1058,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",2.27366077349293,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",2.27366077349293,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "9","Yellowtail flounder","Georges Bank",2007,937,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",0.801855719503973,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",0.801855719503973,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "10","Yellowtail flounder","Georges Bank",2008,959,"Catch","Estimated Landings - US","Metric Tons",2019,2019,"Catch
 Estimated Landings - US
 Metric Tons","Ich_Shannon-Wiener_Diversity_index
-Unitless",0.781633876982596,FALSE,10,0.284068588627171,1056.04443036734,FALSE
+Unitless","Unitless","GB",0.781633876982596,FALSE,10,0.284068588627171,1056.04443036734,FALSE
 "11",NA,NA,2009,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.03189819099219,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.03189819099219,TRUE,0,NA,NA,NA
 "12",NA,NA,2010,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.09488328906268,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.09488328906268,TRUE,0,NA,NA,NA
 "13",NA,NA,2011,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.75879953013591,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",1.75879953013591,TRUE,0,NA,NA,NA
 "14",NA,NA,2012,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.29527884711721,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.29527884711721,TRUE,0,NA,NA,NA
 "15",NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.99741036996856,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",1.99741036996856,TRUE,0,NA,NA,NA
 "16",NA,NA,2014,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.5535218818855,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",1.5535218818855,TRUE,0,NA,NA,NA
 "17",NA,NA,2015,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.05756664411827,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.05756664411827,TRUE,0,NA,NA,NA
 "18",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.07657227799915,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.07657227799915,TRUE,0,NA,NA,NA
 "19",NA,NA,2017,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.94265496889142,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",1.94265496889142,TRUE,0,NA,NA,NA
 "20",NA,NA,2018,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",2.06959666275814,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",2.06959666275814,TRUE,0,NA,NA,NA
 "21",NA,NA,2019,NA,NA,NA,NA,NA,NA,NA,"Ich_Shannon-Wiener_Diversity_index
-Unitless",1.93673233663968,TRUE,0,NA,NA,NA
+Unitless","Unitless","GB",1.93673233663968,TRUE,0,NA,NA,NA
