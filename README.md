@@ -2,7 +2,7 @@
 
 # Ecosystem and Socioeconomic Profiles
 
-[![](https://img.shields.io/github/last-commit/NOAA-EDAB/ESP_docs.svg)](https://github.com/NOAA-EDAB/ESP_docs/commits/main) ![](https://img.shields.io/badge/repo%20size-2.07%20GB-blue.svg)
+[![](https://img.shields.io/github/last-commit/NOAA-EDAB/ESP_docs.svg)](https://github.com/NOAA-EDAB/ESP_docs/commits/main) ![](https://img.shields.io/badge/repo%20size-2.06%20GB-blue.svg)
 [![](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NOAA-EDAB/ESP_docs/actions/workflows/secretScan.yml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Indicator%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_indicator_reports_dev.yaml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Regression%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_regression_reports_dev.yaml)
