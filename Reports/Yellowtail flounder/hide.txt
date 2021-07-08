@@ -1,1 +1,91 @@
-[1] "Done with Jonah crab!"
+  |                                                                              |                                                                      |   0%
+   inline R code fragments
+
+  |                                                                              |                                                                      |   1%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                              |.                                                                     |   1%
+  ordinary text without R code
+
+
+label: species-data
+
+  ordinary text without R code
+
+  |                                                                              |.                                                                     |   2%
+label: save-data (with options) 
+List of 1
+ $ eval: logi TRUE
+
+
+   inline R code fragments
+
+  |                                                                              |..                                                                    |   2%
+label: ecsa-map (with options) 
+List of 1
+ $ fig.cap: language paste(species, "distribution")
+
+  |                                                                              |..                                                                    |   3%
+  ordinary text without R code
+
+
+label: latlong
+
+   inline R code fragments
+
+
+label: unnamed-chunk-1
+  |                                                                              |...                                                                   |   4%
+  ordinary text without R code
+
+
+label: density-plot-setup-spring
+
+  ordinary text without R code
+
+  |                                                                              |...                                                                   |   5%
+label: density-plot-setup-fall
+
+  ordinary text without R code
+
+  |                                                                              |....                                                                  |   5%
+label: centroid-plot
+  |                                                                              |....                                                                  |   6%
+   inline R code fragments
+
+
+label: s-temp (with options) 
+List of 1
+ $ fig.cap: language paste(species, "surface temperature")
+
+
+  ordinary text without R code
+
+
+label: b-temp (with options) 
+List of 1
+ $ fig.cap: language paste(species, "bottom temperature")
+
+  |                                                                              |.....                                                                 |   7%
+  ordinary text without R code
+
+
+label: stock-temp (with options) 
+List of 1
+ $ fig.cap: language paste(species, "temperature anomalies")
+
+
+  ordinary text without R code
+
+  |                                                                              |.....                                                                 |   8%
+label: stock-hw (with options) 
+List of 1
+ $ fig.cap: language paste(species, "marine heatwaves")
+
+
+[1] "10 files searched, 25% done....."
+[1] "20 files searched, 50% done....."
+[1] "30 files searched, 75% done....."
+[1] "40 files searched, 100% done....."
