@@ -1202,7 +1202,268 @@ label: catch_data
   |                                                                              |.........................................................             |  82%
 label: rec_data
 
-[1] "10 files searched, 25% done....."
-[1] "20 files searched, 50% done....."
-[1] "30 files searched, 75% done....."
-[1] "40 files searched, 100% done....."
+  ordinary text without R code
+
+  |                                                                              |..........................................................            |  82%
+label: com_data
+  |                                                                              |..........................................................            |  83%
+  ordinary text without R code
+
+
+label: comvrec_data
+
+  ordinary text without R code
+
+
+label: all_catch
+  |                                                                              |...........................................................           |  84%
+  ordinary text without R code
+
+
+label: f_status
+
+  ordinary text without R code
+
+  |                                                                              |...........................................................           |  85%
+label: unnamed-chunk-36 (with options) 
+List of 1
+ $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
+
+  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
+label: unnamed-chunk-76
+
+
+   inline R code fragments
+
+  |                                                                              |............................................................          |  85%
+label: ffmsy (with options) 
+List of 1
+ $ fig.cap: language paste(species, "F/Fmsy")
+
+
+  ordinary text without R code
+
+  |                                                                              |............................................................          |  86%
+label: unnamed-chunk-37
+
+  ordinary text without R code
+
+
+label: unnamed-chunk-38 (with options) 
+List of 1
+ $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
+
+  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
+  ordinary text without R code
+
+  |                                                                              |.......................                                               |  33%
+label: unnamed-chunk-77 (with options) 
+List of 2
+ $ fig.height: num 3
+ $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
+
+  |                                                                              |...................................                                   |  50%
+  ordinary text without R code
+
+  |                                                                              |...............................................                       |  67%
+label: unnamed-chunk-78 (with options) 
+List of 2
+ $ fig.height: num 2
+ $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
+
+  |                                                                              |..........................................................            |  83%
+  ordinary text without R code
+
+  |                                                                              |......................................................................| 100%
+label: unnamed-chunk-79 (with options) 
+List of 2
+ $ fig.height: num 2
+ $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
+
+
+  |                                                                              |.............................................................         |  87%
+  ordinary text without R code
+
+
+label: ffmsy_data
+
+   inline R code fragments
+
+
+label: Non-inflation-adjusted-price-history
+  |                                                                              |.............................................................         |  88%
+   inline R code fragments
+
+  |                                                                              |..............................................................        |  88%
+label: Non-inflation-adjusted-price-history-across-states-good-data  (with options) 
+List of 1
+ $ eval: logi TRUE
+
+
+  ordinary text without R code
+
+  |                                                                              |..............................................................        |  89%
+label: Non-inflation-adjusted-price-history-across-states-poor-data  (with options) 
+List of 1
+ $ eval: logi FALSE
+
+
+   inline R code fragments
+
+
+label: inflation-adjusted-price-history
+  |                                                                              |...............................................................       |  90%
+   inline R code fragments
+
+
+label: inflation-adjusted-price-across-states-good-data (with options) 
+List of 1
+ $ eval: logi TRUE
+
+
+  ordinary text without R code
+
+
+label: inflation-adjusted-price-across-states-poor-data (with options) 
+List of 1
+ $ eval: logi FALSE
+
+  |                                                                              |...............................................................       |  91%
+  ordinary text without R code
+
+  |                                                                              |................................................................      |  91%
+label: revenue (with options) 
+List of 1
+ $ fig.cap: language paste(species, "revenue")
+
+
+  ordinary text without R code
+
+  |                                                                              |................................................................      |  92%
+label: unnamed-chunk-39
+
+  ordinary text without R code
+
+
+label: unnamed-chunk-40 (with options) 
+List of 1
+ $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
+
+  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
+  ordinary text without R code
+
+  |                                                                              |.......................                                               |  33%
+label: unnamed-chunk-80 (with options) 
+List of 2
+ $ fig.height: num 3
+ $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
+
+  |                                                                              |...................................                                   |  50%
+  ordinary text without R code
+
+  |                                                                              |...............................................                       |  67%
+label: unnamed-chunk-81 (with options) 
+List of 2
+ $ fig.height: num 2
+ $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
+
+  |                                                                              |..........................................................            |  83%
+  ordinary text without R code
+
+  |                                                                              |......................................................................| 100%
+label: unnamed-chunk-82 (with options) 
+List of 2
+ $ fig.height: num 2
+ $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
+
+
+  |                                                                              |.................................................................     |  92%
+  ordinary text without R code
+
+  |                                                                              |.................................................................     |  93%
+label: revenue_data
+
+  ordinary text without R code
+
+
+label: management_data (with options) 
+List of 1
+ $ cache: logi FALSE
+
+  |                                                                              |..................................................................    |  94%
+   inline R code fragments
+
+
+label: quality
+
+  ordinary text without R code
+
+
+label: comp-risk-plot (with options) 
+List of 2
+ $ fig.height: num 10
+ $ fig.cap   : language paste(species, "comprehensive risk assessment")
+
+  |                                                                              |..................................................................    |  95%
+  ordinary text without R code
+
+  |                                                                              |...................................................................   |  95%
+label: year-risk-hist (with options) 
+List of 2
+ $ fig.height: num 10
+ $ fig.cap   : language paste(species, "normalized rank of magnitude of change compared to historical value by year")
+
+
+  ordinary text without R code
+
+  |                                                                              |...................................................................   |  96%
+label: year-risk-value (with options) 
+List of 2
+ $ fig.height: num 10
+ $ fig.cap   : language paste(species, "normalized rank of value in each year")
+
+
+  ordinary text without R code
+
+
+label: stock-risk (with options) 
+List of 2
+ $ fig.height: num 10
+ $ fig.cap   : language paste(species, "within-stock risk over time")
+
+  |                                                                              |....................................................................  |  97%
+  ordinary text without R code
+
+
+label: risk_comp
+
+  ordinary text without R code
+
+
+label: risk_hist
+  |                                                                              |....................................................................  |  98%
+  ordinary text without R code
+
+  |                                                                              |..................................................................... |  98%
+label: risk_year
+
+  ordinary text without R code
+
+  |                                                                              |..................................................................... |  99%
+label: risk_within
+
+  ordinary text without R code
+
+
+label: session-info
+  |                                                                              |......................................................................|  99%
+  ordinary text without R code
+
+  |                                                                              |......................................................................| 100%
+label: NEesp-info
+
+  ordinary text without R code
+
+
+/home/linuxbrew/.linuxbrew/bin/pandoc +RTS -K512m -RTS indicator-bookdown.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output indicator-bookdown.html --lua-filter /home/runner/work/_temp/Library/bookdown/rmarkdown/lua/custom-environment.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --metadata-file /tmp/RtmpfAC2LU/file35de2a39ac98 --wrap preserve --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/runner/work/_temp/Library/bookdown/templates/gitbook.html --highlight-style pygments --number-sections --css style.css --include-in-header /tmp/RtmpfAC2LU/rmarkdown-str35de6ed04944.html --mathjax 
+[1] "Done with Jonah crab!"
