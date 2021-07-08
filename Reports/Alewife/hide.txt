@@ -243,6 +243,29 @@ List of 2
  $ cache     : logi FALSE
  $ cache.lazy: logi FALSE
 
+  |                                                                              |..............                                                        |  20%
+  ordinary text without R code
+
+
+label: vonb-model
+
+   inline R code fragments
+
+
+label: single-growth-curve (with options) 
+List of 1
+ $ fig.cap: language paste(species, "length at age growth curve")
+
+  |                                                                              |..............                                                        |  21%
+  ordinary text without R code
+
+  |                                                                              |...............                                                       |  21%
+label: growth_diff_testing
+
+  ordinary text without R code
+
+  |                                                                              |...............                                                       |  22%
+label: ancova model
 
 [1] "10 files searched, 25% done....."
 [1] "20 files searched, 50% done....."
