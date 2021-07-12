@@ -1,1319 +1,4 @@
-  |                                                                              |                                                                      |   0%
-   inline R code fragments
-
-  |                                                                              |                                                                      |   1%
-label: setup (with options) 
-List of 1
- $ include: logi FALSE
-
-  |                                                                              |.                                                                     |   1%
-  ordinary text without R code
-
-
-label: species-data
-
-  ordinary text without R code
-
-  |                                                                              |.                                                                     |   2%
-label: save-data (with options) 
-List of 1
- $ eval: logi TRUE
-
-
-   inline R code fragments
-
-  |                                                                              |..                                                                    |   2%
-label: ecsa-map (with options) 
-List of 1
- $ fig.cap: language paste(species, "distribution")
-
-  |                                                                              |..                                                                    |   3%
-  ordinary text without R code
-
-
-label: latlong
-
-   inline R code fragments
-
-
-label: unnamed-chunk-1
-  |                                                                              |...                                                                   |   4%
-  ordinary text without R code
-
-
-label: density-plot-setup-spring
-
-  ordinary text without R code
-
-  |                                                                              |...                                                                   |   5%
-label: density-plot-setup-fall
-
-  ordinary text without R code
-
-  |                                                                              |....                                                                  |   5%
-label: centroid-plot
-  |                                                                              |....                                                                  |   6%
-   inline R code fragments
-
-
-label: s-temp (with options) 
-List of 1
- $ fig.cap: language paste(species, "surface temperature")
-
-
-  ordinary text without R code
-
-
-label: b-temp (with options) 
-List of 1
- $ fig.cap: language paste(species, "bottom temperature")
-
-  |                                                                              |.....                                                                 |   7%
-  ordinary text without R code
-
-
-label: stock-temp (with options) 
-List of 1
- $ fig.cap: language paste(species, "temperature anomalies")
-
-
-  ordinary text without R code
-
-  |                                                                              |.....                                                                 |   8%
-label: stock-hw (with options) 
-List of 1
- $ fig.cap: language paste(species, "marine heatwaves")
-
-  |                                                                              |......                                                                |   8%
-  ordinary text without R code
-
-
-label: temp_summary
-
-  ordinary text without R code
-
-  |                                                                              |......                                                                |   9%
-label: temp_data
-
-  ordinary text without R code
-
-  |                                                                              |.......                                                               |   9%
-label: eco_data
-  |                                                                              |.......                                                               |  10%
-  ordinary text without R code
-
-
-label: eco_hw
-
-   inline R code fragments
-
-
-label: s-salin (with options) 
-List of 1
- $ fig.cap: language paste(species, "surface salinity")
-
-  |                                                                              |........                                                              |  11%
-  ordinary text without R code
-
-
-label: b-salin (with options) 
-List of 1
- $ fig.cap: language paste(species, "bottom salinity")
-
-
-  ordinary text without R code
-
-  |                                                                              |........                                                              |  12%
-label: salin_summary
-
-  ordinary text without R code
-
-  |                                                                              |.........                                                             |  12%
-label: salin_data
-  |                                                                              |.........                                                             |  13%
-  ordinary text without R code
-
-
-label: depth_data (with options) 
-List of 1
- $ cache: logi FALSE
-
-
-  ordinary text without R code
-
-
-label: depth-fig (with options) 
-List of 1
- $ fig.cap: language paste(species, "depth")
-
-  |                                                                              |..........                                                            |  14%
-  ordinary text without R code
-
-
-label: depth-fig2 (with options) 
-List of 1
- $ fig.cap: language paste(species, "temperature at depth")
-
-
-  ordinary text without R code
-
-  |                                                                              |..........                                                            |  15%
-label: hab_vul
-
-   inline R code fragments
-
-  |                                                                              |...........                                                           |  15%
-label: length-freq (with options) 
-List of 1
- $ fig.cap: language paste(species, "length frequency distribution")
-
-
-  ordinary text without R code
-
-  |                                                                              |...........                                                           |  16%
-label: length (with options) 
-List of 1
- $ fig.cap: language paste(species, "length")
-
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-2
-  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-
-label: unnamed-chunk-3 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-41 (with options) 
-List of 2
- $ fig.height: num 6
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-42 (with options) 
-List of 2
- $ fig.height: num 5
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-43 (with options) 
-List of 2
- $ fig.height: num 5
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-
-  ordinary text without R code
-
-
-label: length_summary
-  |                                                                              |............                                                          |  18%
-  ordinary text without R code
-
-  |                                                                              |.............                                                         |  18%
-label: length_data
-
-  ordinary text without R code
-
-  |                                                                              |.............                                                         |  19%
-label: setup-vonb (with options) 
-List of 1
- $ cache: logi FALSE
-
-
-  ordinary text without R code
-
-
-label: data_wrangling (with options) 
-List of 2
- $ cache     : logi FALSE
- $ cache.lazy: logi FALSE
-
-  |                                                                              |..............                                                        |  20%
-  ordinary text without R code
-
-
-label: vonb-model
-
-   inline R code fragments
-
-
-label: single-growth-curve (with options) 
-List of 1
- $ fig.cap: language paste(species, "length at age growth curve")
-
-  |                                                                              |..............                                                        |  21%
-  ordinary text without R code
-
-  |                                                                              |...............                                                       |  21%
-label: growth_diff_testing
-
-  ordinary text without R code
-
-  |                                                                              |...............                                                       |  22%
-label: ancova model
-
-  ordinary text without R code
-
-  |                                                                              |................                                                      |  22%
-label: vonb ancova table
-
-  ordinary text without R code
-
-  |                                                                              |................                                                      |  23%
-label: residuals boxplots (with options) 
-List of 1
- $ fig.cap: language paste(species, "fit to global von b model by sex and decade")
-
-
-  ordinary text without R code
-
-
-label: L50-data-wrangling
-  |                                                                              |.................                                                     |  24%
-  ordinary text without R code
-
-
-label: mature_model
-
-  ordinary text without R code
-
-
-label: maturity-classification
-  |                                                                              |.................                                                     |  25%
-  ordinary text without R code
-
-  |                                                                              |..................                                                    |  25%
-label: maturity-classification-plot (with options) 
-List of 1
- $ fig.cap: language paste(species, "maturity classification")
-
-
-   inline R code fragments
-
-  |                                                                              |..................                                                    |  26%
-label: model-table
-
-   inline R code fragments
-
-
-label: model-results-and-L50
-  |                                                                              |...................                                                   |  27%
-  ordinary text without R code
-
-
-label: probability-plot (with options) 
-List of 1
- $ fig.cap: language paste(species, "probability of maturity")
-
-
-  ordinary text without R code
-
-
-label: lw (with options) 
-List of 1
- $ fig.cap: language paste(species, "length vs weight")
-
-  |                                                                              |...................                                                   |  28%
-  ordinary text without R code
-
-  |                                                                              |....................                                                  |  28%
-label: condition (with options) 
-List of 1
- $ fig.cap: language paste(species, "weight-volume condition")
-
-
-  ordinary text without R code
-
-  |                                                                              |....................                                                  |  29%
-label: laurel-cond (with options) 
-List of 1
- $ fig.cap: language paste(species, "relative weight")
-
-
-  ordinary text without R code
-
-
-label: lw_data
-  |                                                                              |.....................                                                 |  29%
-  ordinary text without R code
-
-  |                                                                              |.....................                                                 |  30%
-label: laurel_cond_data
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-4
-  |                                                                              |.....................                                                 |  31%
-  ordinary text without R code
-
-  |                                                                              |......................                                                |  31%
-label: unnamed-chunk-5
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-6
-  |                                                                              |......................                                                |  32%
-  ordinary text without R code
-
-
-label: unnamed-chunk-7
-  |                                                                              |.......................                                               |  32%
-   inline R code fragments
-
-  |                                                                              |.......................                                               |  33%
-label: ich-wrangle
-
-   inline R code fragments
-
-
-label: Relative_proportion plot (with options) 
-List of 1
- $ fig.cap: language paste(params$species_ID, "larva relative proportion")
-
-  |                                                                              |.......................                                               |  34%
-  ordinary text without R code
-
-  |                                                                              |........................                                              |  34%
-label: diet (with options) 
-List of 1
- $ fig.cap: language paste(species, "diet composition")
-
-
-  ordinary text without R code
-
-
-label: diet_summary
-  |                                                                              |........................                                              |  35%
-  ordinary text without R code
-
-
-label: diet_data
-  |                                                                              |.........................                                             |  35%
-  ordinary text without R code
-
-  |                                                                              |.........................                                             |  36%
-label: unnamed-chunk-8 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-44
-
-
-   inline R code fragments
-
-
-label: a-survey (with options) 
-List of 1
- $ fig.cap: language paste(species, "survey abundance")
-
-  |                                                                              |..........................                                            |  36%
-  ordinary text without R code
-
-  |                                                                              |..........................                                            |  37%
-label: unnamed-chunk-9
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-10 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-45 (with options) 
-List of 2
- $ fig.height: num 4
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-46 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-47 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |..........................                                            |  38%
-  ordinary text without R code
-
-  |                                                                              |...........................                                           |  38%
-label: abunance-survey-swept (with options) 
-List of 1
- $ fig.cap: language paste(species, "swept area estimate from survey abundance")
-
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-11
-  |                                                                              |...........................                                           |  39%
-  ordinary text without R code
-
-
-label: abun-asmt (with options) 
-List of 2
- $ fig.height: num 4
- $ fig.cap   : language paste(species, "assessment abundance")
-
-  |                                                                              |............................                                          |  39%
-  ordinary text without R code
-
-  |                                                                              |............................                                          |  40%
-label: unnamed-chunk-12
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-13 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-48 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-49 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-50 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |............................                                          |  41%
-  ordinary text without R code
-
-  |                                                                              |.............................                                         |  41%
-label: abun_summary
-
-  ordinary text without R code
-
-
-label: surv_abun_data
-  |                                                                              |.............................                                         |  42%
-  ordinary text without R code
-
-
-label: swept_abun_data
-  |                                                                              |..............................                                        |  42%
-  ordinary text without R code
-
-  |                                                                              |..............................                                        |  43%
-label: asmt_abun_data
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-14 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-51
-
-
-   inline R code fragments
-
-  |                                                                              |...............................                                       |  44%
-label: biomass (with options) 
-List of 1
- $ fig.cap: language paste(species, "survey biomass")
-
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-15
-  |                                                                              |...............................                                       |  45%
-  ordinary text without R code
-
-
-label: unnamed-chunk-16 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-52 (with options) 
-List of 2
- $ fig.height: num 4
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-53 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-54 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |................................                                      |  45%
-  ordinary text without R code
-
-
-label: bio-survey-swept (with options) 
-List of 1
- $ fig.cap: language paste(species, "swept area estimate from survey biomass")
-
-  |                                                                              |................................                                      |  46%
-  ordinary text without R code
-
-
-label: unnamed-chunk-17
-
-  ordinary text without R code
-
-  |                                                                              |.................................                                     |  47%
-label: biomass-asmt-spawn (with options) 
-List of 2
- $ fig.height: num 5
- $ fig.cap   : language paste(species, "assessment spawning stock biomass")
-
-
-  ordinary text without R code
-
-
-label: biomass-asmt (with options) 
-List of 2
- $ fig.height: num 5
- $ fig.cap   : language paste(species, "assessment spawning stock biomass")
-
-  |                                                                              |.................................                                     |  48%
-  ordinary text without R code
-
-
-label: unnamed-chunk-18
-  |                                                                              |..................................                                    |  48%
-  ordinary text without R code
-
-
-label: unnamed-chunk-19 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-55 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-56 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-57 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |..................................                                    |  49%
-  ordinary text without R code
-
-
-label: biomass_summary
-
-  ordinary text without R code
-
-  |                                                                              |...................................                                   |  50%
-label: biomass_data
-
-  ordinary text without R code
-
-
-label: swept_biomass_data
-
-  ordinary text without R code
-
-  |                                                                              |....................................                                  |  51%
-label: asmt_biomass_data
-
-  ordinary text without R code
-
-
-label: b_status
-  |                                                                              |....................................                                  |  52%
-  ordinary text without R code
-
-
-label: unnamed-chunk-20 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-58
-
-  |                                                                              |.....................................                                 |  52%
-   inline R code fragments
-
-
-label: bbmsy-fig (with options) 
-List of 1
- $ fig.cap: language paste(species, "B/Bmsy")
-
-  |                                                                              |.....................................                                 |  53%
-  ordinary text without R code
-
-
-label: unnamed-chunk-21
-
-  ordinary text without R code
-
-  |                                                                              |......................................                                |  54%
-label: unnamed-chunk-22 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-59 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-60 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-61 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-
-  ordinary text without R code
-
-
-label: bbmsy_data
-  |                                                                              |......................................                                |  55%
-  ordinary text without R code
-
-
-label: unnamed-chunk-23 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-62
-
-  |                                                                              |.......................................                               |  55%
-   inline R code fragments
-
-
-label: unnamed-chunk-24
-  |                                                                              |.......................................                               |  56%
-  ordinary text without R code
-
-
-label: recruitment (with options) 
-List of 2
- $ fig.height: num 5
- $ fig.cap   : language paste(species, "recruitment")
-
-
-  ordinary text without R code
-
-  |                                                                              |........................................                              |  57%
-label: unnamed-chunk-25
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-26 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-63 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-64 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-65 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-
-  ordinary text without R code
-
-  |                                                                              |........................................                              |  58%
-label: recruit_data
-  |                                                                              |.........................................                             |  58%
-  ordinary text without R code
-
-
-label: data_wrangling_age
-  |                                                                              |.........................................                             |  59%
-   inline R code fragments
-
-
-label: age-diversity-calculations (with options) 
-List of 1
- $ fig.cap: language paste(species, "age diversity")
-
-
-   inline R code fragments
-
-  |                                                                              |..........................................                            |  59%
-label: age-density (with options) 
-List of 2
- $ fig.height: num 12
- $ fig.cap   : language paste(species, "age density")
-
-  |                                                                              |..........................................                            |  60%
-   inline R code fragments
-
-
-label: climate-vul (with options) 
-List of 2
- $ fig.height: num 10
- $ fig.cap   : language paste(species, "climate vulnerability")
-
-
-  ordinary text without R code
-
-  |                                                                              |..........................................                            |  61%
-label: unnamed-chunk-27
-  |                                                                              |...........................................                           |  61%
-  ordinary text without R code
-
-
-label: unnamed-chunk-28 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-66
-
-  |                                                                              |...........................................                           |  62%
-   inline R code fragments
-
-
-label: unnamed-chunk-29
-
-  ordinary text without R code
-
-  |                                                                              |............................................                          |  62%
-label: catch (with options) 
-List of 1
- $ fig.cap: language paste(species, "assessment catch")
-
-  |                                                                              |............................................                          |  63%
-  ordinary text without R code
-
-
-label: unnamed-chunk-30
-
-  ordinary text without R code
-
-  |                                                                              |............................................                          |  64%
-label: unnamed-chunk-31 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-67 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-68 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-69 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |.............................................                         |  64%
-  ordinary text without R code
-
-
-label: rec-catch
-
-  ordinary text without R code
-
-  |                                                                              |.............................................                         |  65%
-label: rec-land-num
-  |                                                                              |..............................................                        |  65%
-  ordinary text without R code
-
-
-label: rec-land
-  |                                                                              |..............................................                        |  66%
-  ordinary text without R code
-
-
-label: unnamed-chunk-32
-
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  66%
-label: unnamed-chunk-33 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-70 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-71 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-72 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |...............................................                       |  67%
-  ordinary text without R code
-
-
-label: rec-land-prop
-
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  68%
-label: rec-disc
-  |                                                                              |................................................                      |  68%
-  ordinary text without R code
-
-
-label: rec-disc-prop
-  |                                                                              |................................................                      |  69%
-  ordinary text without R code
-
-
-label: rec-data-cleaning
-
-   inline R code fragments
-
-  |                                                                              |.................................................                     |  69%
-label: total-catch-good-data (with options) 
-List of 1
- $ eval: logi FALSE
-
-  |                                                                              |.................................................                     |  70%
-  ordinary text without R code
-
-
-label: sp-if-data-is-poor (with options) 
-List of 1
- $ eval: logi TRUE
-
-
-   inline R code fragments
-
-  |                                                                              |.................................................                     |  71%
-label: state-breakdown-data-good (with options) 
-List of 1
- $ eval: logi FALSE
-
-  |                                                                              |..................................................                    |  71%
-  ordinary text without R code
-
-
-label: data-poor-graph (with options) 
-List of 1
- $ eval: logi TRUE
-
-
-   inline R code fragments
-
-  |                                                                              |..................................................                    |  72%
-label: effor-by-state (with options) 
-List of 2
- $ fig.width : num 11
- $ fig.height: num 8.5
-
-
-  ordinary text without R code
-
-  |                                                                              |...................................................                   |  72%
-label: effort by location (with options) 
-List of 5
- $ echo      : logi FALSE
- $ message   : logi FALSE
- $ warning   : logi FALSE
- $ fig.width : num 11
- $ fig.height: num 8.5
-
-  |                                                                              |...................................................                   |  73%
-  ordinary text without R code
-
-
-label: summary by state (with options) 
-List of 5
- $ echo      : logi FALSE
- $ message   : logi FALSE
- $ error     : logi FALSE
- $ fig.width : num 11
- $ fig.height: num 8.5
-
-
-  ordinary text without R code
-
-
-label: com-data-processing
-  |                                                                              |....................................................                  |  74%
-   inline R code fragments
-
-
-label: landings-single-stock
-
-   inline R code fragments
-
-  |                                                                              |....................................................                  |  75%
-label: landings-across-states-good-data (with options) 
-List of 1
- $ eval: logi TRUE
-
-
-  ordinary text without R code
-
-  |                                                                              |.....................................................                 |  75%
-label: landings-across-states-bad-data (with options) 
-List of 1
- $ eval: logi FALSE
-
-  |                                                                              |.....................................................                 |  76%
-  ordinary text without R code
-
-
-label: com (with options) 
-List of 1
- $ fig.cap: language paste(species, "commercial catch")
-
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-34
-  |                                                                              |......................................................                |  77%
-  ordinary text without R code
-
-
-label: unnamed-chunk-35 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-73 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-74 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-75 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-
-  ordinary text without R code
-
-  |                                                                              |......................................................                |  78%
-label: comvrec (with options) 
-List of 1
- $ fig.cap: language paste(species, "proportional commercial and recreational catch")
-
-
-  ordinary text without R code
-
-  |                                                                              |.......................................................               |  78%
-label: gear-wrangling
-
-  ordinary text without R code
-
-  |                                                                              |.......................................................               |  79%
-label: gear-raw
-
-  ordinary text without R code
-
-  |                                                                              |........................................................              |  79%
-label: gear-diversity
-  |                                                                              |........................................................              |  80%
-   inline R code fragments
-
-
-label: gear-by-species
-
-   inline R code fragments
-
-
-label: gear-diversity-by-species
-  |                                                                              |.........................................................             |  81%
-  ordinary text without R code
-
-
-label: catch_data
-
-  ordinary text without R code
-
-  |                                                                              |.........................................................             |  82%
-label: rec_data
-
-  ordinary text without R code
-
-  |                                                                              |..........................................................            |  82%
-label: com_data
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-
-label: comvrec_data
-
-  ordinary text without R code
-
-
-label: all_catch
-  |                                                                              |...........................................................           |  84%
-  ordinary text without R code
-
-
-label: f_status
-
-  ordinary text without R code
-
-  |                                                                              |...........................................................           |  85%
-label: unnamed-chunk-36 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_legend-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-76
-
-
-   inline R code fragments
-
-  |                                                                              |............................................................          |  85%
-label: ffmsy (with options) 
-List of 1
- $ fig.cap: language paste(species, "F/Fmsy")
-
-
-  ordinary text without R code
-
-  |                                                                              |............................................................          |  86%
-label: unnamed-chunk-37
-
-  ordinary text without R code
-
-
-label: unnamed-chunk-38 (with options) 
-List of 1
- $ child: chr "/home/runner/work/_temp/Library/NEesp/indicator_bookdown_template/_risk-child-doc.Rmd"
-
-  |                                                                              |                                                                      |   0%  |                                                                              |............                                                          |  17%
-  ordinary text without R code
-
-  |                                                                              |.......................                                               |  33%
-label: unnamed-chunk-77 (with options) 
-List of 2
- $ fig.height: num 3
- $ fig.cap   : language paste(species, "rank of change in indicator compared to historical, ranked among stocks")
-
-  |                                                                              |...................................                                   |  50%
-  ordinary text without R code
-
-  |                                                                              |...............................................                       |  67%
-label: unnamed-chunk-78 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) in each year, compared to other stocks")
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |......................................................................| 100%
-label: unnamed-chunk-79 (with options) 
-List of 2
- $ fig.height: num 2
- $ fig.cap   : language paste(species, "rank of value (magnitude) within a single stock, compared to all years")
-
-
-  |                                                                              |.............................................................         |  87%
-  ordinary text without R code
-
-
-label: ffmsy_data
-
-   inline R code fragments
-
-
-label: Non-inflation-adjusted-price-history
-  |                                                                              |.............................................................         |  88%
-   inline R code fragments
-
-  |                                                                              |..............................................................        |  88%
-label: Non-inflation-adjusted-price-history-across-states-good-data  (with options) 
-List of 1
- $ eval: logi TRUE
-
-
-  ordinary text without R code
-
-  |                                                                              |..............................................................        |  89%
-label: Non-inflation-adjusted-price-history-across-states-poor-data  (with options) 
-List of 1
- $ eval: logi FALSE
-
-
-   inline R code fragments
-
-
-label: inflation-adjusted-price-history
-
-[1] "10 files searched, 25% done....."
-[1] "20 files searched, 50% done....."
-[1] "30 files searched, 75% done....."
-[1] "40 files searched, 100% done....."
+[1] "10 files searched, 24% done....."
+[1] "20 files searched, 49% done....."
+[1] "30 files searched, 73% done....."
+[1] "40 files searched, 98% done....."
