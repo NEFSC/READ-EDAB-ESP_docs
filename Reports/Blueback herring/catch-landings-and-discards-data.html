@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6.2 Catch, landings, and discards data | Blueback herring</title>
+  <meta name="description" content="6.2 Catch, landings, and discards data | Blueback herring" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6.2 Catch, landings, and discards data | Blueback herring" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="NOAA-EDAB/esp_data_aggregation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6.2 Catch, landings, and discards data | Blueback herring" />
+  
+  
+  
+
+<meta name="author" content="Abigail Tyrell &amp; Ricky Tabandera" />
+
+
+<meta name="date" content="2021-07-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="catch-landings-and-discards.html"/>
+<link rel="next" href="ffmsy.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/dt-ext-scroller-1.10.20/css/scroller.dataTables.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-scroller-1.10.20/js/dataTables.scroller.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://noaa-edab.github.io/ESP_docs/docs/">Back to main table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Blueback herring</a></li>
+<li class="chapter" data-level="1" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="stock-identification.html"><a href="stock-identification.html"><i class="fa fa-check"></i><b>1.1</b> Stock identification</a></li>
+<li class="chapter" data-level="1.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html"><i class="fa fa-check"></i><b>1.2</b> Data collection and presentation</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#assessmentdata-methods"><i class="fa fa-check"></i><b>1.2.1</b> <code>assessmentdata</code> methods</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-collection-and-presentation.html"><a href="data-collection-and-presentation.html#survdat-methods"><i class="fa fa-check"></i><b>1.2.2</b> <code>survdat</code> methods</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="risk-assessment.html"><a href="risk-assessment.html"><i class="fa fa-check"></i><b>1.3</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-across-stocks"><i class="fa fa-check"></i><b>1.3.1</b> Risk across stocks</a></li>
+<li class="chapter" data-level="1.3.2" data-path="risk-assessment.html"><a href="risk-assessment.html#risk-within-stocks"><i class="fa fa-check"></i><b>1.3.2</b> Risk within stocks</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="habitat-information.html"><a href="habitat-information.html"><i class="fa fa-check"></i><b>2</b> Habitat information</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html"><i class="fa fa-check"></i><b>2.1</b> Geographic distribution</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="geographic-distribution.html"><a href="geographic-distribution.html#map-of-distribution"><i class="fa fa-check"></i><b>2.1.1</b> Map of distribution</a></li>
+<li class="chapter" data-level="2.1.2" data-path="geographic-distribution.html"><a href="geographic-distribution.html#latitude-and-longitude-ranges"><i class="fa fa-check"></i><b>2.1.2</b> Latitude and longitude ranges</a></li>
+<li class="chapter" data-level="2.1.3" data-path="geographic-distribution.html"><a href="geographic-distribution.html#figures"><i class="fa fa-check"></i><b>2.1.3</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="temperature.html"><a href="temperature.html"><i class="fa fa-check"></i><b>2.2</b> Temperature</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="temperature.html"><a href="temperature.html#figures-1"><i class="fa fa-check"></i><b>2.2.1</b> Figures</a></li>
+<li class="chapter" data-level="2.2.2" data-path="temperature.html"><a href="temperature.html#summary"><i class="fa fa-check"></i><b>2.2.2</b> Summary</a></li>
+<li class="chapter" data-level="2.2.3" data-path="temperature.html"><a href="temperature.html#data"><i class="fa fa-check"></i><b>2.2.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="salinity.html"><a href="salinity.html"><i class="fa fa-check"></i><b>2.3</b> Salinity</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="salinity.html"><a href="salinity.html#figures-2"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+<li class="chapter" data-level="2.3.2" data-path="salinity.html"><a href="salinity.html#summary-1"><i class="fa fa-check"></i><b>2.3.2</b> Summary</a></li>
+<li class="chapter" data-level="2.3.3" data-path="salinity.html"><a href="salinity.html#data-1"><i class="fa fa-check"></i><b>2.3.3</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="depth.html"><a href="depth.html"><i class="fa fa-check"></i><b>2.4</b> Depth</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="depth.html"><a href="depth.html#figures-3"><i class="fa fa-check"></i><b>2.4.1</b> Figures</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="habitat-vulnerability.html"><a href="habitat-vulnerability.html"><i class="fa fa-check"></i><b>2.5</b> Habitat vulnerability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="biological-information.html"><a href="biological-information.html"><i class="fa fa-check"></i><b>3</b> Biological information</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="length.html"><a href="length.html"><i class="fa fa-check"></i><b>3.1</b> Length</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="length.html"><a href="length.html#overview"><i class="fa fa-check"></i><b>3.1.1</b> Overview</a></li>
+<li class="chapter" data-level="3.1.2" data-path="length.html"><a href="length.html#summary-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.1.3" data-path="length.html"><a href="length.html#risk"><i class="fa fa-check"></i><b>3.1.3</b> Risk</a></li>
+<li class="chapter" data-level="3.1.4" data-path="length.html"><a href="length.html#summary-2"><i class="fa fa-check"></i><b>3.1.4</b> Summary</a></li>
+<li class="chapter" data-level="3.1.5" data-path="length.html"><a href="length.html#data-2"><i class="fa fa-check"></i><b>3.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html"><i class="fa fa-check"></i><b>3.2</b> von Bertalanffy growth curve</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#length-at-age-growth-curve"><i class="fa fa-check"></i><b>3.2.1</b> Length at age growth curve</a></li>
+<li class="chapter" data-level="3.2.2" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#growth-differences-among-groups"><i class="fa fa-check"></i><b>3.2.2</b> Growth differences among groups</a></li>
+<li class="chapter" data-level="3.2.3" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#ancova-model-output"><i class="fa fa-check"></i><b>3.2.3</b> ANCOVA model output</a></li>
+<li class="chapter" data-level="3.2.4" data-path="von-bertalanffy-growth-curve.html"><a href="von-bertalanffy-growth-curve.html#residuals-by-sex-and-decade"><i class="fa fa-check"></i><b>3.2.4</b> Residuals by sex and decade</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html"><i class="fa fa-check"></i><b>3.3</b> Length at first maturity</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#size-at-first-maturity"><i class="fa fa-check"></i><b>3.3.1</b> Size at first maturity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#maturity-classification"><i class="fa fa-check"></i><b>3.3.2</b> Maturity classification</a></li>
+<li class="chapter" data-level="3.3.3" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#model-results"><i class="fa fa-check"></i><b>3.3.3</b> Model results</a></li>
+<li class="chapter" data-level="3.3.4" data-path="length-at-first-maturity.html"><a href="length-at-first-maturity.html#l50-differences-between-sexes"><i class="fa fa-check"></i><b>3.3.4</b> L50 differences between sexes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="condition.html"><a href="condition.html"><i class="fa fa-check"></i><b>3.4</b> Condition</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="condition.html"><a href="condition.html#length-vs-weight"><i class="fa fa-check"></i><b>3.4.1</b> Length vs weight</a></li>
+<li class="chapter" data-level="3.4.2" data-path="condition.html"><a href="condition.html#condition-factor-weight-volume"><i class="fa fa-check"></i><b>3.4.2</b> Condition factor: Weight-volume</a></li>
+<li class="chapter" data-level="3.4.3" data-path="condition.html"><a href="condition.html#data-3"><i class="fa fa-check"></i><b>3.4.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trophic-information.html"><a href="trophic-information.html"><i class="fa fa-check"></i><b>4</b> Trophic information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="primary-production.html"><a href="primary-production.html"><i class="fa fa-check"></i><b>4.1</b> Primary production</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="primary-production.html"><a href="primary-production.html#figures-4"><i class="fa fa-check"></i><b>4.1.1</b> Figures</a></li>
+<li class="chapter" data-level="4.1.2" data-path="primary-production.html"><a href="primary-production.html#data-4"><i class="fa fa-check"></i><b>4.1.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="icthyoplankton.html"><a href="icthyoplankton.html"><i class="fa fa-check"></i><b>4.2</b> Icthyoplankton</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="icthyoplankton.html"><a href="icthyoplankton.html#relative-proportion-and-mean-abundance-of-blueback-herring"><i class="fa fa-check"></i><b>4.2.1</b> Relative proportion and mean abundance of Blueback herring</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="diet.html"><a href="diet.html"><i class="fa fa-check"></i><b>4.3</b> Diet</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="diet.html"><a href="diet.html#figure"><i class="fa fa-check"></i><b>4.3.1</b> Figure</a></li>
+<li class="chapter" data-level="4.3.2" data-path="diet.html"><a href="diet.html#summary-3"><i class="fa fa-check"></i><b>4.3.2</b> Summary</a></li>
+<li class="chapter" data-level="4.3.3" data-path="diet.html"><a href="diet.html#data-5"><i class="fa fa-check"></i><b>4.3.3</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="population-information.html"><a href="population-information.html"><i class="fa fa-check"></i><b>5</b> Population information</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="abundance.html"><a href="abundance.html"><i class="fa fa-check"></i><b>5.1</b> Abundance</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="abundance.html"><a href="abundance.html#survey-abundance-raw-measurements"><i class="fa fa-check"></i><b>5.1.1</b> Survey abundance (raw measurements)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="abundance.html"><a href="abundance.html#survey-abundance-swept-area-estimates"><i class="fa fa-check"></i><b>5.1.2</b> Survey abundance (swept area estimates)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="abundance.html"><a href="abundance.html#assessment-abundance"><i class="fa fa-check"></i><b>5.1.3</b> Assessment abundance</a></li>
+<li class="chapter" data-level="5.1.4" data-path="abundance.html"><a href="abundance.html#survey-summary"><i class="fa fa-check"></i><b>5.1.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.1.5" data-path="abundance.html"><a href="abundance.html#data-6"><i class="fa fa-check"></i><b>5.1.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="biomass.html"><a href="biomass.html"><i class="fa fa-check"></i><b>5.2</b> Biomass</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="biomass.html"><a href="biomass.html#survey-biomass-raw-measurements"><i class="fa fa-check"></i><b>5.2.1</b> Survey biomass (raw measurements)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="biomass.html"><a href="biomass.html#survey-biomass-swept-area-estimates"><i class="fa fa-check"></i><b>5.2.2</b> Survey biomass (swept area estimates)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="biomass.html"><a href="biomass.html#assessment-biomass"><i class="fa fa-check"></i><b>5.2.3</b> Assessment biomass</a></li>
+<li class="chapter" data-level="5.2.4" data-path="biomass.html"><a href="biomass.html#survey-summary-1"><i class="fa fa-check"></i><b>5.2.4</b> Survey summary</a></li>
+<li class="chapter" data-level="5.2.5" data-path="biomass.html"><a href="biomass.html#data-7"><i class="fa fa-check"></i><b>5.2.5</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="bbmsy.html"><a href="bbmsy.html"><i class="fa fa-check"></i><b>5.3</b> B/Bmsy</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="bbmsy.html"><a href="bbmsy.html#figure-1"><i class="fa fa-check"></i><b>5.3.1</b> Figure</a></li>
+<li class="chapter" data-level="5.3.2" data-path="bbmsy.html"><a href="bbmsy.html#data-8"><i class="fa fa-check"></i><b>5.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>5.4</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="recruitment.html"><a href="recruitment.html#figure-2"><i class="fa fa-check"></i><b>5.4.1</b> Figure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="recruitment.html"><a href="recruitment.html#data-9"><i class="fa fa-check"></i><b>5.4.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="age-diversity.html"><a href="age-diversity.html"><i class="fa fa-check"></i><b>5.5</b> Age diversity</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="age-diversity.html"><a href="age-diversity.html#age-diversity-1"><i class="fa fa-check"></i><b>5.5.1</b> Age diversity</a></li>
+<li class="chapter" data-level="5.5.2" data-path="age-diversity.html"><a href="age-diversity.html#density-plots-of-age"><i class="fa fa-check"></i><b>5.5.2</b> Density plots of age</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html"><i class="fa fa-check"></i><b>5.6</b> Climate vulnerability</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#figures-5"><i class="fa fa-check"></i><b>5.6.1</b> Figures</a></li>
+<li class="chapter" data-level="5.6.2" data-path="climate-vulnerability.html"><a href="climate-vulnerability.html#data-10"><i class="fa fa-check"></i><b>5.6.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="socio-economic-information.html"><a href="socio-economic-information.html"><i class="fa fa-check"></i><b>6</b> Socio-economic information</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html"><i class="fa fa-check"></i><b>6.1</b> Catch, landings, and discards</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#stock-assessment-catch"><i class="fa fa-check"></i><b>6.1.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.1.2" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#recreational-catch"><i class="fa fa-check"></i><b>6.1.2</b> Recreational catch</a></li>
+<li class="chapter" data-level="6.1.3" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#recreational-landings"><i class="fa fa-check"></i><b>6.1.3</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.1.4" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#recreational-discards"><i class="fa fa-check"></i><b>6.1.4</b> Recreational discards</a></li>
+<li class="chapter" data-level="6.1.5" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#recreational-catches-time-series"><i class="fa fa-check"></i><b>6.1.5</b> Recreational catches time series</a></li>
+<li class="chapter" data-level="6.1.6" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#recreational-landings-of-blueback-herring-across-states-in-the-mid-atlantic-and-north-east-regions"><i class="fa fa-check"></i><b>6.1.6</b> Recreational landings of Blueback herring across states in the mid-Atlantic and north-east regions</a></li>
+<li class="chapter" data-level="6.1.7" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#visualizing-recreational-fishing-effort"><i class="fa fa-check"></i><b>6.1.7</b> Visualizing Recreational fishing effort</a></li>
+<li class="chapter" data-level="6.1.8" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#commercial-landings"><i class="fa fa-check"></i><b>6.1.8</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.1.9" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#commercial-landings-by-state-and-year"><i class="fa fa-check"></i><b>6.1.9</b> Commercial landings by state and year</a></li>
+<li class="chapter" data-level="6.1.10" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#commercial-vs-recreational-catch"><i class="fa fa-check"></i><b>6.1.10</b> Commercial vs recreational catch</a></li>
+<li class="chapter" data-level="6.1.11" data-path="catch-landings-and-discards.html"><a href="catch-landings-and-discards.html#commercial-fishing-gear"><i class="fa fa-check"></i><b>6.1.11</b> Commercial fishing gear</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html"><i class="fa fa-check"></i><b>6.2</b> Catch, landings, and discards data</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html#stock-assessment-catch-1"><i class="fa fa-check"></i><b>6.2.1</b> Stock assessment catch</a></li>
+<li class="chapter" data-level="6.2.2" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html#recreational-landings-1"><i class="fa fa-check"></i><b>6.2.2</b> Recreational landings</a></li>
+<li class="chapter" data-level="6.2.3" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html#commercial-landings-1"><i class="fa fa-check"></i><b>6.2.3</b> Commercial landings</a></li>
+<li class="chapter" data-level="6.2.4" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html#commercial-vs-recreational-landings"><i class="fa fa-check"></i><b>6.2.4</b> Commercial vs recreational landings</a></li>
+<li class="chapter" data-level="6.2.5" data-path="catch-landings-and-discards-data.html"><a href="catch-landings-and-discards-data.html#commercial-and-recreational-landings-and-stock-assessment-catch"><i class="fa fa-check"></i><b>6.2.5</b> Commercial and recreational landings, and stock assessment catch</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="ffmsy.html"><a href="ffmsy.html"><i class="fa fa-check"></i><b>6.3</b> F/Fmsy</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="ffmsy.html"><a href="ffmsy.html#figure-3"><i class="fa fa-check"></i><b>6.3.1</b> Figure</a></li>
+<li class="chapter" data-level="6.3.2" data-path="ffmsy.html"><a href="ffmsy.html#data-11"><i class="fa fa-check"></i><b>6.3.2</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="revenue.html"><a href="revenue.html"><i class="fa fa-check"></i><b>6.4</b> Revenue</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="revenue.html"><a href="revenue.html#figures-6"><i class="fa fa-check"></i><b>6.4.1</b> Figures</a></li>
+<li class="chapter" data-level="6.4.2" data-path="revenue.html"><a href="revenue.html#data-12"><i class="fa fa-check"></i><b>6.4.2</b> Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="management-information.html"><a href="management-information.html"><i class="fa fa-check"></i><b>7</b> Management information</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="stock-assessment-and-data-quality-information.html"><a href="stock-assessment-and-data-quality-information.html"><i class="fa fa-check"></i><b>7.1</b> Stock assessment and data quality information</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="risk-assessment-1.html"><a href="risk-assessment-1.html"><i class="fa fa-check"></i><b>8</b> Risk assessment</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="figures-7.html"><a href="figures-7.html"><i class="fa fa-check"></i><b>8.1</b> Figures</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="figures-7.html"><a href="figures-7.html#relative-to-all-other-stocks"><i class="fa fa-check"></i><b>8.1.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.1.2" data-path="figures-7.html"><a href="figures-7.html#within-a-single-stock"><i class="fa fa-check"></i><b>8.1.2</b> Within a single stock</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-13.html"><a href="data-13.html"><i class="fa fa-check"></i><b>8.2</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-13.html"><a href="data-13.html#relative-to-all-other-stocks-1"><i class="fa fa-check"></i><b>8.2.1</b> Relative to all other stocks</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-13.html"><a href="data-13.html#value-within-each-stock-ranked-by-year"><i class="fa fa-check"></i><b>8.2.2</b> Value within each stock, ranked by year</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>9</b> Appendix</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="r-session-information.html"><a href="r-session-information.html"><i class="fa fa-check"></i><b>9.1</b> R session information</a></li>
+<li class="chapter" data-level="9.2" data-path="neesp-information.html"><a href="neesp-information.html"><i class="fa fa-check"></i><b>9.2</b> <code>NEesp</code> information</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Blueback herring</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="catch-landings-and-discards-data" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Catch, landings, and discards data</h2>
+<div id="stock-assessment-catch-1" class="section level3" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> Stock assessment catch</h3>
+<pre><code>## [1] &quot;NO DATA&quot;</code></pre>
+</div>
+<div id="recreational-landings-1" class="section level3" number="6.2.2">
+<h3><span class="header-section-number">6.2.2</span> Recreational landings</h3>
+<div id="htmlwidget-5a2cc47b9a13e706e3ab" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5a2cc47b9a13e706e3ab">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1981\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Connecticut&quot;,&quot;Delaware&quot;,&quot;Maine&quot;,&quot;Maryland&quot;,&quot;Massachusetts&quot;,&quot;New hampshire&quot;,&quot;New jersey&quot;,&quot;New york&quot;,&quot;Rhode island&quot;,&quot;Virginia&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;All Regions&quot;,&quot;Northeast&quot;,&quot;Outside\\nNortheast&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Charter boat&quot;,&quot;Party boat&quot;,&quot;Party/charter boat&quot;,&quot;Private/rental boat&quot;,&quot;Shore&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0\" data-max=\"1497416\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1999,1987,1989,1990,1998,2007,1982,2008,1989,1991,2005,1983,2008,2000,2007,2011,2014,2017,2006,2006,2009,1994,1992,1998,2000,2003,2005,2015,2019,1994,1986,1990,1991,1993,1995,1996,2003,2005,2008,2019,1987,1989,1993,1994,1997,1998,2003,2007,2017,2005,2009,2012,2013,2001,2003,2017,2004,2014,2019,2009,1987,1992,1995,1990,1996,2003,1981,1990,1992,1998,2010,1990,1991,1990,1991,1993,2002,2016,1990,2002,1990,1988,1989,1992,1993,1998,1999,2000,2002,2003,2004,2007,1999,1990,1990,1991,1982,1983,1984,1985,1986,1995,1996,2001,2006,2008,2009,2012,2013,2016,2018,1981,1983,1984,1985,1987,1988,1989,1992,1997,1998,2000,2002,2004,2006,2007,2009,2010,2011,2012,2013,2014,2015,2016,2018,1981,1982,1984,1985,1986,1988,1989,1991,1993,1996,1997,1998,2000,2001,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2008,2010,2011,2014,2015,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,1983,1990,1994,2010,1981,1982,1984,1985,1986,1987,1988,1989,1991,1992,1993,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2006,2019,2005,2006,2007,2009,2012,2013,2016,1983,1987,1990,1992,1994,1995,1999,2002,1982,1986,1990,1991,1993,1994,1995,1996,1999,2001,2003,2005,2008,2017,2019,1981,1983,1987,1988,1989,1990,1991,1992,1993,1994,1997,1998,1999,2000,2002,2003,2004,2005,2007,2010,2011,2014,2015,2017,2019,1982,1984,1985,1986,1995,1996,2001,2006,2008,2009,2012,2013,2016,2018,1981,1983,1984,1985,1987,1988,1989,1992,1997,1998,2000,2002,2004,2006,2007,2009,2010,2011,2012,2013,2014,2015,2016,2018,1981,1982,1984,1985,1986,1988,1989,1991,1993,1996,1997,1998,2000,2001,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2008,2010,2011,2014,2015,2017,2018,2019,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],["Connecticut","Connecticut","Connecticut","Connecticut","Connecticut","Delaware","Delaware","Delaware","Delaware","Delaware","Maine","Maine","Maine","Maine","Maine","Maine","Maine","Maine","Maryland","Maryland","Maryland","Maryland","Maryland","Maryland","Maryland","Maryland","Maryland","Maryland","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","Massachusetts","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New hampshire","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New jersey","New york","New york","New york","New york","New york","New york","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Rhode island","Virginia","Virginia","Virginia","Virginia","Virginia",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],["Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Northeast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","Outside\nNortheast","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions","All Regions"],["Private/rental boat","Shore","Shore","Shore","Shore","Party boat","Private/rental boat","Private/rental boat","Shore","Shore","Party boat","Party/charter boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Charter boat","Party boat","Party boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Shore","Charter boat","Party/charter boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Party boat","Party boat","Party boat","Party boat","Private/rental boat","Private/rental boat","Private/rental boat","Shore","Shore","Shore","Party boat","Party/charter boat","Party/charter boat","Party/charter boat","Private/rental boat","Private/rental boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Private/rental boat","Private/rental boat","Shore","Shore","Shore","Shore","Party boat","Party/charter boat","Party/charter boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Party boat","Party/charter boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Shore","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Private/rental boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party/charter boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Party boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat","Charter boat"],[4652,25312,71913,113863,4830,0,13,0,38759,0,0,0,13047,0,1960,3173,4744,378,0,0,55,0,0,435693,3024,7931,0,0,0,58,524,0,156,1918,185,12330,336,13877,0,0,13463,2132,1281,3663,36093,0,233211,0,0,38,92,18,19,118,2351,27,0,1994,0,16,215,83,35,61798,894,508,4928,44072,1845,2545,0,5522,316,1185473,30213,29684,0,0,0,153,8557,0,619,6690,1049,7612,19278,396974,21539,67743,1074,0,0,3309,149437,4170,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,84434,4571,0,62,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,0,38,0,0,163,18,19,0,0,215,0,83,58,35,0,153,13,524,79186,472,1918,0,185,13224,4652,118,3195,13877,13047,27,0,4928,84434,38775,0,113423,1497416,34383,8535,32014,3663,36093,450680,19278,399998,21539,308885,1074,0,1960,62,3173,6738,0,378,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>State<\/th>\n      <th>Region<\/th>\n      <th>Method<\/th>\n      <th>Landings (lb)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[0,4]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="commercial-landings-1" class="section level3" number="6.2.3">
+<h3><span class="header-section-number">6.2.3</span> Commercial landings</h3>
+<div id="htmlwidget-55ed6071d18baa9f9f75" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-55ed6071d18baa9f9f75">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1998\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Connecticut&quot;,&quot;Maine&quot;,&quot;Maryland&quot;,&quot;New Jersey&quot;,&quot;New York&quot;,&quot;Rhode Island&quot;,&quot;Virginia&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;     6&quot;,&quot;    34&quot;,&quot;    98&quot;,&quot;   104&quot;,&quot;   149&quot;,&quot;   183&quot;,&quot;   184&quot;,&quot;   204&quot;,&quot;   229&quot;,&quot;   295&quot;,&quot;   320&quot;,&quot;   325&quot;,&quot;   326&quot;,&quot;   333&quot;,&quot;   437&quot;,&quot;   457&quot;,&quot;   493&quot;,&quot;   497&quot;,&quot;   529&quot;,&quot;   732&quot;,&quot;   736&quot;,&quot;   876&quot;,&quot; 1,235&quot;,&quot; 1,751&quot;,&quot; 1,825&quot;,&quot; 1,909&quot;,&quot; 2,258&quot;,&quot; 2,386&quot;,&quot; 2,885&quot;,&quot; 3,210&quot;,&quot; 3,893&quot;,&quot; 5,505&quot;,&quot; 5,799&quot;,&quot; 6,948&quot;,&quot;23,494&quot;,&quot;26,583&quot;,&quot;42,656&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;     12&quot;,&quot;    114&quot;,&quot;    224&quot;,&quot;    415&quot;,&quot;    443&quot;,&quot;    474&quot;,&quot;    490&quot;,&quot;    574&quot;,&quot;    688&quot;,&quot;    755&quot;,&quot;    899&quot;,&quot;  1,038&quot;,&quot;  1,672&quot;,&quot;  1,845&quot;,&quot;  2,297&quot;,&quot;  2,341&quot;,&quot;  2,466&quot;,&quot;  2,746&quot;,&quot;  3,057&quot;,&quot;  3,200&quot;,&quot;  3,235&quot;,&quot;  3,857&quot;,&quot;  4,734&quot;,&quot;  4,867&quot;,&quot;  5,061&quot;,&quot;  5,791&quot;,&quot;  6,995&quot;,&quot;  7,911&quot;,&quot; 11,111&quot;,&quot; 11,729&quot;,&quot; 14,314&quot;,&quot; 14,964&quot;,&quot; 20,467&quot;,&quot; 43,674&quot;,&quot; 77,985&quot;,&quot;102,060&quot;,&quot;157,104&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[2019,2018,2017,2017,2015,2014,2013,2011,2009,2009,2008,2008,2008,2007,2006,2006,2005,2005,2004,2004,2004,2004,2003,2002,2002,2002,2001,2000,2000,2000,2000,1999,1999,1999,1998,1998,1998],["Connecticut","New York","Connecticut","New York","New York","New York","New York","New York","Connecticut","New York","Connecticut","New York","Virginia","New York","New York","Virginia","New York","Virginia","Maine","New Jersey","New York","Virginia","New York","New York","Rhode Island","Virginia","New York","Connecticut","New York","Rhode Island","Virginia","Connecticut","Maryland","Virginia","Maryland","New York","Virginia"],["    34"," 3,210","   295"," 1,751","   204","   320","   876"," 1,825","   437","   104","   184"," 2,885"," 1,235"," 5,799"," 3,893","   326"," 2,258","   333","   325","   497","   183","   229","42,656","   149","     6","   732","   529"," 6,948","    98","   493","   457","23,494"," 5,505"," 2,386","26,583"," 1,909","   736"],["    114","  6,995","  1,038","  3,857","    443","    415","  2,341"," 14,964","  1,845","    224","    755","  7,911","  2,746"," 14,314"," 11,111","  2,297","  5,791","  2,466","  3,200","    899","    688","  1,672"," 20,467","    474","     12","  5,061","  3,235"," 77,985","    490","    574","  3,057","102,060"," 43,674"," 11,729","157,104","  4,867","  4,734"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>State<\/th>\n      <th>Revenue (2019 dollars)<\/th>\n      <th>Commercial landings (lb)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="commercial-vs-recreational-landings" class="section level3" number="6.2.4">
+<h3><span class="header-section-number">6.2.4</span> Commercial vs recreational landings</h3>
+<div id="htmlwidget-d280d11d372a9d8cc6d9" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d280d11d372a9d8cc6d9">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1998\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;      0&quot;,&quot;     19&quot;,&quot;    118&quot;,&quot;    163&quot;,&quot;    405&quot;,&quot;  1,074&quot;,&quot;  1,960&quot;,&quot;  3,173&quot;,&quot;  6,738&quot;,&quot; 13,047&quot;,&quot; 13,915&quot;,&quot; 21,692&quot;,&quot; 23,930&quot;,&quot;312,080&quot;,&quot;399,998&quot;,&quot;450,680&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;    114&quot;,&quot;    415&quot;,&quot;    443&quot;,&quot;  2,069&quot;,&quot;  2,341&quot;,&quot;  3,235&quot;,&quot;  4,895&quot;,&quot;  5,547&quot;,&quot;  6,459&quot;,&quot;  8,257&quot;,&quot; 11,412&quot;,&quot; 13,408&quot;,&quot; 14,314&quot;,&quot; 14,964&quot;,&quot; 20,467&quot;,&quot; 82,106&quot;,&quot;157,463&quot;,&quot;166,705&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;    114&quot;,&quot;    443&quot;,&quot;  2,232&quot;,&quot;  2,360&quot;,&quot;  3,353&quot;,&quot;  5,300&quot;,&quot;  7,153&quot;,&quot;  7,533&quot;,&quot; 13,408&quot;,&quot; 16,274&quot;,&quot; 18,137&quot;,&quot; 22,172&quot;,&quot; 24,459&quot;,&quot; 27,239&quot;,&quot;181,393&quot;,&quot;332,547&quot;,&quot;482,104&quot;,&quot;617,385&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0\" data-max=\"0.942\" data-scale=\"3\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0.058\" data-max=\"1\" data-scale=\"3\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2011,2013,2014,2015,2017,2019],["450,680"," 23,930","399,998","    118"," 21,692","312,080","  1,074"," 13,915","      0","  1,960"," 13,047","    163","  3,173","     19","  6,738","      0","    405","      0"],["166,705","157,463"," 82,106","  3,235","  5,547"," 20,467","  6,459","  8,257"," 13,408"," 14,314"," 11,412","  2,069"," 14,964","  2,341","    415","    443","  4,895","    114"],["617,385","181,393","482,104","  3,353"," 27,239","332,547","  7,533"," 22,172"," 13,408"," 16,274"," 24,459","  2,232"," 18,137","  2,360","  7,153","    443","  5,300","    114"],[0.73,0.132,0.83,0.035,0.796,0.938,0.143,0.628,0,0.12,0.533,0.073,0.175,0.008,0.942,0,0.076,0],[0.27,0.868,0.17,0.965,0.204,0.062,0.857,0.372,1,0.88,0.467,0.927,0.825,0.992,0.058,1,0.924,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Recreational landings<\/th>\n      <th>Commercial landings<\/th>\n      <th>Total landings<\/th>\n      <th>Proportion recreational<\/th>\n      <th>Proportion commercial<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[0,4,5]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="commercial-and-recreational-landings-and-stock-assessment-catch" class="section level3" number="6.2.5">
+<h3><span class="header-section-number">6.2.5</span> Commercial and recreational landings, and stock assessment catch</h3>
+<div id="htmlwidget-bc86eaceabaf03afb3b5" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bc86eaceabaf03afb3b5">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"1981\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0\" data-max=\"76\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none; position: absolute; width: 200px;\">\n      <div data-min=\"0\" data-max=\"715\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Scroller"],"data":[[1981,1982,1983,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,76,71,37,1,3,9,3,4,6,6,5,1,null,7,null,1,0,0,null,2,3,0],[2,0,38,0,18,0,51,715,16,4,15,2,0,6,16,204,11,181,0,10,142,0,6,0,1,6,0,0,1,0,0,3,0,0,0,null,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Commercial catch (mt)<\/th>\n      <th>Recreational catch (mt)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true},"deferRender":true,"scrollY":200,"scrollX":true,"scroller":true,"language":{"thousands":","},"columnDefs":[{"className":"dt-right","targets":[0,1,2]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="catch-landings-and-discards.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ffmsy.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
