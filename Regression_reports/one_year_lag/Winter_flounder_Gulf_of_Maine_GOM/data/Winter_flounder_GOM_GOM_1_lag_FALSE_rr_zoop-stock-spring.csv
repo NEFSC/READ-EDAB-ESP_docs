@@ -41,4 +41,13 @@ Catch / Biomass",3225,"Abundance",FALSE,7,0.663217550451897,-6.61590897672806e-0
 "14","Winter flounder","Gulf of Maine",2015,0.0860000029206276,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
 Exploitation Rate of Mature Fish
 Catch / Biomass",2307,"Abundance",FALSE,7,0.663217550451897,-6.61590897672806e-06,FALSE
-"15",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,2585,"Abundance",TRUE,0,NA,NA,NA
+"15","Winter flounder","Gulf of Maine",2008,359,"Catch","Estimated Total Catch","Metric Tons",2017,2017,"Catch
+Estimated Total Catch
+Metric Tons",NA,NA,TRUE,0,NA,NA,NA
+"16","Winter flounder","Gulf of Maine",2008,0.068000003695488,"Fmort","Exploitation Rate of Mature Fish","Catch / Biomass",2017,2017,"Fmort
+Exploitation Rate of Mature Fish
+Catch / Biomass",NA,NA,TRUE,0,NA,NA,NA
+"17","Winter flounder","Gulf of Maine",2008,5274,"Abundance","Survey Mature Biomass","Metric Tons",2017,2017,"Abundance
+Survey Mature Biomass
+Metric Tons",NA,NA,TRUE,0,NA,NA,NA
+"18",NA,NA,2016,NA,NA,NA,NA,NA,NA,NA,2585,"Abundance",TRUE,0,NA,NA,NA
