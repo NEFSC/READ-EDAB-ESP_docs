@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4.1 R session information | Preliminary ESP regressions</title>
   <meta name="description" content="4.1 R session information | Preliminary ESP regressions" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4.1 R session information | Preliminary ESP regressions" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Abigail Tyrell" />
 
 
-<meta name="date" content="2021-07-28" />
+<meta name="date" content="2021-11-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   
 <link rel="prev" href="appendix.html"/>
 <link rel="next" href="neesp-information.html"/>
-<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="libs/jquery-3.5.1/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,11 +51,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<script src="libs/datatables-binding-0.17/datatables.js"></script>
 <link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
@@ -65,7 +63,6 @@
 <script src="libs/selectize-0.12.0/selectize.min.js"></script>
 <link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
 <script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-
 
 
 
@@ -146,6 +143,7 @@
 <li class="chapter" data-level="2.3.3.8" data-path="trophic-indicators.html"><a href="trophic-indicators.html#ichthyoplankton-diversity"><i class="fa fa-check"></i><b>2.3.3.8</b> Ichthyoplankton diversity</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3.4" data-path="trophic-indicators.html"><a href="trophic-indicators.html#forage-fish-abundance"><i class="fa fa-check"></i><b>2.3.4</b> Forage fish abundance</a></li>
+<li class="chapter" data-level="2.3.5" data-path="trophic-indicators.html"><a href="trophic-indicators.html#seabird-abundance"><i class="fa fa-check"></i><b>2.3.5</b> Seabird abundance</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="trophic-indicators-in-the-stock-region.html"><a href="trophic-indicators-in-the-stock-region.html"><i class="fa fa-check"></i><b>2.4</b> Trophic indicators in the stock region</a>
 <ul>
@@ -226,64 +224,49 @@
 <div id="r-session-information" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> R session information</h2>
 <pre><code>## R version 4.0.3 (2020-10-10)
-## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.2 LTS
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 19042)
 ## 
 ## Matrix products: default
-## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.9.0
-## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.9.0
 ## 
 ## locale:
-##  [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
-##  [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
-##  [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
-## [10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+## [1] LC_COLLATE=English_United States.1252  LC_CTYPE=English_United States.1252    LC_MONETARY=English_United States.1252
+## [4] LC_NUMERIC=C                           LC_TIME=English_United States.1252    
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
+## other attached packages:
+## [1] NEesp_0.1.1    testthat_3.0.2
+## 
 ## loaded via a namespace (and not attached):
-##  [1] Rcpp_1.0.6                ggnewscale_0.4.5         
-##  [3] here_1.0.1                lattice_0.20-41          
-##  [5] tidyr_1.1.3               prettyunits_1.1.1        
-##  [7] ps_1.5.0                  assertthat_0.2.1         
-##  [9] rprojroot_2.0.2           digest_0.6.27            
-## [11] utf8_1.2.1                mime_0.10                
-## [13] R6_2.5.0                  evaluate_0.14            
-## [15] ggplot2_3.3.3             highr_0.9                
-## [17] pillar_1.6.1              rlang_0.4.11             
-## [19] curl_4.3                  rstudioapi_0.13          
-## [21] callr_3.7.0               jquerylib_0.1.3          
-## [23] Matrix_1.2-18             DT_0.18                  
-## [25] rmarkdown_2.8             labeling_0.4.2           
-## [27] splines_4.0.3             stringr_1.4.0            
-## [29] htmlwidgets_1.5.3         munsell_0.5.0            
-## [31] shiny_1.6.0               httpuv_1.5.5             
-## [33] compiler_4.0.3            xfun_0.23                
-## [35] pkgconfig_2.0.3           pkgbuild_1.2.0           
-## [37] mgcv_1.8-33               htmltools_0.5.1.1        
-## [39] tidyselect_1.1.1          tibble_3.1.2             
-## [41] gridExtra_2.3             bookdown_0.22            
-## [43] assessmentdata_0.0.0.9000 fansi_0.5.0              
-## [45] viridisLite_0.4.0         later_1.2.0              
-## [47] crayon_1.4.1              dplyr_1.0.6              
-## [49] withr_2.4.2               MASS_7.3-53              
-## [51] grid_4.0.3                xtable_1.8-4             
-## [53] nlme_3.1-149              jsonlite_1.7.2           
-## [55] gtable_0.3.0              lifecycle_1.0.0          
-## [57] DBI_1.1.1                 magrittr_2.0.1           
-## [59] scales_1.1.1              cli_2.5.0                
-## [61] stringi_1.6.2             farver_2.1.0             
-## [63] promises_1.2.0.1          viridis_0.6.1            
-## [65] remotes_2.3.0             bslib_0.2.4              
-## [67] ellipsis_0.3.2            generics_0.1.0           
-## [69] vctrs_0.3.8               tools_4.0.3              
-## [71] NEesp_0.1.1               glue_1.4.2               
-## [73] purrr_0.3.4               crosstalk_1.1.1          
-## [75] fastmap_1.1.0             processx_3.5.2           
-## [77] yaml_2.2.1                ecodata_0.1.0            
-## [79] colorspace_2.0-1          knitr_1.33               
-## [81] sass_0.3.1</code></pre>
+##   [1] ggnewscale_0.4.5           colorspace_2.0-0           ggsignif_0.6.1             ellipsis_0.3.1             class_7.3-17              
+##   [6] rio_0.5.26                 ggridges_0.5.3             rprojroot_2.0.2            flextable_0.6.4            base64enc_0.1-3           
+##  [11] fs_1.5.0                   rstudioapi_0.13            farver_2.1.0               ggpubr_0.4.0               remotes_2.2.0             
+##  [16] ggrepel_0.9.1              DT_0.17                    fansi_0.4.1                lubridate_1.7.10           xml2_1.3.2                
+##  [21] splines_4.0.3              cachem_1.0.4               knitr_1.31.6               pkgload_1.2.0              jsonlite_1.7.2            
+##  [26] nmfspalette_0.0.0.9000     stocksmart_0.3.2           broom_0.7.5                PerformanceAnalytics_2.0.4 rgeos_0.5-5               
+##  [31] httr_1.4.2                 compiler_4.0.3             backports_1.2.1            Matrix_1.2-18              assertthat_0.2.1          
+##  [36] fastmap_1.1.0              cli_3.0.1                  htmltools_0.5.1.1          prettyunits_1.1.1          tools_4.0.3               
+##  [41] gtable_0.3.0               glue_1.4.2                 dplyr_1.0.5                ggthemes_4.2.4             Rcpp_1.0.6                
+##  [46] carData_3.0-4              jquerylib_0.1.3            cellranger_1.1.0           vctrs_0.3.6                nlme_3.1-149              
+##  [51] crosstalk_1.1.1            xfun_0.19                  stringr_1.4.0              ps_1.5.0                   openxlsx_4.2.3            
+##  [56] lifecycle_1.0.0            rnaturalearthhires_0.2.0   dbutils_0.0.0.9000         devtools_2.3.2             rstatix_0.7.0             
+##  [61] MASS_7.3-53                zoo_1.8-9                  scales_1.1.1               hms_1.0.0                  yaml_2.2.1                
+##  [66] quantmod_0.4.18            curl_4.3                   gridExtra_2.3              memoise_2.0.0              ggplot2_3.3.3             
+##  [71] sass_0.3.1                 gdtools_0.2.3              stringi_1.5.3              ecodata_0.1.0              highr_0.8                 
+##  [76] desc_1.3.0                 e1071_1.7-4                TTR_0.24.2                 survdat_1.0                pkgbuild_1.2.0            
+##  [81] zip_2.1.1                  rlang_0.4.10               pkgconfig_2.0.3            systemfonts_1.0.1          evaluate_0.14             
+##  [86] lattice_0.20-41            purrr_0.3.4                sf_0.9-7                   labeling_0.4.2             htmlwidgets_1.5.3         
+##  [91] processx_3.4.5             tidyselect_1.1.0           here_1.0.1                 plyr_1.8.6                 magrittr_2.0.1            
+##  [96] bookdown_0.21              R6_2.5.0                   generics_0.1.0             DBI_1.1.1                  mgcv_1.8-33               
+## [101] pillar_1.5.1               haven_2.3.1                foreign_0.8-80             withr_2.4.1                units_0.7-0               
+## [106] xts_0.12.1                 abind_1.4-5                tidyquant_1.0.3            sp_1.4-5                   tibble_3.0.4              
+## [111] crayon_1.4.1               car_3.0-10                 Quandl_2.10.0              uuid_0.1-4                 KernSmooth_2.23-17        
+## [116] utf8_1.1.4                 rmarkdown_2.7              officer_0.3.17             viridis_0.5.1              usethis_2.0.1             
+## [121] rnaturalearth_0.1.0        grid_4.0.3                 readxl_1.3.1               data.table_1.14.0          callr_3.5.1               
+## [126] forcats_0.5.1              digest_0.6.27              classInt_0.4-3             tidyr_1.1.3                munsell_0.5.0             
+## [131] viridisLite_0.3.0          bslib_0.2.4                sessioninfo_1.1.1          quadprog_1.5-8</code></pre>
 </div>
             </section>
 
@@ -314,7 +297,6 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
