@@ -3,15 +3,14 @@
 # Ecosystem and Socioeconomic Profiles
 
 [![](https://img.shields.io/github/last-commit/NEFSC/READ-EDAB-ESP_docs.svg)](https://github.com/NEFSC/READ-EDAB-ESP_docs/commits/main)
-![](https://img.shields.io/badge/repo%20size-2.53%20GB-blue.svg)
-
-[![](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NOAA-EDAB/ESP_docs/actions/workflows/secretScan.yml)
+![](https://img.shields.io/badge/repo%20size-2.35%20GB-blue.svg)
+[![](https://github.com/NEFSC/READ-EDAB-ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NEFSC/READ-EDAB-ESP_docs/actions/workflows/secretScan.yml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Indicator%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_indicator_reports_dev.yaml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Regression%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_regression_reports_dev.yaml)
 
 ## View current data products
 
-<https://nefsc.github.io/READ-EDAB-ESP_docss/docs>
+<https://nefsc.github.io/READ-EDAB-ESP_docs/docs>
 
 ## Introduction
 

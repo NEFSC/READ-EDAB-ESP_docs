@@ -21,12 +21,12 @@ total_size <- (sum(file.size(files))/1073741824) %>%
 cat(badger::badge_last_commit("NEFSC/READ-EDAB-ESP_docs"),
     badger::badge_custom("repo size", paste(total_size, "GB"), color = "blue"))
 ```
-[![](https://github.com/NOAA-EDAB/ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NOAA-EDAB/ESP_docs/actions/workflows/secretScan.yml)
+[![](https://github.com/NEFSC/READ-EDAB-ESP_docs/workflows/gitleaks/badge.svg)](https://github.com/NEFSC/READ-EDAB-ESP_docs/actions/workflows/secretScan.yml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Indicator%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_indicator_reports_dev.yaml)
 [![](https://github.com/NOAA-EDAB/esp_data_aggregation/workflows/Regression%20Reports%20(development)/badge.svg)](https://github.com/NOAA-EDAB/esp_data_aggregation/actions/workflows/render_regression_reports_dev.yaml)
 
 ## View current data products
-https://nefsc.github.io/READ-EDAB-ESP_docss/docs
+https://nefsc.github.io/READ-EDAB-ESP_docs/docs
 
 ## Introduction
 Ecosystem and Socioeconomic Profiles (ESPs) are a scientific product to support [Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/) (IEA). IEA seeks to improve understanding and management of fisheries through incorporating natural, social, and economic data into fisheries analyses and management plans. ESPs are a structured framework developed by the Alaska Science Center to integrate ecosystem and socioeconomic information into the stock assessment process.<sup>[1]</sup>
